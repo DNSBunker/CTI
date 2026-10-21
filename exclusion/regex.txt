@@ -1,0 +1,111 @@
+! ===== Brand impersonation =====
+
+! WhatsApp -- 2023 listed, 0 reference
+/^(?!(?:whatsapp|whatsappbusiness|whatsapphattim)\.).*whatsapp/i
+
+! Coinbase -- 961 listed, 0 reference
+/^(?!(?:coinbase|coinbase-corp)\.).*coinbase/i
+
+! Netflix (excl. Netflix-owned and popular Netflix-themed sites) -- 415 listed, 0 reference
+/^(?!(?:netflix|netflixstudios|netflixinvestor|netflixtechblog|netflixparty|telenetflixparty|whats-on-netflix|gnetflix|netflix-code|netflixl|netflixery)\.).*netflix/i
+
+! Facebook (excl. Meta's facebookmail/facebookbrand/thefacebook) -- 1124 listed, 0 reference
+/^(?!(?:facebook|thefacebook|facebookmail|facebookbrand)\.).*facebook/i
+
+! MetaMask -- 101 listed, 0 reference
+/^(?!metamask\.).*metamask/i
+
+! Binance (excl. binancezh, Binance China) -- 566 listed, 0 reference
+/^(?!(?:binance|binancezh)\.).*binance/i
+
+! PayPal (excl. PayPal's own CDN/corporate/community domains) -- 985 listed, 0 reference
+/^(?!(?:paypal|paypalobjects|paypalcorp|paypal-community|paypal-prepaid)\.).*paypal/i
+
+! American Express -- 234 listed, 0 reference
+/^(?!americanexpress\.).*americanexpress/i
+
+! Bank of America -- 44 listed, 0 reference
+/^(?!bankofamerica\.).*bankofamerica/i
+
+! Commerzbank -- 37 listed, 0 reference
+/^(?!commerzbank\.).*commerzbank/i
+
+! Trust Wallet -- 85 listed, 0 reference
+/^(?!(?:trustwallet|trustwallet-cn)\.).*trustwallet/i
+
+! DocuSign -- 16 listed, 0 reference
+/^(?!docusign\.).*docusign/i
+
+! Disney+ -- 14 listed, 0 reference
+/^(?!disneyplus\.).*disneyplus/i
+
+! Uniswap -- 6 listed, 0 reference
+/^(?!uniswap\.).*uniswap/i
+
+! SunPass (US toll scam) -- 8 listed, 0 reference
+/^(?!sunpass\.).*sunpass/i
+
+! ===== Campaign families (generated names; sequential numbers keep appearing) =====
+
+! numeric-prefix brand campaign: 0123456-coinbase.com, 12941283-ledger.com (shape-restricted, so the dictionary words are safe here) -- 361 listed, 0 reference
+/^\d{2,9}-?(?:coinbase|binance|ledger|kraken|trezor|gemini|icloud|verizon|tmobile)\.(?:com|io)$/
+
+! numeric gmail lookalikes: 002gmail.com -- 44 listed, 0 reference
+/^\d{1,6}gmail\.com$/
+
+! generated family lbh12.top / lch34.top / lfh56.top ... -- 580 listed, 0 reference
+/^l[a-z]h\d{2,}\.top$/
+
+! generated family mzk700.space / mzz123.space -- 309 listed, 0 reference
+/^mz[a-z]\d{2,}\.space$/
+
+! generated family mmk001.bar / mmr12.lat -- 295 listed, 0 reference
+/^mm[a-z]\d{2,}\.(?:bar|lat)$/
+
+! generated family mm-gg12.shop -- 74 listed, 0 reference
+/^mm-gg\d+\.shop$/
+
+! Polish classifieds scam: pl-oferta123.click -- 326 listed, 0 reference
+/^pl-oferta\d+\./
+
+! generated family pubg12v3-456.shop -- 170 listed, 0 reference
+/^pubg\d+v\d+-\d+\.shop$/
+
+! generated family bdll12.pro / bdll-12.pro -- 161 listed, 0 reference
+/^bdll-?\d+\.pro$/
+
+! gambling families on .vip (weilan/huibo/svxg/xseae + digits) -- 320 listed, 0 reference
+/^(?:weilan|huibo|svxg|xseae)\d+\.vip$/
+
+! generated family jingyuzhilian12.icu -- 76 listed, 0 reference
+/^jingyuzhilian\d+\.icu$/
+
+! generated family omnimedia12.shop -- 65 listed, 0 reference
+/^omnimedia\d+\.shop$/
+
+! slot gambling: 123slot.bar / 45slots.lat -- 168 listed, 0 reference
+/^\d+slots?\.(?:bar|lat|buzz)$/
+
+! gambling families bty123.com / cabet45.com / hgty67.com -- 230 listed, 0 reference
+/^(?:bty|cabet|hgty)\d+\.com$/
+
+! generated family site-amp-123.icu -- 45 listed, 0 reference
+/^site-amp-\d+\.icu$/
+
+! misspelt 'confirmation' phishing: conformation-123.shop -- 47 listed, 0 reference
+/^conformation-\d+\.shop$/
+
+! generated family photo-123.cfd -- 46 listed, 0 reference
+/^photo-\d+\.cfd$/
+
+! DHL lookalikes with digits on .top: dhl71.top (shape-restricted) -- 42 listed, 0 reference
+/^dhl\d+\.top$/
+
+! generated families acces12.pro / rjvs34.pro / jpod56.pro -- 124 listed, 0 reference
+/^(?:acces|rjvs|jpod)\d+\.pro$/
+
+! generated family nianshe12.help -- 41 listed, 0 reference
+/^nianshe\d+\.help$/
+
+! Booking.com phishing: accaccess341-booking.info -- 6 listed, 0 reference
+/^accaccess\d+-booking\.info$/
