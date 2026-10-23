@@ -1,6 +1,6 @@
 # xRuffKez CTI (Cyber Threat Intelligence)
 
-![Active domains](https://img.shields.io/badge/active_domains-622%2C951-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-11%2C384-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--23_19%3A09_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
+![Active domains](https://img.shields.io/badge/active_domains-623%2C021-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-11%2C458-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--23_19%3A24_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
 
 A continuously maintained blocklist of **active malicious domains**: phishing, malware delivery, scams, fraudulent shops and investment schemes, and the infrastructure behind them. Every entry is verified before it is published, and removed again once it is offline or no longer malicious, so the list stays current instead of growing forever.
 
@@ -9,16 +9,16 @@ A continuously maintained blocklist of **active malicious domains**: phishing, m
 
 ## At a glance
 
-<sub>as of 2026-10-23 19:09 UTC</sub>
+<sub>as of 2026-10-23 19:24 UTC</sub>
 
 | | |
 |---|---:|
-| Active domains | **622,951** |
-| Added in the last 24 hours | 11,384 |
-| Added in the last 7 days | 24,557 |
-| Added in the last 30 days | 24,557 |
+| Active domains | **623,021** |
+| Added in the last 24 hours | 11,458 |
+| Added in the last 7 days | 24,631 |
+| Added in the last 30 days | 24,631 |
 | Retired in the last 30 days (offline or cleaned up) | 12,353 |
-| Top-level domains represented | 517 |
+| Top-level domains represented | 518 |
 | Internationalized (IDN / punycode) domains | 0.1 % |
 | Domains containing digits | 19.2 % |
 | Domains containing hyphens | 15.7 % |
@@ -32,7 +32,7 @@ xychart-beta
     title "New domains per day, Sep 24 – Oct 23 (UTC)"
     x-axis ["24", "25", "26", "27", "28", "29", "30", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23"]
     y-axis "domains" 0 --> 15000
-    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1227, 14240, 9090]
+    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1227, 14240, 9164]
 ```
 
 ```mermaid
@@ -41,14 +41,14 @@ xychart-beta
     title "Active domains on the list, Oct 21 – Oct 23 (UTC)"
     x-axis ["21", "22", "23"]
     y-axis "domains"
-    line [472713, 588659, 622951]
+    line [472713, 588659, 623021]
 ```
 
 <details><summary>Last 7 days as a table</summary>
 
 | Day (UTC) | Added | Retired |
 |---|---:|---:|
-| 2026-10-23 | 9,090 | 4,148 |
+| 2026-10-23 | 9,164 | 4,148 |
 | 2026-10-22 | 14,240 | 7,320 |
 | 2026-10-21 | 1,227 | 885 |
 | 2026-10-20 | 0 | 0 |
@@ -62,30 +62,30 @@ xychart-beta
 
 | # | TLD | Domains | Share | |
 |---:|---|---:|---:|---|
-| 1 | `.xyz` | 303,409 | 48.7 % | ████████████████████ |
-| 2 | `.com` | 115,736 | 18.6 % | ████████ |
-| 3 | `.dev` | 34,455 | 5.5 % | ██ |
-| 4 | `.click` | 19,040 | 3.1 % | █ |
-| 5 | `.sbs` | 13,783 | 2.2 % | █ |
-| 6 | `.shop` | 11,478 | 1.8 % | █ |
-| 7 | `.org` | 10,355 | 1.7 % | █ |
-| 8 | `.net` | 8,900 | 1.4 % | █ |
-| 9 | `.top` | 8,721 | 1.4 % | █ |
-| 10 | `.io` | 7,480 | 1.2 % | █ |
+| 1 | `.xyz` | 303,412 | 48.7 % | ████████████████████ |
+| 2 | `.com` | 115,755 | 18.6 % | ████████ |
+| 3 | `.dev` | 34,461 | 5.5 % | ██ |
+| 4 | `.click` | 19,043 | 3.1 % | █ |
+| 5 | `.sbs` | 13,784 | 2.2 % | █ |
+| 6 | `.shop` | 11,479 | 1.8 % | █ |
+| 7 | `.org` | 10,357 | 1.7 % | █ |
+| 8 | `.net` | 8,902 | 1.4 % | █ |
+| 9 | `.top` | 8,723 | 1.4 % | █ |
+| 10 | `.io` | 7,481 | 1.2 % | █ |
 | 11 | `.app` | 6,217 | 1.0 % | █ |
-| 12 | `.club` | 5,973 | 1.0 % | █ |
+| 12 | `.club` | 5,974 | 1.0 % | █ |
 | 13 | `.live` | 4,575 | 0.7 % | █ |
-| 14 | `.cc` | 4,106 | 0.7 % | █ |
-| 15 | `.info` | 3,376 | 0.5 % | █ |
+| 14 | `.cc` | 4,110 | 0.7 % | █ |
+| 15 | `.info` | 3,377 | 0.5 % | █ |
 
 ```mermaid
 pie showData title Share of the 5 most common TLDs
-    ".xyz" : 303409
-    ".com" : 115736
-    ".dev" : 34455
-    ".click" : 19040
-    ".sbs" : 13783
-    "other" : 136528
+    ".xyz" : 303412
+    ".com" : 115755
+    ".dev" : 34461
+    ".click" : 19043
+    ".sbs" : 13784
+    "other" : 136566
 ```
 
 ## Most imitated brands
@@ -94,17 +94,17 @@ Listed domains whose name contains a well-known brand. Brand names are trademark
 
 | Brand | Domains | |
 |---|---:|---|
-| WhatsApp | 2,785 | ████████████████████ |
-| Meta / Facebook | 2,592 | ███████████████████ |
-| Coinbase | 2,235 | ████████████████ |
-| PayPal | 1,343 | ██████████ |
+| WhatsApp | 2,786 | ████████████████████ |
+| Meta / Facebook | 2,593 | ███████████████████ |
+| Coinbase | 2,236 | ████████████████ |
+| PayPal | 1,344 | ██████████ |
 | MetaMask | 1,143 | ████████ |
 | Ledger | 1,082 | ████████ |
-| Google | 924 | ███████ |
-| Netflix | 851 | ██████ |
+| Google | 926 | ███████ |
+| Netflix | 852 | ██████ |
 | Instagram | 786 | ██████ |
 | Apple / iCloud | 764 | █████ |
-| Microsoft / Office 365 | 607 | ████ |
+| Microsoft / Office 365 | 608 | ████ |
 | Binance | 564 | ████ |
 | Amazon | 542 | ████ |
 | American Express | 320 | ██ |
@@ -115,16 +115,16 @@ Listed domains whose name contains a well-known brand. Brand names are trademark
 | Word | Domains | |
 |---|---:|---|
 | `invest` | 3,565 | ████████████████████ |
-| `login` | 3,416 | ███████████████████ |
+| `login` | 3,418 | ███████████████████ |
 | `trade` | 2,939 | ████████████████ |
 | `service` | 2,505 | ██████████████ |
 | `wallet` | 2,366 | █████████████ |
-| `casino` | 2,152 | ████████████ |
+| `casino` | 2,153 | ████████████ |
 | `support` | 1,978 | ███████████ |
 | `connect` | 1,861 | ██████████ |
 | `security` | 1,464 | ████████ |
 | `secure` | 1,369 | ████████ |
-| `bet` | 1,274 | ███████ |
+| `bet` | 1,275 | ███████ |
 | `account` | 1,248 | ███████ |
 
 ## Files
