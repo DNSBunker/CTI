@@ -1,6 +1,6 @@
 ; Title: xRuffKez CTI (Cyber Threat Intelligence)
 ; Description: Active malicious domains: phishing, malware, scams and fraud. Each entry covers the domain and all of its subdomains.
-; Entries: 88
+; Entries: 131
 ; Project: https://dnsbunker.org
 ; False positives: https://github.com/DNSBunker/CTI/issues
 ; Policy: CNAME . (NXDOMAIN) for each domain and its subdomains
@@ -9,7 +9,7 @@
 
 $TTL 300
 @ IN SOA localhost. admin.localhost. (
-    1793278095 ; serial (uint32)
+    1793279298 ; serial (uint32)
     3600       ; refresh  (1 hour)
     600        ; retry    (10 minutes)
     86400      ; expire   (24 hours)
@@ -17,28 +17,54 @@ $TTL 300
 )
     IN NS  localhost.
 
+16100.sbs CNAME .
+*.16100.sbs CNAME .
 88878bb.com CNAME .
 *.88878bb.com CNAME .
+97202.sbs CNAME .
+*.97202.sbs CNAME .
+acces4016.pro CNAME .
+*.acces4016.pro CNAME .
+acces661252.pro CNAME .
+*.acces661252.pro CNAME .
 acces948111.pro CNAME .
 *.acces948111.pro CNAME .
 alverixanpro-ai.net CNAME .
 *.alverixanpro-ai.net CNAME .
+apppod-whatsapp.com CNAME .
+*.apppod-whatsapp.com CNAME .
+ashenfireforest.shop CNAME .
+*.ashenfireforest.shop CNAME .
 binance-il.com CNAME .
 *.binance-il.com CNAME .
+bypassicloud.net CNAME .
+*.bypassicloud.net CNAME .
+cabet282.com CNAME .
+*.cabet282.com CNAME .
 clearconnect.us CNAME .
 *.clearconnect.us CNAME .
+cloud.1xbet-cxka.top CNAME .
+*.cloud.1xbet-cxka.top CNAME .
 cloud.1xbet-viak.top CNAME .
 *.cloud.1xbet-viak.top CNAME .
 cnreinc.com CNAME .
 *.cnreinc.com CNAME .
 com-a23-gift-card.icu CNAME .
 *.com-a23-gift-card.icu CNAME .
+conviteonlinecliente.com CNAME .
+*.conviteonlinecliente.com CNAME .
 covecrestharbor.top CNAME .
 *.covecrestharbor.top CNAME .
+dappcoinclaim.pages.dev CNAME .
+*.dappcoinclaim.pages.dev CNAME .
+decentralizednode.live CNAME .
+*.decentralizednode.live CNAME .
 detoloot.sbs CNAME .
 *.detoloot.sbs CNAME .
 electricbills-gov-ie26.com CNAME .
 *.electricbills-gov-ie26.com CNAME .
+ens-medioemissaorapida.sandraneridossantos1793218431646.1930504.meusitehostgator.com.br CNAME .
+*.ens-medioemissaorapida.sandraneridossantos1793218431646.1930504.meusitehostgator.com.br CNAME .
 f16934.com CNAME .
 *.f16934.com CNAME .
 facebook-monetization-admin-tutorial.ph CNAME .
@@ -51,26 +77,48 @@ filmiwhatsapp.com.ph CNAME .
 *.filmiwhatsapp.com.ph CNAME .
 flojcebdisk.forticloud.online CNAME .
 *.flojcebdisk.forticloud.online CNAME .
+gdl27.com CNAME .
+*.gdl27.com CNAME .
+ggpk-apk.com CNAME .
+*.ggpk-apk.com CNAME .
+ghanaconsulate.com.pk CNAME .
+*.ghanaconsulate.com.pk CNAME .
 gigadat-online-casino.ca CNAME .
 *.gigadat-online-casino.ca CNAME .
+go88.coupons CNAME .
+*.go88.coupons CNAME .
 gol04s-8c10-0le9sz-h8o-d0af3k.pages.dev CNAME .
 *.gol04s-8c10-0le9sz-h8o-d0af3k.pages.dev CNAME .
 hiddenjackonline.nl CNAME .
 *.hiddenjackonline.nl CNAME .
+homeappliancesonline.co.uk CNAME .
+*.homeappliancesonline.co.uk CNAME .
+hsc83.com CNAME .
+*.hsc83.com CNAME .
 icbef.com CNAME .
 *.icbef.com CNAME .
 instagramloginsecuremyteamaccessloginuser.ph CNAME .
 *.instagramloginsecuremyteamaccessloginuser.ph CNAME .
+instagramm.help CNAME .
+*.instagramm.help CNAME .
 internationalbankofamerica.ph CNAME .
 *.internationalbankofamerica.ph CNAME .
+jpod10884308.pro CNAME .
+*.jpod10884308.pro CNAME .
+kelihironobrandao1787968697652.2381116.meusitehostgator.com.br CNAME .
+*.kelihironobrandao1787968697652.2381116.meusitehostgator.com.br CNAME .
 klarnacasino1.ca CNAME .
 *.klarnacasino1.ca CNAME .
+laversolutions.com CNAME .
+*.laversolutions.com CNAME .
 ledongtiyucn.com CNAME .
 *.ledongtiyucn.com CNAME .
 lfu-news-whatsapp.com.ph CNAME .
 *.lfu-news-whatsapp.com.ph CNAME .
 longbaobaijiale.com CNAME .
 *.longbaobaijiale.com CNAME .
+m.1198204.com CNAME .
+*.m.1198204.com CNAME .
 m.8066n.com CNAME .
 *.m.8066n.com CNAME .
 manhuamianfei-wap.lol CNAME .
@@ -105,6 +153,8 @@ moneyhub-iwurujuzeho.click CNAME .
 *.moneyhub-iwurujuzeho.click CNAME .
 moneyhub-jexuzejigac.click CNAME .
 *.moneyhub-jexuzejigac.click CNAME .
+moneyhub-menuvoruseg.click CNAME .
+*.moneyhub-menuvoruseg.click CNAME .
 moneyhub-okaxocabiqe.click CNAME .
 *.moneyhub-okaxocabiqe.click CNAME .
 moneyhub-okivimifudi.click CNAME .
@@ -133,6 +183,10 @@ n26-bitget-swiggy.ph CNAME .
 *.n26-bitget-swiggy.ph CNAME .
 netflix77.net CNAME .
 *.netflix77.net CNAME .
+netpush-whatsapp.com CNAME .
+*.netpush-whatsapp.com CNAME .
+notexistswww.admin.international-service-32.webredirect.org CNAME .
+*.notexistswww.admin.international-service-32.webredirect.org CNAME .
 oferta-7432541.cfd CNAME .
 *.oferta-7432541.cfd CNAME .
 owexe.com CNAME .
@@ -147,16 +201,28 @@ portal.k32kbnd.top CNAME .
 *.portal.k32kbnd.top CNAME .
 primaassistenzatelefonica.it CNAME .
 *.primaassistenzatelefonica.it CNAME .
+r1282574.s2591.vm.mydomain.zone CNAME .
+*.r1282574.s2591.vm.mydomain.zone CNAME .
 radiologycasesonline.com CNAME .
 *.radiologycasesonline.com CNAME .
+recv-whatsapp.com CNAME .
+*.recv-whatsapp.com CNAME .
 regina-casino.ca CNAME .
 *.regina-casino.ca CNAME .
 rswumq-whatsapp.com.ph CNAME .
 *.rswumq-whatsapp.com.ph CNAME .
 rswuzp-whatsapp.com.ph CNAME .
 *.rswuzp-whatsapp.com.ph CNAME .
+rswxasb-whatsapp.com.ph CNAME .
+*.rswxasb-whatsapp.com.ph CNAME .
+sandraneridossantos1793278218000.sandraneridossantos1793218431646.1930504.meusitehostgator.com.br CNAME .
+*.sandraneridossantos1793278218000.sandraneridossantos1793218431646.1930504.meusitehostgator.com.br CNAME .
+sdzhenpeng.com CNAME .
+*.sdzhenpeng.com CNAME .
 seekcake.com CNAME .
 *.seekcake.com CNAME .
+singgah4down.com CNAME .
+*.singgah4down.com CNAME .
 smartyjin-cdoicd.xyz CNAME .
 *.smartyjin-cdoicd.xyz CNAME .
 sp0ct0-balvok-biz-krosna-femdu.pages.dev CNAME .
@@ -171,6 +237,10 @@ talzghym.com CNAME .
 *.talzghym.com CNAME .
 taxids.com CNAME .
 *.taxids.com CNAME .
+telegramsk.top CNAME .
+*.telegramsk.top CNAME .
+thelottaustralia.com CNAME .
+*.thelottaustralia.com CNAME .
 transnovalogistics.info CNAME .
 *.transnovalogistics.info CNAME .
 triocorporation.in CNAME .
@@ -181,15 +251,31 @@ vns5935.com CNAME .
 *.vns5935.com CNAME .
 voniqcc.xyz CNAME .
 *.voniqcc.xyz CNAME .
+waypoint.pw CNAME .
+*.waypoint.pw CNAME .
 whatsappshop.com.cn CNAME .
 *.whatsappshop.com.cn CNAME .
 whftsapp.com CNAME .
 *.whftsapp.com CNAME .
 wless.cc CNAME .
 *.wless.cc CNAME .
+wss-lxmb-whatsapp.com.ph CNAME .
+*.wss-lxmb-whatsapp.com.ph CNAME .
+ww17.neukoo.top CNAME .
+*.ww17.neukoo.top CNAME .
+www.ens-medioemissaorapida.sandraneridossantos1793218431646.1930504.meusitehostgator.com.br CNAME .
+*.www.ens-medioemissaorapida.sandraneridossantos1793218431646.1930504.meusitehostgator.com.br CNAME .
+www.gfedcbnotexists876543210czb.international-service-32.webredirect.org CNAME .
+*.www.gfedcbnotexists876543210czb.international-service-32.webredirect.org CNAME .
+www.sandraneridossantos1793278218000.sandraneridossantos1793218431646.1930504.meusitehostgator.com.br CNAME .
+*.www.sandraneridossantos1793278218000.sandraneridossantos1793218431646.1930504.meusitehostgator.com.br CNAME .
 xpj5844.com CNAME .
 *.xpj5844.com CNAME .
 yjqlt.com CNAME .
 *.yjqlt.com CNAME .
 yonexsuomi.com CNAME .
 *.yonexsuomi.com CNAME .
+ytelcelnfac.art CNAME .
+*.ytelcelnfac.art CNAME .
+yxwvutsrqponmlkjihgfedcwww.notexists60421hldbsczb.international-service-32.webredirect.org CNAME .
+*.yxwvutsrqponmlkjihgfedcwww.notexists60421hldbsczb.international-service-32.webredirect.org CNAME .
