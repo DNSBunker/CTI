@@ -1,6 +1,6 @@
 # xRuffKez CTI (Cyber Threat Intelligence)
 
-![Active domains](https://img.shields.io/badge/active_domains-42%2C284-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-43%2C824-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--30_11%3A34_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
+![Active domains](https://img.shields.io/badge/active_domains-42%2C288-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-43%2C828-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--30_11%3A54_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
 
 A continuously maintained blocklist of **active malicious domains**: phishing, malware delivery, scams, fraudulent shops and investment schemes, and the infrastructure behind them. Every entry is verified before it is published, and removed again once it is offline or no longer malicious, so the list stays current instead of growing forever.
 
@@ -9,14 +9,14 @@ A continuously maintained blocklist of **active malicious domains**: phishing, m
 
 ## At a glance
 
-<sub>as of 2026-10-30 11:34 UTC</sub>
+<sub>as of 2026-10-30 11:54 UTC</sub>
 
 | | |
 |---|---:|
-| Active domains | **42,284** |
-| Added in the last 24 hours | 43,824 |
-| Added in the last 7 days | 43,824 |
-| Added in the last 30 days | 43,824 |
+| Active domains | **42,288** |
+| Added in the last 24 hours | 43,828 |
+| Added in the last 7 days | 43,828 |
+| Added in the last 30 days | 43,828 |
 | Retired in the last 30 days (offline or cleaned up) | 0 |
 | Top-level domains represented | 225 |
 | Internationalized (IDN / punycode) domains | 0.1 % |
@@ -32,7 +32,7 @@ xychart-beta
     title "New domains per day, Oct 1 – Oct 30 (UTC)"
     x-axis ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"]
     y-axis "domains" 0 --> 50000
-    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41794, 2030]
+    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41794, 2034]
 ```
 
 ```mermaid
@@ -41,14 +41,14 @@ xychart-beta
     title "Active domains on the list, Oct 29 – Oct 30 (UTC)"
     x-axis ["29", "30"]
     y-axis "domains"
-    line [40447, 42284]
+    line [40447, 42288]
 ```
 
 <details><summary>Last 7 days as a table</summary>
 
 | Day (UTC) | Added | Retired |
 |---|---:|---:|
-| 2026-10-30 | 2,030 | 0 |
+| 2026-10-30 | 2,034 | 0 |
 | 2026-10-29 | 41,794 | 0 |
 | 2026-10-28 | 0 | 0 |
 | 2026-10-27 | 0 | 0 |
@@ -62,8 +62,8 @@ xychart-beta
 
 | # | TLD | Domains | Share | |
 |---:|---|---:|---:|---|
-| 1 | `.com` | 10,409 | 24.6 % | ████████████████████ |
-| 2 | `.dev` | 9,664 | 22.9 % | ███████████████████ |
+| 1 | `.com` | 10,410 | 24.6 % | ████████████████████ |
+| 2 | `.dev` | 9,665 | 22.9 % | ███████████████████ |
 | 3 | `.app` | 9,383 | 22.2 % | ██████████████████ |
 | 4 | `.org` | 3,147 | 7.4 % | ██████ |
 | 5 | `.io` | 1,521 | 3.6 % | ███ |
@@ -80,12 +80,12 @@ xychart-beta
 
 ```mermaid
 pie showData title Share of the 5 most common TLDs
-    ".com" : 10409
-    ".dev" : 9664
+    ".com" : 10410
+    ".dev" : 9665
     ".app" : 9383
     ".org" : 3147
     ".io" : 1521
-    "other" : 8160
+    "other" : 8162
 ```
 
 ## Most imitated brands
@@ -98,7 +98,7 @@ Listed domains whose name contains a well-known brand. Brand names are trademark
 | Meta / Facebook | 734 | ███████████████████ |
 | Apple / iCloud | 639 | █████████████████ |
 | Instagram | 504 | █████████████ |
-| Coinbase | 422 | ███████████ |
+| Coinbase | 423 | ███████████ |
 | PayPal | 412 | ███████████ |
 | Netflix | 382 | ██████████ |
 | OpenSea | 360 | █████████ |
@@ -115,7 +115,7 @@ Listed domains whose name contains a well-known brand. Brand names are trademark
 | Word | Domains | |
 |---|---:|---|
 | `login` | 852 | ████████████████████ |
-| `support` | 505 | ████████████ |
+| `support` | 506 | ████████████ |
 | `account` | 419 | ██████████ |
 | `secure` | 392 | █████████ |
 | `wallet` | 329 | ████████ |
