@@ -1,6 +1,6 @@
 # xRuffKez CTI (Cyber Threat Intelligence)
 
-![Active domains](https://img.shields.io/badge/active_domains-40%2C460-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-41%2C804-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--30_00%3A11_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
+![Active domains](https://img.shields.io/badge/active_domains-40%2C464-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-41%2C808-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--30_00%3A26_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
 
 A continuously maintained blocklist of **active malicious domains**: phishing, malware delivery, scams, fraudulent shops and investment schemes, and the infrastructure behind them. Every entry is verified before it is published, and removed again once it is offline or no longer malicious, so the list stays current instead of growing forever.
 
@@ -9,14 +9,14 @@ A continuously maintained blocklist of **active malicious domains**: phishing, m
 
 ## At a glance
 
-<sub>as of 2026-10-30 00:11 UTC</sub>
+<sub>as of 2026-10-30 00:26 UTC</sub>
 
 | | |
 |---|---:|
-| Active domains | **40,460** |
-| Added in the last 24 hours | 41,804 |
-| Added in the last 7 days | 41,804 |
-| Added in the last 30 days | 41,804 |
+| Active domains | **40,464** |
+| Added in the last 24 hours | 41,808 |
+| Added in the last 7 days | 41,808 |
+| Added in the last 30 days | 41,808 |
 | Retired in the last 30 days (offline or cleaned up) | 0 |
 | Top-level domains represented | 217 |
 | Internationalized (IDN / punycode) domains | 0.1 % |
@@ -32,7 +32,7 @@ xychart-beta
     title "New domains per day, Oct 1 – Oct 30 (UTC)"
     x-axis ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"]
     y-axis "domains" 0 --> 50000
-    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41794, 10]
+    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41794, 14]
 ```
 
 ```mermaid
@@ -41,14 +41,14 @@ xychart-beta
     title "Active domains on the list, Oct 29 – Oct 30 (UTC)"
     x-axis ["29", "30"]
     y-axis "domains"
-    line [40447, 40460]
+    line [40447, 40464]
 ```
 
 <details><summary>Last 7 days as a table</summary>
 
 | Day (UTC) | Added | Retired |
 |---|---:|---:|
-| 2026-10-30 | 10 | 0 |
+| 2026-10-30 | 14 | 0 |
 | 2026-10-29 | 41,794 | 0 |
 | 2026-10-28 | 0 | 0 |
 | 2026-10-27 | 0 | 0 |
@@ -62,7 +62,7 @@ xychart-beta
 
 | # | TLD | Domains | Share | |
 |---:|---|---:|---:|---|
-| 1 | `.com` | 9,789 | 24.2 % | ████████████████████ |
+| 1 | `.com` | 9,795 | 24.2 % | ████████████████████ |
 | 2 | `.app` | 9,316 | 23.0 % | ███████████████████ |
 | 3 | `.dev` | 9,222 | 22.8 % | ███████████████████ |
 | 4 | `.org` | 3,009 | 7.4 % | ██████ |
@@ -71,21 +71,21 @@ xychart-beta
 | 7 | `.host` | 646 | 1.6 % | █ |
 | 8 | `.link` | 560 | 1.4 % | █ |
 | 9 | `.net` | 472 | 1.2 % | █ |
-| 10 | `.pro` | 470 | 1.2 % | █ |
+| 10 | `.pro` | 471 | 1.2 % | █ |
 | 11 | `.shop` | 343 | 0.8 % | █ |
 | 12 | `.site` | 324 | 0.8 % | █ |
 | 13 | `.ph` | 280 | 0.7 % | █ |
-| 14 | `.xyz` | 251 | 0.6 % | █ |
+| 14 | `.xyz` | 252 | 0.6 % | █ |
 | 15 | `.top` | 246 | 0.6 % | █ |
 
 ```mermaid
 pie showData title Share of the 5 most common TLDs
-    ".com" : 9789
+    ".com" : 9795
     ".app" : 9316
     ".dev" : 9222
     ".org" : 3009
     ".io" : 1502
-    "other" : 7622
+    "other" : 7620
 ```
 
 ## Most imitated brands
@@ -95,7 +95,7 @@ Listed domains whose name contains a well-known brand. Brand names are trademark
 | Brand | Domains | |
 |---|---:|---|
 | Meta / Facebook | 688 | ████████████████████ |
-| Apple / iCloud | 607 | ██████████████████ |
+| Apple / iCloud | 608 | ██████████████████ |
 | WhatsApp | 600 | █████████████████ |
 | Instagram | 463 | █████████████ |
 | Coinbase | 392 | ███████████ |
@@ -115,7 +115,7 @@ Listed domains whose name contains a well-known brand. Brand names are trademark
 | Word | Domains | |
 |---|---:|---|
 | `login` | 845 | ████████████████████ |
-| `support` | 495 | ████████████ |
+| `support` | 496 | ████████████ |
 | `account` | 409 | ██████████ |
 | `secure` | 385 | █████████ |
 | `wallet` | 321 | ████████ |
