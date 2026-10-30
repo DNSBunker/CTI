@@ -1,6 +1,6 @@
 ; Title: xRuffKez CTI (Cyber Threat Intelligence)
 ; Description: Active malicious domains: phishing, malware, scams and fraud. Each entry covers the domain and all of its subdomains.
-; Entries: 42271
+; Entries: 42273
 ; Project: https://dnsbunker.org
 ; False positives: https://github.com/DNSBunker/CTI/issues
 ; Policy: CNAME . (NXDOMAIN) for each domain and its subdomains
@@ -9,7 +9,7 @@
 
 $TTL 300
 @ IN SOA localhost. admin.localhost. (
-    1793355869 ; serial (uint32)
+    1793356170 ; serial (uint32)
     3600       ; refresh  (1 hour)
     600        ; retry    (10 minutes)
     86400      ; expire   (24 hours)
@@ -63917,6 +63917,8 @@ s1947.com CNAME .
 *.s1947.com CNAME .
 s1xag-51397.portmap.host CNAME .
 *.s1xag-51397.portmap.host CNAME .
+s2.aptekapromed.su CNAME .
+*.s2.aptekapromed.su CNAME .
 s277851.ssl-test-redirects-01.info CNAME .
 *.s277851.ssl-test-redirects-01.info CNAME .
 s2w3wc.firebaseapp.com CNAME .
@@ -72437,6 +72439,8 @@ sso-web-ledger-ledger-live-login.typedream.app CNAME .
 *.sso-web-ledger-ledger-live-login.typedream.app CNAME .
 sso-web-ledgerledger-com-start.typedream.app CNAME .
 *.sso-web-ledgerledger-com-start.typedream.app CNAME .
+sso.azino777-mom.top CNAME .
+*.sso.azino777-mom.top CNAME .
 sso.cuban.workers.dev CNAME .
 *.sso.cuban.workers.dev CNAME .
 ssoapphdappcdn.framer.ai CNAME .
