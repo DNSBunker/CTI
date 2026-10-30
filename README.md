@@ -1,6 +1,6 @@
 # xRuffKez CTI (Cyber Threat Intelligence)
 
-![Active domains](https://img.shields.io/badge/active_domains-41%2C085-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-42%2C498-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--30_03%3A27_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
+![Active domains](https://img.shields.io/badge/active_domains-41%2C104-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-42%2C521-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--30_03%3A42_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
 
 A continuously maintained blocklist of **active malicious domains**: phishing, malware delivery, scams, fraudulent shops and investment schemes, and the infrastructure behind them. Every entry is verified before it is published, and removed again once it is offline or no longer malicious, so the list stays current instead of growing forever.
 
@@ -9,14 +9,14 @@ A continuously maintained blocklist of **active malicious domains**: phishing, m
 
 ## At a glance
 
-<sub>as of 2026-10-30 03:27 UTC</sub>
+<sub>as of 2026-10-30 03:42 UTC</sub>
 
 | | |
 |---|---:|
-| Active domains | **41,085** |
-| Added in the last 24 hours | 42,498 |
-| Added in the last 7 days | 42,498 |
-| Added in the last 30 days | 42,498 |
+| Active domains | **41,104** |
+| Added in the last 24 hours | 42,521 |
+| Added in the last 7 days | 42,521 |
+| Added in the last 30 days | 42,521 |
 | Retired in the last 30 days (offline or cleaned up) | 0 |
 | Top-level domains represented | 217 |
 | Internationalized (IDN / punycode) domains | 0.1 % |
@@ -32,7 +32,7 @@ xychart-beta
     title "New domains per day, Oct 1 – Oct 30 (UTC)"
     x-axis ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"]
     y-axis "domains" 0 --> 50000
-    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41794, 704]
+    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41794, 727]
 ```
 
 ```mermaid
@@ -41,14 +41,14 @@ xychart-beta
     title "Active domains on the list, Oct 29 – Oct 30 (UTC)"
     x-axis ["29", "30"]
     y-axis "domains"
-    line [40447, 41085]
+    line [40447, 41104]
 ```
 
 <details><summary>Last 7 days as a table</summary>
 
 | Day (UTC) | Added | Retired |
 |---|---:|---:|
-| 2026-10-30 | 704 | 0 |
+| 2026-10-30 | 727 | 0 |
 | 2026-10-29 | 41,794 | 0 |
 | 2026-10-28 | 0 | 0 |
 | 2026-10-27 | 0 | 0 |
@@ -62,10 +62,10 @@ xychart-beta
 
 | # | TLD | Domains | Share | |
 |---:|---|---:|---:|---|
-| 1 | `.com` | 9,895 | 24.1 % | ████████████████████ |
-| 2 | `.dev` | 9,533 | 23.2 % | ███████████████████ |
-| 3 | `.app` | 9,352 | 22.8 % | ███████████████████ |
-| 4 | `.org` | 3,076 | 7.5 % | ██████ |
+| 1 | `.com` | 9,896 | 24.1 % | ████████████████████ |
+| 2 | `.dev` | 9,534 | 23.2 % | ███████████████████ |
+| 3 | `.app` | 9,353 | 22.8 % | ███████████████████ |
+| 4 | `.org` | 3,077 | 7.5 % | ██████ |
 | 5 | `.io` | 1,516 | 3.7 % | ███ |
 | 6 | `.club` | 1,041 | 2.5 % | ██ |
 | 7 | `.host` | 659 | 1.6 % | █ |
@@ -80,12 +80,12 @@ xychart-beta
 
 ```mermaid
 pie showData title Share of the 5 most common TLDs
-    ".com" : 9895
-    ".dev" : 9533
-    ".app" : 9352
-    ".org" : 3076
+    ".com" : 9896
+    ".dev" : 9534
+    ".app" : 9353
+    ".org" : 3077
     ".io" : 1516
-    "other" : 7713
+    "other" : 7728
 ```
 
 ## Most imitated brands
@@ -105,7 +105,7 @@ Listed domains whose name contains a well-known brand. Brand names are trademark
 | Ledger | 275 | ████████ |
 | MetaMask | 235 | ███████ |
 | TikTok | 198 | ██████ |
-| Telegram | 190 | █████ |
+| Telegram | 191 | █████ |
 | Microsoft / Office 365 | 167 | █████ |
 | Amazon | 138 | ████ |
 | LinkedIn | 135 | ████ |
@@ -122,7 +122,7 @@ Listed domains whose name contains a well-known brand. Brand names are trademark
 | `service` | 313 | ███████ |
 | `update` | 297 | ███████ |
 | `auth` | 252 | ██████ |
-| `help` | 212 | █████ |
+| `help` | 213 | █████ |
 | `security` | 201 | █████ |
 | `claim` | 198 | █████ |
 | `verify` | 185 | ████ |
