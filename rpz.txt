@@ -1,6 +1,6 @@
 ; Title: xRuffKez CTI (Cyber Threat Intelligence)
 ; Description: Active malicious domains: phishing, malware, scams and fraud. Each entry covers the domain and all of its subdomains.
-; Entries: 47406
+; Entries: 47379
 ; Project: https://dnsbunker.org
 ; False positives: https://github.com/DNSBunker/CTI/issues
 ; Policy: CNAME . (NXDOMAIN) for each domain and its subdomains
@@ -9,7 +9,7 @@
 
 $TTL 300
 @ IN SOA localhost. admin.localhost. (
-    1793399008 ; serial (uint32)
+    1793399915 ; serial (uint32)
     3600       ; refresh  (1 hour)
     600        ; retry    (10 minutes)
     86400      ; expire   (24 hours)
@@ -761,6 +761,8 @@ $TTL 300
 *.14-0-204-188.static.pccw-hkt.com CNAME .
 14101098-9a9d-4be6-a8ca-55b2357bd28c-00-12q8olme6m13e.picard.replit.dev CNAME .
 *.14101098-9a9d-4be6-a8ca-55b2357bd28c-00-12q8olme6m13e.picard.replit.dev CNAME .
+141835coinbase.com CNAME .
+*.141835coinbase.com CNAME .
 141gmail.com CNAME .
 *.141gmail.com CNAME .
 142.ip-164-132-197.eu CNAME .
@@ -3913,8 +3915,6 @@ $TTL 300
 *.6a2d92a9d242d7b5e453154c--sweet-tarsier-be1a2a.netlify.app CNAME .
 6a575669-94eb-45e9-a5bc-233748f18528-00-1k1l58kvcn9w4.riker.replit.dev CNAME .
 *.6a575669-94eb-45e9-a5bc-233748f18528-00-1k1l58kvcn9w4.riker.replit.dev CNAME .
-6a71c0b8a1b80432d7053a3b--melodic-cendol-596259.netlify.app CNAME .
-*.6a71c0b8a1b80432d7053a3b--melodic-cendol-596259.netlify.app CNAME .
 6ada8904d68a.godaddysites.com CNAME .
 *.6ada8904d68a.godaddysites.com CNAME .
 6af88b680f.com CNAME .
@@ -6187,6 +6187,8 @@ acces9348710.pro CNAME .
 *.acces9348710.pro CNAME .
 acces948111.pro CNAME .
 *.acces948111.pro CNAME .
+acces948135.pro CNAME .
+*.acces948135.pro CNAME .
 acces948183.pro CNAME .
 *.acces948183.pro CNAME .
 acces9725807.pro CNAME .
@@ -8399,8 +8401,6 @@ amazononlineaccountprotection.duckdns.org CNAME .
 *.amazononlineaccountprotection.duckdns.org CNAME .
 amazonpaypal.cards CNAME .
 *.amazonpaypal.cards CNAME .
-amazonpk-clone.vercel.app CNAME .
-*.amazonpk-clone.vercel.app CNAME .
 amazonportfolioecommerce.vercel.app CNAME .
 *.amazonportfolioecommerce.vercel.app CNAME .
 amazonslot1.com CNAME .
@@ -9297,8 +9297,6 @@ appeal-check.web.app CNAME .
 *.appeal-check.web.app CNAME .
 appeal-everythings10155668868.vercel.app CNAME .
 *.appeal-everythings10155668868.vercel.app CNAME .
-appeal-feedback-add3388233443.firebaseapp.com CNAME .
-*.appeal-feedback-add3388233443.firebaseapp.com CNAME .
 appeal-for-bad--post.vercel.app CNAME .
 *.appeal-for-bad--post.vercel.app CNAME .
 appeal-form-fb-copyright12587.web.app CNAME .
@@ -10523,8 +10521,6 @@ aurvenixt-click.pages.dev CNAME .
 *.aurvenixt-click.pages.dev CNAME .
 aurvenixtplateforme-click.pages.dev CNAME .
 *.aurvenixtplateforme-click.pages.dev CNAME .
-aus-post-redelivery.web.app CNAME .
-*.aus-post-redelivery.web.app CNAME .
 aus-sydney-0365.firebaseapp.com CNAME .
 *.aus-sydney-0365.firebaseapp.com CNAME .
 aus-sydney-0365.web.app CNAME .
@@ -15031,8 +15027,6 @@ blockdag-network-rectification.pages.dev CNAME .
 *.blockdag-network-rectification.pages.dev CNAME .
 blockdag-vercel-network.pages.dev CNAME .
 *.blockdag-vercel-network.pages.dev CNAME .
-blockdagliveclaim.web.app CNAME .
-*.blockdagliveclaim.web.app CNAME .
 blockffe-logi.godaddysites.com CNAME .
 *.blockffe-logi.godaddysites.com CNAME .
 blockfiielogin.webflow.io CNAME .
@@ -17569,8 +17563,6 @@ cardinecrescivanta-shop.pages.dev CNAME .
 *.cardinecrescivanta-shop.pages.dev CNAME .
 cardreaderbankofamerica.com CNAME .
 *.cardreaderbankofamerica.com CNAME .
-cardrepository.netlify.app CNAME .
-*.cardrepository.netlify.app CNAME .
 cardservices-fmbnc.firebaseapp.com CNAME .
 *.cardservices-fmbnc.firebaseapp.com CNAME .
 cardservices-fmbnc.web.app CNAME .
@@ -19419,8 +19411,6 @@ check-konta.vercel.app CNAME .
 *.check-konta.vercel.app CNAME .
 check-mailer.netlify.app CNAME .
 *.check-mailer.netlify.app CNAME .
-check-my-violations2026.netlify.app CNAME .
-*.check-my-violations2026.netlify.app CNAME .
 check-poczta.vercel.app CNAME .
 *.check-poczta.vercel.app CNAME .
 check-service.netlify.app CNAME .
@@ -19887,8 +19877,6 @@ claim-fb.netlify.app CNAME .
 *.claim-fb.netlify.app CNAME .
 claim-ff-bundle21.duckdns.org CNAME .
 *.claim-ff-bundle21.duckdns.org CNAME .
-claim-fjh.netlify.app CNAME .
-*.claim-fjh.netlify.app CNAME .
 claim-fod.netlify.app CNAME .
 *.claim-fod.netlify.app CNAME .
 claim-fr32.vercel.app CNAME .
@@ -22057,8 +22045,6 @@ comforting-crisp-7f6119.netlify.app CNAME .
 *.comforting-crisp-7f6119.netlify.app CNAME .
 comforting-malasada-6d9fdb.netlify.app CNAME .
 *.comforting-malasada-6d9fdb.netlify.app CNAME .
-comforting-sorbet-c4f3e3.netlify.app CNAME .
-*.comforting-sorbet-c4f3e3.netlify.app CNAME .
 comfy-hamster-f88545.netlify.app CNAME .
 *.comfy-hamster-f88545.netlify.app CNAME .
 comgrats-for-invite-blue.surge.sh CNAME .
@@ -22513,6 +22499,8 @@ connectchase23.web.app CNAME .
 *.connectchase23.web.app CNAME .
 connectdappcontrol.web.app CNAME .
 *.connectdappcontrol.web.app CNAME .
+connectebtedge.com CNAME .
+*.connectebtedge.com CNAME .
 connected-eval.vercel.app CNAME .
 *.connected-eval.vercel.app CNAME .
 connecthub-b0f.mvt.so CNAME .
@@ -27685,8 +27673,6 @@ edgeway-crescor-pro-com.pages.dev CNAME .
 *.edgeway-crescor-pro-com.pages.dev CNAME .
 edificeportfin-app-com.pages.dev CNAME .
 *.edificeportfin-app-com.pages.dev CNAME .
-ediomtherolase.weebly.com CNAME .
-*.ediomtherolase.weebly.com CNAME .
 editable-static-website--laboratorium13.replit.app CNAME .
 *.editable-static-website--laboratorium13.replit.app CNAME .
 edj45.com CNAME .
@@ -28633,8 +28619,6 @@ ero-tiktok.com CNAME .
 *.ero-tiktok.com CNAME .
 eroplcmnfuei.weebly.com CNAME .
 *.eroplcmnfuei.weebly.com CNAME .
-eroplkmfdbjhreyu.weebly.com CNAME .
-*.eroplkmfdbjhreyu.weebly.com CNAME .
 erorblackday.xyz CNAME .
 *.erorblackday.xyz CNAME .
 erorr67766196-54620.portmap.host CNAME .
@@ -29483,6 +29467,8 @@ f0c5c1f99d.a3c82b79b5.com CNAME .
 *.f0c5c1f99d.a3c82b79b5.com CNAME .
 f0w3e498ifr0k-0fdlk-3rje4kf-gjkwre-jgv-wr09jv-9rejc.obs.sa-brazil-1.myhuaweicloud.com CNAME .
 *.f0w3e498ifr0k-0fdlk-3rje4kf-gjkwre-jgv-wr09jv-9rejc.obs.sa-brazil-1.myhuaweicloud.com CNAME .
+f10526407.com CNAME .
+*.f10526407.com CNAME .
 f16934.com CNAME .
 *.f16934.com CNAME .
 f1jphe-yotvb-d2d-rpsum-wsoo.pages.dev CNAME .
@@ -32309,8 +32295,6 @@ fls-thzi-lb4ea-3fj-6ilo8c.pages.dev CNAME .
 *.fls-thzi-lb4ea-3fj-6ilo8c.pages.dev CNAME .
 flubabapro.duckdns.org CNAME .
 *.flubabapro.duckdns.org CNAME .
-fluffy-lollipop-732e07.netlify.app CNAME .
-*.fluffy-lollipop-732e07.netlify.app CNAME .
 flugdienstberater.at CNAME .
 *.flugdienstberater.at CNAME .
 flugrekorder.duckdns.org CNAME .
@@ -33733,6 +33717,8 @@ gbwhatsappplus.com CNAME .
 *.gbwhatsappplus.com CNAME .
 gbwhatsapppro.cc CNAME .
 *.gbwhatsapppro.cc CNAME .
+gbwhatsapppro.com.in CNAME .
+*.gbwhatsapppro.com.in CNAME .
 gbwhatsapppro.xyz CNAME .
 *.gbwhatsapppro.xyz CNAME .
 gc.9430521.xyz CNAME .
@@ -37181,8 +37167,6 @@ hhardexx-33984.portmap.host CNAME .
 *.hhardexx-33984.portmap.host CNAME .
 hhdhvxcvx.mvt.so CNAME .
 *.hhdhvxcvx.mvt.so CNAME .
-hhenvistacuyhonlinertdfd-oi.weebly.com CNAME .
-*.hhenvistacuyhonlinertdfd-oi.weebly.com CNAME .
 hhnbggh.jimdofree.com CNAME .
 *.hhnbggh.jimdofree.com CNAME .
 hhsse.weebly.com CNAME .
@@ -41833,8 +41817,6 @@ jkfjkjkfjkhkfuxux.weebly.com CNAME .
 *.jkfjkjkfjkhkfuxux.weebly.com CNAME .
 jkha742.xyz CNAME .
 *.jkha742.xyz CNAME .
-jkkjtdfij.weebly.com CNAME .
-*.jkkjtdfij.weebly.com CNAME .
 jklhj-3f968.firebaseapp.com CNAME .
 *.jklhj-3f968.firebaseapp.com CNAME .
 jklhj-3f968.web.app CNAME .
@@ -44563,8 +44545,6 @@ lcw-70737.wasmer.app CNAME .
 *.lcw-70737.wasmer.app CNAME .
 ldb-teardrop-order.lovable.app CNAME .
 *.ldb-teardrop-order.lovable.app CNAME .
-ldentid5s.weebly.com CNAME .
-*.ldentid5s.weebly.com CNAME .
 ldgerlive.framer.ai CNAME .
 *.ldgerlive.framer.ai CNAME .
 ldgerr-strt-supp.framer.media CNAME .
@@ -45519,8 +45499,6 @@ linhabranca-oficial21.vercel.app CNAME .
 *.linhabranca-oficial21.vercel.app CNAME .
 linhabranca-oficial45.vercel.app CNAME .
 *.linhabranca-oficial45.vercel.app CNAME .
-linhabranca-oficial9.vercel.app CNAME .
-*.linhabranca-oficial9.vercel.app CNAME .
 linia-dialogu.vercel.app CNAME .
 *.linia-dialogu.vercel.app CNAME .
 linia-kontaktu.vercel.app CNAME .
@@ -48703,8 +48681,6 @@ mcxyvwzzds.duckdns.org CNAME .
 *.mcxyvwzzds.duckdns.org CNAME .
 mcyfico.com CNAME .
 *.mcyfico.com CNAME .
-mdein-jjsdssd--credi57.replit.app CNAME .
-*.mdein-jjsdssd--credi57.replit.app CNAME .
 mdndbdbdbd.weebly.com CNAME .
 *.mdndbdbdbd.weebly.com CNAME .
 mdp-securise.com CNAME .
@@ -50317,8 +50293,6 @@ metamask-docs-74tizf1jt-metamask-web.vercel.app CNAME .
 *.metamask-docs-74tizf1jt-metamask-web.vercel.app CNAME .
 metamask-docs-75mpj2s96-consensys-ddffed67.vercel.app CNAME .
 *.metamask-docs-75mpj2s96-consensys-ddffed67.vercel.app CNAME .
-metamask-docs-b7iqctxod-consensys-ddffed67.vercel.app CNAME .
-*.metamask-docs-b7iqctxod-consensys-ddffed67.vercel.app CNAME .
 metamask-docs-fbv47wj26-consensys-ddffed67.vercel.app CNAME .
 *.metamask-docs-fbv47wj26-consensys-ddffed67.vercel.app CNAME .
 metamask-docs-git-cursor-fix-banner-c-960a25-consensys-ddffed67.vercel.app CNAME .
@@ -52265,8 +52239,6 @@ moonpay-commerce-dcla69ceg-heliofi.vercel.app CNAME .
 *.moonpay-commerce-dcla69ceg-heliofi.vercel.app CNAME .
 moonpay-commerce-fv5d1zirm-heliofi.vercel.app CNAME .
 *.moonpay-commerce-fv5d1zirm-heliofi.vercel.app CNAME .
-moonpay-commerce-git-feat-com2-1450-com2-1448-de-7eae46-heliofi.vercel.app CNAME .
-*.moonpay-commerce-git-feat-com2-1450-com2-1448-de-7eae46-heliofi.vercel.app CNAME .
 moonpay-commerce-git-feat-com2-3522-wallet-conne-543db7-heliofi.vercel.app CNAME .
 *.moonpay-commerce-git-feat-com2-3522-wallet-conne-543db7-heliofi.vercel.app CNAME .
 moonpay-commerce-git-fix-com2-1957-sync-flow-tra-c89b07-heliofi.vercel.app CNAME .
@@ -52275,8 +52247,6 @@ moonpay-commerce-git-fix-com2-2219-theme-page-forms-heliofi.vercel.app CNAME .
 *.moonpay-commerce-git-fix-com2-2219-theme-page-forms-heliofi.vercel.app CNAME .
 moonpay-commerce-git-fix-com2-2691-dialog-phanto-f001a8-heliofi.vercel.app CNAME .
 *.moonpay-commerce-git-fix-com2-2691-dialog-phanto-f001a8-heliofi.vercel.app CNAME .
-moonpay-commerce-git-fix-com2-2711-heliofi.vercel.app CNAME .
-*.moonpay-commerce-git-fix-com2-2711-heliofi.vercel.app CNAME .
 moonpay-commerce-git-fix-com2-3952-heliofi.vercel.app CNAME .
 *.moonpay-commerce-git-fix-com2-3952-heliofi.vercel.app CNAME .
 moonpay-commerce-git-fix-com2-4528-heliofi.vercel.app CNAME .
@@ -52439,8 +52409,6 @@ moudhgsr-dp4lyapywtjw.edgeone.dev CNAME .
 *.moudhgsr-dp4lyapywtjw.edgeone.dev CNAME .
 mounjaropromocional.vercel.app CNAME .
 *.mounjaropromocional.vercel.app CNAME .
-mountaincreditunioninlogin.weebly.com CNAME .
-*.mountaincreditunioninlogin.weebly.com CNAME .
 mountaineverestadventure-yf4ltn8xeh.edgeone.dev CNAME .
 *.mountaineverestadventure-yf4ltn8xeh.edgeone.dev CNAME .
 mountaintammy.cfd CNAME .
@@ -54811,8 +54779,6 @@ netflixgpt-1-6f730.firebaseapp.com CNAME .
 *.netflixgpt-1-6f730.firebaseapp.com CNAME .
 netflixgpt-66e93.firebaseapp.com CNAME .
 *.netflixgpt-66e93.firebaseapp.com CNAME .
-netflixgpt-98554.web.app CNAME .
-*.netflixgpt-98554.web.app CNAME .
 netflixgpt-react.vercel.app CNAME .
 *.netflixgpt-react.vercel.app CNAME .
 netflixgraveyard.com CNAME .
@@ -57435,8 +57401,6 @@ opensea-kiraverse.firebaseapp.com CNAME .
 *.opensea-kiraverse.firebaseapp.com CNAME .
 opensea-kiraverse.web.app CNAME .
 *.opensea-kiraverse.web.app CNAME .
-opensea-launchpad.netlify.app CNAME .
-*.opensea-launchpad.netlify.app CNAME .
 opensea-liveclaims.web.app CNAME .
 *.opensea-liveclaims.web.app CNAME .
 opensea-login-help-cpp.pages.dev CNAME .
@@ -57771,8 +57735,6 @@ openseapro-150box.web.app CNAME .
 *.openseapro-150box.web.app CNAME .
 openseapro-claims-six.vercel.app CNAME .
 *.openseapro-claims-six.vercel.app CNAME .
-openseapro-io.firebaseapp.com CNAME .
-*.openseapro-io.firebaseapp.com CNAME .
 openseapro-mints1.vercel.app CNAME .
 *.openseapro-mints1.vercel.app CNAME .
 openseapro-mints10.vercel.app CNAME .
@@ -62765,8 +62727,6 @@ processingpaypal.ph CNAME .
 *.processingpaypal.ph CNAME .
 processo.limpar-debito.com CNAME .
 *.processo.limpar-debito.com CNAME .
-proclaim-opensea.web.app CNAME .
-*.proclaim-opensea.web.app CNAME .
 prodigyalertverification.weebly.com CNAME .
 *.prodigyalertverification.weebly.com CNAME .
 produ-banco.vercel.app CNAME .
@@ -62945,6 +62905,8 @@ projectlicks-live07.vercel.app CNAME .
 *.projectlicks-live07.vercel.app CNAME .
 projectnightcrawler.dev CNAME .
 *.projectnightcrawler.dev CNAME .
+projects.1xbet-wnnw.top CNAME .
+*.projects.1xbet-wnnw.top CNAME .
 projectshaere86727tt7823gtu7t7u7t8t77t823t78qwt78t78w2qt78.pages.dev CNAME .
 *.projectshaere86727tt7823gtu7t7u7t8t77t823t78qwt78t78w2qt78.pages.dev CNAME .
 projectshare2938er7yuh34erfu8hb3er9fuiojk3ewdiojk2w.pages.dev CNAME .
@@ -67807,8 +67769,6 @@ qantasmoney-verifications.ns01.info CNAME .
 *.qantasmoney-verifications.ns01.info CNAME .
 qanzuri-mpt-xelvoro-k9x3me75.pages.dev CNAME .
 *.qanzuri-mpt-xelvoro-k9x3me75.pages.dev CNAME .
-qareintreoplasder.weebly.com CNAME .
-*.qareintreoplasder.weebly.com CNAME .
 qasgb.duckdns.org CNAME .
 *.qasgb.duckdns.org CNAME .
 qasypouway.lovable.app CNAME .
@@ -69145,8 +69105,6 @@ recevoir-mon-paiementleboncoin.firebaseapp.com CNAME .
 *.recevoir-mon-paiementleboncoin.firebaseapp.com CNAME .
 recevoir-mon-paiementleboncoin.web.app CNAME .
 *.recevoir-mon-paiementleboncoin.web.app CNAME .
-recipes14-1ea430a53c1f.herokuapp.com CNAME .
-*.recipes14-1ea430a53c1f.herokuapp.com CNAME .
 reclaimalliance.net CNAME .
 *.reclaimalliance.net CNAME .
 reclamaparaguay.com CNAME .
@@ -72395,8 +72353,6 @@ secure-supports-coinbase.com CNAME .
 *.secure-supports-coinbase.com CNAME .
 secure-sweepskates-coinbase.com CNAME .
 *.secure-sweepskates-coinbase.com CNAME .
-secure-tompkinsonline.weebly.com CNAME .
-*.secure-tompkinsonline.weebly.com CNAME .
 secure-trezor-get-web.typedream.app CNAME .
 *.secure-trezor-get-web.typedream.app CNAME .
 secure-trezor-iostart-webs.square.site CNAME .
@@ -72747,8 +72703,6 @@ seguritypostload.duckdns.org CNAME .
 *.seguritypostload.duckdns.org CNAME .
 segurossurah360.vercel.app CNAME .
 *.segurossurah360.vercel.app CNAME .
-seguryty-cred-miles-2026--segurity5445.replit.app CNAME .
-*.seguryty-cred-miles-2026--segurity5445.replit.app CNAME .
 seguryty.vercel.app CNAME .
 *.seguryty.vercel.app CNAME .
 sei-heat.myportfolio.com CNAME .
@@ -73459,8 +73413,6 @@ shahee0y.beget.tech CNAME .
 *.shahee0y.beget.tech CNAME .
 shahzad73.casacam.net CNAME .
 *.shahzad73.casacam.net CNAME .
-shahzaib-stream.netlify.app CNAME .
-*.shahzaib-stream.netlify.app CNAME .
 shaike-restore.weebly.com CNAME .
 *.shaike-restore.weebly.com CNAME .
 shake-crack-fall.vercel.app CNAME .
@@ -79659,6 +79611,8 @@ sslproxy.gatewayvvlillylilly2.3.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylilly2.3.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-api.thegoods-cslillylillylilly-upld-stg.controllervod-qa-learningondemand.secure.mobile.csbapi.thegoodsingpmfacts.connectionsnucleusvideo.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-api.thegoods-cslillylillylilly-upld-stg.controllervod-qa-learningondemand.secure.mobile.csbapi.thegoodsingpmfacts.connectionsnucleusvideo.hicloudcam.com CNAME .
+sslproxy.gatewayvvlillylillylilly-connexion-tilillylilly.controller.cdn.recordshop.hicloudcam.com CNAME .
+*.sslproxy.gatewayvvlillylillylilly-connexion-tilillylilly.controller.cdn.recordshop.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-connexion-tilillylilly.controller.secure.img-cdn.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-connexion-tilillylilly.controller.secure.img-cdn.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-connexion-tilillylilly.controller.sierra.kilo.hicloudcam.com CNAME .
@@ -79679,6 +79633,8 @@ sslproxy.gatewayvvlillylillylilly-managelillylillylilly.assetstg.entpay.business
 *.sslproxy.gatewayvvlillylillylilly-managelillylillylilly.assetstg.entpay.businesseligibilityandpricing-nftversantweb.test.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-managelillylillylilly.assetstg.uat-api-cdn.entpay.businesseligibilityandpricing-nft.test.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-managelillylillylilly.assetstg.uat-api-cdn.entpay.businesseligibilityandpricing-nft.test.hicloudcam.com CNAME .
+sslproxy.gatewayvvlillylillylilly-managelillylillylilly.assetstgstageassets.entpay.businesseligibilityandpricing-nft.test.hicloudcam.com CNAME .
+*.sslproxy.gatewayvvlillylillylilly-managelillylillylilly.assetstgstageassets.entpay.businesseligibilityandpricing-nft.test.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-managelillylillylilly.businesseligibilityandpricing-nft.test-ondemandhls.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-managelillylillylilly.businesseligibilityandpricing-nft.test-ondemandhls.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-managelillylillylilly.controller-unqork-ironshore.hicloudcam.com CNAME .
@@ -79699,6 +79655,8 @@ sslproxy.gatewayvvlillylillylilly-managelillylillylilly.testsubarucontroller.hic
 *.sslproxy.gatewayvvlillylillylilly-managelillylillylilly.testsubarucontroller.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-managelillylillylilly.the.procosaicontrolleroriginalit.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-managelillylillylilly.the.procosaicontrolleroriginalit.hicloudcam.com CNAME .
+sslproxy.gatewayvvlillylillylilly-mtanyct.controller.hicloudcam.com CNAME .
+*.sslproxy.gatewayvvlillylillylilly-mtanyct.controller.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-server.33.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-server.33.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-stg.eventlillylillylilly-vallalat.assets-pi1procosaicontrolleroriginalit.eps.hicloudcam.com CNAME .
@@ -79789,6 +79747,8 @@ sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.capsvod-qa.cha
 *.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.capsvod-qa.chatvideo-rc-sukusuku-yukuhashi-tool.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.capsvod-qa.chatvideo.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.capsvod-qa.chatvideo.hicloudcam.com CNAME .
+sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.cdn-secure-viewer-bimg.fb.es.eu.mylabs.px.nextgen.nucleusvideo.hicloudcam.com CNAME .
+*.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.cdn-secure-viewer-bimg.fb.es.eu.mylabs.px.nextgen.nucleusvideo.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.checkin-stg1.mobilewww.cloud-controllervod-qa-learningondemand.api-student-classroom.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.checkin-stg1.mobilewww.cloud-controllervod-qa-learningondemand.api-student-classroom.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.checkin-stg1.mobilewww.cloud-controllervod-qa-learningondemand.connectionsnucleusvideo.hicloudcam.com CNAME .
@@ -80963,8 +80923,6 @@ student-finance-auth.firebaseapp.com CNAME .
 *.student-finance-auth.firebaseapp.com CNAME .
 student-finance-auth.web.app CNAME .
 *.student-finance-auth.web.app CNAME .
-student-pg.weebly.com CNAME .
-*.student-pg.weebly.com CNAME .
 studentfinance-help.firebaseapp.com CNAME .
 *.studentfinance-help.firebaseapp.com CNAME .
 studentfinance-help.web.app CNAME .
@@ -80977,6 +80935,8 @@ studio.1xbet-brqo.top CNAME .
 *.studio.1xbet-brqo.top CNAME .
 studio.1xslots-cqm.top CNAME .
 *.studio.1xslots-cqm.top CNAME .
+studio.catcasino-ezk.top CNAME .
+*.studio.catcasino-ezk.top CNAME .
 studioconvent.nl CNAME .
 *.studioconvent.nl CNAME .
 studioharborlane.bond CNAME .
@@ -83147,8 +83107,6 @@ telkomservicenet.weebly.com CNAME .
 *.telkomservicenet.weebly.com CNAME .
 telllstraaadminnn.weebly.com CNAME .
 *.telllstraaadminnn.weebly.com CNAME .
-tellsttraawebb.weebly.com CNAME .
-*.tellsttraawebb.weebly.com CNAME .
 telmexo-kxt-zenquro-c9x3dp45.pages.dev CNAME .
 *.telmexo-kxt-zenquro-c9x3dp45.pages.dev CNAME .
 telmita-gld-larquni-r8x3hp26.pages.dev CNAME .
@@ -84519,8 +84477,6 @@ tokenmintapace84.vercel.app CNAME .
 *.tokenmintapace84.vercel.app CNAME .
 tokenmintapace85.vercel.app CNAME .
 *.tokenmintapace85.vercel.app CNAME .
-tokenpocket-pro.web.app CNAME .
-*.tokenpocket-pro.web.app CNAME .
 tokenpoket-sg-cdn.click CNAME .
 *.tokenpoket-sg-cdn.click CNAME .
 tokenpvoket.pro CNAME .
@@ -86485,8 +86441,6 @@ unique-phoenix-559448.framer.app CNAME .
 *.unique-phoenix-559448.framer.app CNAME .
 unique-username-whatsapp.click CNAME .
 *.unique-username-whatsapp.click CNAME .
-uniqueassitancesupport.web.app CNAME .
-*.uniqueassitancesupport.web.app CNAME .
 uniservemailupdate.weebly.com CNAME .
 *.uniservemailupdate.weebly.com CNAME .
 unisvap.godaddysites.com CNAME .
@@ -89743,6 +89697,8 @@ webe-whatsapp.hk.cn CNAME .
 *.webe-whatsapp.hk.cn CNAME .
 webhk-ztr-whatsapp.com.cn CNAME .
 *.webhk-ztr-whatsapp.com.cn CNAME .
+webhook.1xbet-bzce.top CNAME .
+*.webhook.1xbet-bzce.top CNAME .
 webhtml202607011f461d.vercel.app CNAME .
 *.webhtml202607011f461d.vercel.app CNAME .
 webi-whatsapps.com CNAME .
@@ -89795,8 +89751,6 @@ webmail-ionos-app-suite-supreme-guide-production.up.railway.app CNAME .
 *.webmail-ionos-app-suite-supreme-guide-production.up.railway.app CNAME .
 webmail-iota.vercel.app CNAME .
 *.webmail-iota.vercel.app CNAME .
-webmail-kawartha-inbox.weebly.com CNAME .
-*.webmail-kawartha-inbox.weebly.com CNAME .
 webmail-mailsystem-staffmail-credentialupdate.mdbgo.io CNAME .
 *.webmail-mailsystem-staffmail-credentialupdate.mdbgo.io CNAME .
 webmail-management-support.framer.website CNAME .
@@ -91671,8 +91625,6 @@ wretytk.weebly.com CNAME .
 *.wretytk.weebly.com CNAME .
 wrick125.github.io CNAME .
 *.wrick125.github.io CNAME .
-wrightpatsconamineger.weebly.com CNAME .
-*.wrightpatsconamineger.weebly.com CNAME .
 writeonlinkedin.com CNAME .
 *.writeonlinkedin.com CNAME .
 writerospzm.shop CNAME .
@@ -92899,8 +92851,6 @@ xfinityemailloginauthentication.vercel.app CNAME .
 *.xfinityemailloginauthentication.vercel.app CNAME .
 xfinityemailseguuh.framer.website CNAME .
 *.xfinityemailseguuh.framer.website CNAME .
-xfinityhelplogin.weebly.com CNAME .
-*.xfinityhelplogin.weebly.com CNAME .
 xfinitylogin247.weebly.com CNAME .
 *.xfinitylogin247.weebly.com CNAME .
 xfinityloginconnect.weebly.com CNAME .
@@ -92967,8 +92917,6 @@ xfinmail.weebly.com CNAME .
 *.xfinmail.weebly.com CNAME .
 xfinnhgdgfxf.weebly.com CNAME .
 *.xfinnhgdgfxf.weebly.com CNAME .
-xfinty-email-update.weebly.com CNAME .
-*.xfinty-email-update.weebly.com CNAME .
 xfinty-email-update.weeblysite.com CNAME .
 *.xfinty-email-update.weeblysite.com CNAME .
 xfinty.vercel.app CNAME .
@@ -94649,8 +94597,6 @@ zp9iv7tr0.duckdns.org CNAME .
 *.zp9iv7tr0.duckdns.org CNAME .
 zpc-whatsapp.com.cn CNAME .
 *.zpc-whatsapp.com.cn CNAME .
-zpmbra.weebly.com CNAME .
-*.zpmbra.weebly.com CNAME .
 zptrk86bfrn-qscskr-4x7s1g-zptks55c.pages.dev CNAME .
 *.zptrk86bfrn-qscskr-4x7s1g-zptks55c.pages.dev CNAME .
 zptrk9e78gp-qscmja-4y3w0c-zptks27c.pages.dev CNAME .
