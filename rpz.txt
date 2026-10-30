@@ -1,6 +1,6 @@
 ; Title: xRuffKez CTI (Cyber Threat Intelligence)
 ; Description: Active malicious domains: phishing, malware, scams and fraud. Each entry covers the domain and all of its subdomains.
-; Entries: 42283
+; Entries: 42284
 ; Project: https://dnsbunker.org
 ; False positives: https://github.com/DNSBunker/CTI/issues
 ; Policy: CNAME . (NXDOMAIN) for each domain and its subdomains
@@ -9,7 +9,7 @@
 
 $TTL 300
 @ IN SOA localhost. admin.localhost. (
-    1793359181 ; serial (uint32)
+    1793360082 ; serial (uint32)
     3600       ; refresh  (1 hour)
     600        ; retry    (10 minutes)
     86400      ; expire   (24 hours)
@@ -34983,6 +34983,8 @@ img.91starry.com CNAME .
 *.img.91starry.com CNAME .
 img.azino777-lbl.top CNAME .
 *.img.azino777-lbl.top CNAME .
+img.mail.coinbasesuport.com CNAME .
+*.img.mail.coinbasesuport.com CNAME .
 imgetsolution-com.pages.dev CNAME .
 *.imgetsolution-com.pages.dev CNAME .
 imhsiexkoyz.abrdns.com CNAME .
