@@ -1,6 +1,6 @@
 ; Title: xRuffKez CTI (Cyber Threat Intelligence)
 ; Description: Active malicious domains: phishing, malware, scams and fraud. Each entry covers the domain and all of its subdomains.
-; Entries: 41052
+; Entries: 41059
 ; Project: https://dnsbunker.org
 ; False positives: https://github.com/DNSBunker/CTI/issues
 ; Policy: CNAME . (NXDOMAIN) for each domain and its subdomains
@@ -9,7 +9,7 @@
 
 $TTL 300
 @ IN SOA localhost. admin.localhost. (
-    1793324234 ; serial (uint32)
+    1793324836 ; serial (uint32)
     3600       ; refresh  (1 hour)
     600        ; retry    (10 minutes)
     86400      ; expire   (24 hours)
@@ -1053,6 +1053,8 @@ $TTL 300
 *.1n1jn1aja.pages.dev CNAME .
 1najrn1.pages.dev CNAME .
 *.1najrn1.pages.dev CNAME .
+1netflix.com CNAME .
+*.1netflix.com CNAME .
 1nf0fr3eyui564.start.page CNAME .
 *.1nf0fr3eyui564.start.page CNAME .
 1ngdeptry-j292.vercel.app CNAME .
@@ -2205,6 +2207,8 @@ $TTL 300
 *.48716ba0dea01.duckdns.org CNAME .
 48934mfg-kmh4843.duckdns.org CNAME .
 *.48934mfg-kmh4843.duckdns.org CNAME .
+48978365756.com CNAME .
+*.48978365756.com CNAME .
 48ad6nrnpoiodmv7eh.qwo231sdx.club CNAME .
 *.48ad6nrnpoiodmv7eh.qwo231sdx.club CNAME .
 48flkypdsag85tgvhdhvgtbunelf.qwo231sdx.club CNAME .
@@ -4245,6 +4249,8 @@ $TTL 300
 *.93339bb.com CNAME .
 93339p.com CNAME .
 *.93339p.com CNAME .
+93516365756.com CNAME .
+*.93516365756.com CNAME .
 937236-ticket.com CNAME .
 *.937236-ticket.com CNAME .
 938172kraken.com CNAME .
@@ -17105,6 +17111,8 @@ clamitemneww2021.duckdns.org CNAME .
 *.clamitemneww2021.duckdns.org CNAME .
 clanrefin.com CNAME .
 *.clanrefin.com CNAME .
+clark-coinbase.com CNAME .
+*.clark-coinbase.com CNAME .
 clarkigentillevieux.firebaseapp.com CNAME .
 *.clarkigentillevieux.firebaseapp.com CNAME .
 clarkigentillevieux.web.app CNAME .
@@ -21683,6 +21691,8 @@ dev.client.admin.ers.bofa.btinternal.dev CNAME .
 *.dev.client.admin.ers.bofa.btinternal.dev CNAME .
 dev.minepaneldashboard.com.br CNAME .
 *.dev.minepaneldashboard.com.br CNAME .
+dev.okta.1xslots-284.top CNAME .
+*.dev.okta.1xslots-284.top CNAME .
 dev.web.non-steam.com CNAME .
 *.dev.web.non-steam.com CNAME .
 dev3-ten.vercel.app CNAME .
@@ -61015,6 +61025,8 @@ revolut-app.net CNAME .
 *.revolut-app.net CNAME .
 revolut-slots.xyz CNAME .
 *.revolut-slots.xyz CNAME .
+revolutalerts.xyz CNAME .
+*.revolutalerts.xyz CNAME .
 revolutbnk.net CNAME .
 *.revolutbnk.net CNAME .
 revolutcasino.com.hr CNAME .
@@ -79341,6 +79353,8 @@ woven-knot.weebly.com CNAME .
 *.woven-knot.weebly.com CNAME .
 wow-mix.lol CNAME .
 *.wow-mix.lol CNAME .
+wow-pen.lol CNAME .
+*.wow-pen.lol CNAME .
 wowil76339.weebly.com CNAME .
 *.wowil76339.weebly.com CNAME .
 wp-logowanie.netlify.app CNAME .
