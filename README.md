@@ -1,6 +1,6 @@
 # xRuffKez CTI (Cyber Threat Intelligence)
 
-![Active domains](https://img.shields.io/badge/active_domains-42%2C227-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-43%2C763-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--30_08%3A34_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
+![Active domains](https://img.shields.io/badge/active_domains-42%2C235-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-43%2C771-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--30_08%3A54_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
 
 A continuously maintained blocklist of **active malicious domains**: phishing, malware delivery, scams, fraudulent shops and investment schemes, and the infrastructure behind them. Every entry is verified before it is published, and removed again once it is offline or no longer malicious, so the list stays current instead of growing forever.
 
@@ -9,14 +9,14 @@ A continuously maintained blocklist of **active malicious domains**: phishing, m
 
 ## At a glance
 
-<sub>as of 2026-10-30 08:34 UTC</sub>
+<sub>as of 2026-10-30 08:54 UTC</sub>
 
 | | |
 |---|---:|
-| Active domains | **42,227** |
-| Added in the last 24 hours | 43,763 |
-| Added in the last 7 days | 43,763 |
-| Added in the last 30 days | 43,763 |
+| Active domains | **42,235** |
+| Added in the last 24 hours | 43,771 |
+| Added in the last 7 days | 43,771 |
+| Added in the last 30 days | 43,771 |
 | Retired in the last 30 days (offline or cleaned up) | 0 |
 | Top-level domains represented | 225 |
 | Internationalized (IDN / punycode) domains | 0.1 % |
@@ -32,7 +32,7 @@ xychart-beta
     title "New domains per day, Oct 1 – Oct 30 (UTC)"
     x-axis ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"]
     y-axis "domains" 0 --> 50000
-    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41794, 1969]
+    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41794, 1977]
 ```
 
 ```mermaid
@@ -41,14 +41,14 @@ xychart-beta
     title "Active domains on the list, Oct 29 – Oct 30 (UTC)"
     x-axis ["29", "30"]
     y-axis "domains"
-    line [40447, 42227]
+    line [40447, 42235]
 ```
 
 <details><summary>Last 7 days as a table</summary>
 
 | Day (UTC) | Added | Retired |
 |---|---:|---:|
-| 2026-10-30 | 1,969 | 0 |
+| 2026-10-30 | 1,977 | 0 |
 | 2026-10-29 | 41,794 | 0 |
 | 2026-10-28 | 0 | 0 |
 | 2026-10-27 | 0 | 0 |
@@ -62,10 +62,10 @@ xychart-beta
 
 | # | TLD | Domains | Share | |
 |---:|---|---:|---:|---|
-| 1 | `.com` | 10,392 | 24.6 % | ████████████████████ |
+| 1 | `.com` | 10,394 | 24.6 % | ████████████████████ |
 | 2 | `.dev` | 9,662 | 22.9 % | ███████████████████ |
 | 3 | `.app` | 9,383 | 22.2 % | ██████████████████ |
-| 4 | `.org` | 3,146 | 7.5 % | ██████ |
+| 4 | `.org` | 3,146 | 7.4 % | ██████ |
 | 5 | `.io` | 1,521 | 3.6 % | ███ |
 | 6 | `.club` | 1,042 | 2.5 % | ██ |
 | 7 | `.host` | 659 | 1.6 % | █ |
@@ -75,17 +75,17 @@ xychart-beta
 | 11 | `.shop` | 391 | 0.9 % | █ |
 | 12 | `.site` | 329 | 0.8 % | █ |
 | 13 | `.ph` | 295 | 0.7 % | █ |
-| 14 | `.top` | 270 | 0.6 % | █ |
+| 14 | `.top` | 271 | 0.6 % | █ |
 | 15 | `.xyz` | 262 | 0.6 % | █ |
 
 ```mermaid
 pie showData title Share of the 5 most common TLDs
-    ".com" : 10392
+    ".com" : 10394
     ".dev" : 9662
     ".app" : 9383
     ".org" : 3146
     ".io" : 1521
-    "other" : 8123
+    "other" : 8129
 ```
 
 ## Most imitated brands
@@ -98,13 +98,13 @@ Listed domains whose name contains a well-known brand. Brand names are trademark
 | Meta / Facebook | 733 | ███████████████████ |
 | Apple / iCloud | 637 | █████████████████ |
 | Instagram | 504 | █████████████ |
-| Coinbase | 419 | ███████████ |
+| Coinbase | 420 | ███████████ |
 | PayPal | 411 | ███████████ |
 | Netflix | 378 | ██████████ |
 | OpenSea | 360 | █████████ |
 | Ledger | 275 | ███████ |
 | MetaMask | 240 | ██████ |
-| TikTok | 223 | ██████ |
+| TikTok | 224 | ██████ |
 | Telegram | 199 | █████ |
 | Microsoft / Office 365 | 171 | ████ |
 | LinkedIn | 155 | ████ |
