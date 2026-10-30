@@ -1,6 +1,6 @@
 ; Title: xRuffKez CTI (Cyber Threat Intelligence)
 ; Description: Active malicious domains: phishing, malware, scams and fraud. Each entry covers the domain and all of its subdomains.
-; Entries: 41079
+; Entries: 41081
 ; Project: https://dnsbunker.org
 ; False positives: https://github.com/DNSBunker/CTI/issues
 ; Policy: CNAME . (NXDOMAIN) for each domain and its subdomains
@@ -9,7 +9,7 @@
 
 $TTL 300
 @ IN SOA localhost. admin.localhost. (
-    1793328452 ; serial (uint32)
+    1793329356 ; serial (uint32)
     3600       ; refresh  (1 hour)
     600        ; retry    (10 minutes)
     86400      ; expire   (24 hours)
@@ -5035,6 +5035,8 @@ acces77774316.pro CNAME .
 *.acces77774316.pro CNAME .
 acces77774336.pro CNAME .
 *.acces77774336.pro CNAME .
+acces77774376.pro CNAME .
+*.acces77774376.pro CNAME .
 acces852059.pro CNAME .
 *.acces852059.pro CNAME .
 acces9164506.pro CNAME .
@@ -67121,6 +67123,8 @@ sp1ct10-lorzako-biz-vemreli.pages.dev CNAME .
 *.sp1ct10-lorzako-biz-vemreli.pages.dev CNAME .
 sp1ct10-lorzemi-biz-kavrelo.pages.dev CNAME .
 *.sp1ct10-lorzemi-biz-kavrelo.pages.dev CNAME .
+sp1ct10-lumzavi-biz-kelvoro.pages.dev CNAME .
+*.sp1ct10-lumzavi-biz-kelvoro.pages.dev CNAME .
 sp1ct10-melko-biz-ravun-vorti.pages.dev CNAME .
 *.sp1ct10-melko-biz-ravun-vorti.pages.dev CNAME .
 sp1ct10-melrek-biz-vumqo-zavti.pages.dev CNAME .
