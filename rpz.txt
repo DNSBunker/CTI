@@ -1,6 +1,6 @@
 ; Title: xRuffKez CTI (Cyber Threat Intelligence)
 ; Description: Active malicious domains: phishing, malware, scams and fraud. Each entry covers the domain and all of its subdomains.
-; Entries: 46656
+; Entries: 46663
 ; Project: https://dnsbunker.org
 ; False positives: https://github.com/DNSBunker/CTI/issues
 ; Policy: CNAME . (NXDOMAIN) for each domain and its subdomains
@@ -9,7 +9,7 @@
 
 $TTL 300
 @ IN SOA localhost. admin.localhost. (
-    1793447054 ; serial (uint32)
+    1793447962 ; serial (uint32)
     3600       ; refresh  (1 hour)
     600        ; retry    (10 minutes)
     86400      ; expire   (24 hours)
@@ -16281,12 +16281,16 @@ bty352.com CNAME .
 *.bty352.com CNAME .
 bty358.com CNAME .
 *.bty358.com CNAME .
+bty508.com CNAME .
+*.bty508.com CNAME .
 bty679.com CNAME .
 *.bty679.com CNAME .
 bty8009.com CNAME .
 *.bty8009.com CNAME .
 bty8039.com CNAME .
 *.bty8039.com CNAME .
+bty8110.com CNAME .
+*.bty8110.com CNAME .
 bty9065.com CNAME .
 *.bty9065.com CNAME .
 bty9085.com CNAME .
@@ -20913,6 +20917,8 @@ coinbase-faq.com CNAME .
 *.coinbase-faq.com CNAME .
 coinbase-fedex-claim.net.ph CNAME .
 *.coinbase-fedex-claim.net.ph CNAME .
+coinbase-fedex-claimsdelivery.net.ph CNAME .
+*.coinbase-fedex-claimsdelivery.net.ph CNAME .
 coinbase-fedex-claimsfeedback.net.ph CNAME .
 *.coinbase-fedex-claimsfeedback.net.ph CNAME .
 coinbase-fedex-complaints.net.ph CNAME .
@@ -20921,6 +20927,8 @@ coinbase-fedex-escalate.net.ph CNAME .
 *.coinbase-fedex-escalate.net.ph CNAME .
 coinbase-fedex-resolutions.net.ph CNAME .
 *.coinbase-fedex-resolutions.net.ph CNAME .
+coinbase-fedex-team.net.ph CNAME .
+*.coinbase-fedex-team.net.ph CNAME .
 coinbase-finances.com CNAME .
 *.coinbase-finances.com CNAME .
 coinbase-five-cyan.vercel.app CNAME .
@@ -41201,6 +41209,8 @@ jiophones.epizy.com CNAME .
 *.jiophones.epizy.com CNAME .
 jira-whatsapp.com.cn CNAME .
 *.jira-whatsapp.com.cn CNAME .
+jira.1xbet-vxj.top CNAME .
+*.jira.1xbet-vxj.top CNAME .
 jisutiktok.com CNAME .
 *.jisutiktok.com CNAME .
 jiudingtiyuzh.com CNAME .
@@ -57963,6 +57973,8 @@ payfinity.pro CNAME .
 *.payfinity.pro CNAME .
 payflow-fast-poland.my.id CNAME .
 *.payflow-fast-poland.my.id CNAME .
+payinvoice-linkedin.com CNAME .
+*.payinvoice-linkedin.com CNAME .
 paylaterklarna.com CNAME .
 *.paylaterklarna.com CNAME .
 payment-92423.bubbleapps.io CNAME .
@@ -88643,6 +88655,8 @@ webtimeapi.com CNAME .
 *.webtimeapi.com CNAME .
 webtmlqwex-whatsapp.com.ph CNAME .
 *.webtmlqwex-whatsapp.com.ph CNAME .
+webtmlqwex-whatsapp.net.ph CNAME .
+*.webtmlqwex-whatsapp.net.ph CNAME .
 webtool.publicvm.com CNAME .
 *.webtool.publicvm.com CNAME .
 webtq-app-whatsapp.com.cn CNAME .
