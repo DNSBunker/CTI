@@ -1,6 +1,6 @@
 # xRuffKez CTI (Cyber Threat Intelligence)
 
-![Active domains](https://img.shields.io/badge/active_domains-46%2C613-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-8%2C016-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--31_09%3A43_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
+![Active domains](https://img.shields.io/badge/active_domains-46%2C617-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-8%2C020-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--31_09%3A58_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
 
 A continuously maintained blocklist of **active malicious domains**: phishing, malware delivery, scams, fraudulent shops and investment schemes, and the infrastructure behind them. Every entry is verified before it is published, and removed again once it is offline or no longer malicious, so the list stays current instead of growing forever.
 
@@ -9,14 +9,14 @@ A continuously maintained blocklist of **active malicious domains**: phishing, m
 
 ## At a glance
 
-<sub>as of 2026-10-31 09:43 UTC</sub>
+<sub>as of 2026-10-31 09:58 UTC</sub>
 
 | | |
 |---|---:|
-| Active domains | **46,613** |
-| Added in the last 24 hours | 8,016 |
-| Added in the last 7 days | 51,815 |
-| Added in the last 30 days | 51,815 |
+| Active domains | **46,617** |
+| Added in the last 24 hours | 8,020 |
+| Added in the last 7 days | 51,819 |
+| Added in the last 30 days | 51,819 |
 | Retired in the last 30 days (offline or cleaned up) | 3,256 |
 | Top-level domains represented | 252 |
 | Internationalized (IDN / punycode) domains | 0.0 % |
@@ -32,7 +32,7 @@ xychart-beta
     title "New domains per day, Oct 2 – Oct 31 (UTC)"
     x-axis ["2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"]
     y-axis "domains" 0 --> 50000
-    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41794, 9463, 558]
+    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41794, 9463, 562]
 ```
 
 ```mermaid
@@ -41,14 +41,14 @@ xychart-beta
     title "Active domains on the list, Oct 29 – Oct 31 (UTC)"
     x-axis ["29", "30", "31"]
     y-axis "domains"
-    line [40447, 47381, 46613]
+    line [40447, 47381, 46617]
 ```
 
 <details><summary>Last 7 days as a table</summary>
 
 | Day (UTC) | Added | Retired |
 |---|---:|---:|
-| 2026-10-31 | 558 | 1,227 |
+| 2026-10-31 | 562 | 1,227 |
 | 2026-10-30 | 9,463 | 2,029 |
 | 2026-10-29 | 41,794 | 0 |
 | 2026-10-28 | 0 | 0 |
@@ -67,14 +67,14 @@ xychart-beta
 | 3 | `.app` | 7,907 | 17.0 % | ██████████████ |
 | 4 | `.org` | 3,283 | 7.0 % | ██████ |
 | 5 | `.io` | 1,545 | 3.3 % | ███ |
-| 6 | `.cn` | 1,310 | 2.8 % | ██ |
+| 6 | `.cn` | 1,311 | 2.8 % | ██ |
 | 7 | `.club` | 1,061 | 2.3 % | ██ |
 | 8 | `.pro` | 841 | 1.8 % | ██ |
 | 9 | `.shop` | 710 | 1.5 % | █ |
 | 10 | `.ph` | 689 | 1.5 % | █ |
 | 11 | `.host` | 663 | 1.4 % | █ |
 | 12 | `.net` | 651 | 1.4 % | █ |
-| 13 | `.top` | 602 | 1.3 % | █ |
+| 13 | `.top` | 603 | 1.3 % | █ |
 | 14 | `.link` | 570 | 1.2 % | █ |
 | 15 | `.xyz` | 454 | 1.0 % | █ |
 
@@ -85,7 +85,7 @@ pie showData title Share of the 5 most common TLDs
     ".app" : 7907
     ".org" : 3283
     ".io" : 1545
-    "other" : 12721
+    "other" : 12725
 ```
 
 ## Most imitated brands
@@ -94,7 +94,7 @@ Listed domains whose name contains a well-known brand. Brand names are trademark
 
 | Brand | Domains | |
 |---|---:|---|
-| WhatsApp | 2,339 | ████████████████████ |
+| WhatsApp | 2,341 | ████████████████████ |
 | Meta / Facebook | 943 | ████████ |
 | Coinbase | 922 | ████████ |
 | Apple / iCloud | 891 | ████████ |
@@ -120,7 +120,7 @@ Listed domains whose name contains a well-known brand. Brand names are trademark
 | `secure` | 401 | █████████ |
 | `wallet` | 340 | ████████ |
 | `service` | 317 | ███████ |
-| `casino` | 277 | ███████ |
+| `casino` | 278 | ███████ |
 | `update` | 272 | ██████ |
 | `auth` | 250 | ██████ |
 | `help` | 216 | █████ |
