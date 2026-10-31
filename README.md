@@ -1,6 +1,6 @@
 # xRuffKez CTI (Cyber Threat Intelligence)
 
-![Active domains](https://img.shields.io/badge/active_domains-46%2C606-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-8%2C008-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--31_09%3A08_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
+![Active domains](https://img.shields.io/badge/active_domains-46%2C611-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-8%2C013-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--31_09%3A23_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
 
 A continuously maintained blocklist of **active malicious domains**: phishing, malware delivery, scams, fraudulent shops and investment schemes, and the infrastructure behind them. Every entry is verified before it is published, and removed again once it is offline or no longer malicious, so the list stays current instead of growing forever.
 
@@ -9,14 +9,14 @@ A continuously maintained blocklist of **active malicious domains**: phishing, m
 
 ## At a glance
 
-<sub>as of 2026-10-31 09:08 UTC</sub>
+<sub>as of 2026-10-31 09:23 UTC</sub>
 
 | | |
 |---|---:|
-| Active domains | **46,606** |
-| Added in the last 24 hours | 8,008 |
-| Added in the last 7 days | 51,807 |
-| Added in the last 30 days | 51,807 |
+| Active domains | **46,611** |
+| Added in the last 24 hours | 8,013 |
+| Added in the last 7 days | 51,812 |
+| Added in the last 30 days | 51,812 |
 | Retired in the last 30 days (offline or cleaned up) | 3,256 |
 | Top-level domains represented | 252 |
 | Internationalized (IDN / punycode) domains | 0.0 % |
@@ -32,7 +32,7 @@ xychart-beta
     title "New domains per day, Oct 2 – Oct 31 (UTC)"
     x-axis ["2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"]
     y-axis "domains" 0 --> 50000
-    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41794, 9463, 550]
+    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41794, 9463, 555]
 ```
 
 ```mermaid
@@ -41,14 +41,14 @@ xychart-beta
     title "Active domains on the list, Oct 29 – Oct 31 (UTC)"
     x-axis ["29", "30", "31"]
     y-axis "domains"
-    line [40447, 47381, 46606]
+    line [40447, 47381, 46611]
 ```
 
 <details><summary>Last 7 days as a table</summary>
 
 | Day (UTC) | Added | Retired |
 |---|---:|---:|
-| 2026-10-31 | 550 | 1,227 |
+| 2026-10-31 | 555 | 1,227 |
 | 2026-10-30 | 9,463 | 2,029 |
 | 2026-10-29 | 41,794 | 0 |
 | 2026-10-28 | 0 | 0 |
@@ -62,12 +62,12 @@ xychart-beta
 
 | # | TLD | Domains | Share | |
 |---:|---|---:|---:|---|
-| 1 | `.com` | 11,169 | 24.0 % | ████████████████████ |
+| 1 | `.com` | 11,171 | 24.0 % | ████████████████████ |
 | 2 | `.dev` | 9,984 | 21.4 % | ██████████████████ |
 | 3 | `.app` | 7,907 | 17.0 % | ██████████████ |
 | 4 | `.org` | 3,283 | 7.0 % | ██████ |
 | 5 | `.io` | 1,545 | 3.3 % | ███ |
-| 6 | `.cn` | 1,309 | 2.8 % | ██ |
+| 6 | `.cn` | 1,310 | 2.8 % | ██ |
 | 7 | `.club` | 1,061 | 2.3 % | ██ |
 | 8 | `.pro` | 841 | 1.8 % | ██ |
 | 9 | `.shop` | 710 | 1.5 % | █ |
@@ -80,12 +80,12 @@ xychart-beta
 
 ```mermaid
 pie showData title Share of the 5 most common TLDs
-    ".com" : 11169
+    ".com" : 11171
     ".dev" : 9984
     ".app" : 7907
     ".org" : 3283
     ".io" : 1545
-    "other" : 12718
+    "other" : 12721
 ```
 
 ## Most imitated brands
@@ -94,13 +94,13 @@ Listed domains whose name contains a well-known brand. Brand names are trademark
 
 | Brand | Domains | |
 |---|---:|---|
-| WhatsApp | 2,338 | ████████████████████ |
+| WhatsApp | 2,339 | ████████████████████ |
 | Meta / Facebook | 943 | ████████ |
 | Coinbase | 922 | ████████ |
 | Apple / iCloud | 891 | ████████ |
 | PayPal | 839 | ███████ |
-| Netflix | 577 | █████ |
-| Instagram | 553 | █████ |
+| Netflix | 578 | █████ |
+| Instagram | 554 | █████ |
 | Telegram | 522 | ████ |
 | TikTok | 402 | ███ |
 | Ledger | 308 | ███ |
