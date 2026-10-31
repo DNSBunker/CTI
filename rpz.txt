@@ -1,6 +1,6 @@
 ; Title: xRuffKez CTI (Cyber Threat Intelligence)
 ; Description: Active malicious domains: phishing, malware, scams and fraud. Each entry covers the domain and all of its subdomains.
-; Entries: 46490
+; Entries: 46483
 ; Project: https://dnsbunker.org
 ; False positives: https://github.com/DNSBunker/CTI/issues
 ; Policy: CNAME . (NXDOMAIN) for each domain and its subdomains
@@ -9,7 +9,7 @@
 
 $TTL 300
 @ IN SOA localhost. admin.localhost. (
-    1793456709 ; serial (uint32)
+    1793457615 ; serial (uint32)
     3600       ; refresh  (1 hour)
     600        ; retry    (10 minutes)
     86400      ; expire   (24 hours)
@@ -835,8 +835,6 @@ $TTL 300
 *.16covjptzg8svzyi9h9y6ytean9tsw.qwo231sdx.club CNAME .
 16dyuw.pages.dev CNAME .
 *.16dyuw.pages.dev CNAME .
-17.sslproxy.gateway3advisorgroup-uatlatest.api.wdpro.disney.app.images.urdu-privatebank-qaalscdev2gv.hicloudcam.com CNAME .
-*.17.sslproxy.gateway3advisorgroup-uatlatest.api.wdpro.disney.app.images.urdu-privatebank-qaalscdev2gv.hicloudcam.com CNAME .
 17125coinbase.com CNAME .
 *.17125coinbase.com CNAME .
 172-104-5-58.cprapid.com CNAME .
@@ -9031,6 +9029,8 @@ app-outlook-com.ryd.wafaicloud.com CNAME .
 *.app-outlook-com.ryd.wafaicloud.com CNAME .
 app-pancakeswap.to CNAME .
 *.app-pancakeswap.to CNAME .
+app-r-3-whatsapp.com.ph CNAME .
+*.app-r-3-whatsapp.com.ph CNAME .
 app-scl74.jimdofree.com CNAME .
 *.app-scl74.jimdofree.com CNAME .
 app-sparkprotocol-io.ipns.dweb.link CNAME .
@@ -36803,6 +36803,8 @@ hjw44103a19.cfd CNAME .
 *.hjw44103a19.cfd CNAME .
 hk-ap-whatsapp.com.ph CNAME .
 *.hk-ap-whatsapp.com.ph CNAME .
+hk-iyo-whatsapp.com.ph CNAME .
+*.hk-iyo-whatsapp.com.ph CNAME .
 hk-mavi-web-whatsapp.com.cn CNAME .
 *.hk-mavi-web-whatsapp.com.cn CNAME .
 hk-pe-web-whatsapp.com.cn CNAME .
@@ -69095,6 +69097,8 @@ ricarinfia.store CNAME .
 *.ricarinfia.store CNAME .
 rich-behavior-895848.framer.app CNAME .
 *.rich-behavior-895848.framer.app CNAME .
+rich-whatsapp.com CNAME .
+*.rich-whatsapp.com CNAME .
 richard-id7948-vwxs.vercel.app CNAME .
 *.richard-id7948-vwxs.vercel.app CNAME .
 richcoding.vercel.app CNAME .
@@ -78109,16 +78113,12 @@ sslproxy.gateway.investmentbank.v.gateway-i-php-i33.cgateway-php.hicloudcam.com 
 *.sslproxy.gateway.investmentbank.v.gateway-i-php-i33.cgateway-php.hicloudcam.com CNAME .
 sslproxy.gateway.v-panel.gateway-phpclient3.hicloudcam.com CNAME .
 *.sslproxy.gateway.v-panel.gateway-phpclient3.hicloudcam.com CNAME .
-sslproxy.gateway.v-telefe.adp.gateway-i-php-i33.mimhdi.secure.mobile.victorchandleradp-php.hicloudcam.com CNAME .
-*.sslproxy.gateway.v-telefe.adp.gateway-i-php-i33.mimhdi.secure.mobile.victorchandleradp-php.hicloudcam.com CNAME .
 sslproxy.gateway.v.gateway-i-php-i33.www.kpmg.beta.invest.hicloudcam.com CNAME .
 *.sslproxy.gateway.v.gateway-i-php-i33.www.kpmg.beta.invest.hicloudcam.com CNAME .
 sslproxy.gateway.v.vhqmcd.cdn-gateway-i-php-i33.www-orgstoreqa2live.shopcgateway-phpacademy-westonfoods.hicloudcam.com CNAME .
 *.sslproxy.gateway.v.vhqmcd.cdn-gateway-i-php-i33.www-orgstoreqa2live.shopcgateway-phpacademy-westonfoods.hicloudcam.com CNAME .
 sslproxy.gateway3-ghv-gatewaysit-qc-routing.qa.aptve-fox.producweb-cdn.hicloudcam.com CNAME .
 *.sslproxy.gateway3-ghv-gatewaysit-qc-routing.qa.aptve-fox.producweb-cdn.hicloudcam.com CNAME .
-sslproxy.gateway3-ghv-gatewaysit.bofa.onlinepayroll-gatewayh-isgp.hicloudcam.com CNAME .
-*.sslproxy.gateway3-ghv-gatewaysit.bofa.onlinepayroll-gatewayh-isgp.hicloudcam.com CNAME .
 sslproxy.gateway3-ghv-gatewaysit.gatewayh-isgp-laminas-api-hml.hicloudcam.com CNAME .
 *.sslproxy.gateway3-ghv-gatewaysit.gatewayh-isgp-laminas-api-hml.hicloudcam.com CNAME .
 sslproxy.gateway3-ghv-gatewaysit.gatewayh-isgp-toyota-offer.hicloudcam.com CNAME .
@@ -78137,8 +78137,6 @@ sslproxy.gateway3.nonsoloculturacms.hicloudcam.com CNAME .
 *.sslproxy.gateway3.nonsoloculturacms.hicloudcam.com CNAME .
 sslproxy.gateway3.rapi.nowtv.it.recs.internalsengineeringv.hicloudcam.com CNAME .
 *.sslproxy.gateway3.rapi.nowtv.it.recs.internalsengineeringv.hicloudcam.com CNAME .
-sslproxy.gateway3.www-travelers-staging-internalsengineeringv.hicloudcam.com CNAME .
-*.sslproxy.gateway3.www-travelers-staging-internalsengineeringv.hicloudcam.com CNAME .
 sslproxy.gateway3advisorgroup-uat-livewire.app.ariba-commerce-api.check.migrationbank-qaalsengineeringv.hicloudcam.com CNAME .
 *.sslproxy.gateway3advisorgroup-uat-livewire.app.ariba-commerce-api.check.migrationbank-qaalsengineeringv.hicloudcam.com CNAME .
 sslproxy.gateway3advisorgroup-uat-livewire.app.ariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
@@ -78183,8 +78181,6 @@ sslproxy.gateway3advisorgroup-uat.app.pbchatmotor-ariba-privatewww.networkservic
 *.sslproxy.gateway3advisorgroup-uat.app.pbchatmotor-ariba-privatewww.networkservices-qaalsengineeringv.hicloudcam.com CNAME .
 sslproxy.gateway3advisorgroup-uat.app.pt-stage1-ariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
 *.sslproxy.gateway3advisorgroup-uat.app.pt-stage1-ariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
-sslproxy.gateway3advisorgroup-uat.app.transitchicago-2016-design.kenshin.hicloudcam.com CNAME .
-*.sslproxy.gateway3advisorgroup-uat.app.transitchicago-2016-design.kenshin.hicloudcam.com CNAME .
 sslproxy.gateway3advisorgroup-uat.app.user-management.test.cloudariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
 *.sslproxy.gateway3advisorgroup-uat.app.user-management.test.cloudariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
 sslproxy.gateway3advisorgroup-uat.appimplementation.ariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
@@ -78197,8 +78193,6 @@ sslproxy.gateway3advisorgroup-uat.fan.cy.app.ariba-fedsvcsatebank-qaalsengineeri
 *.sslproxy.gateway3advisorgroup-uat.fan.cy.app.ariba-fedsvcsatebank-qaalsengineeringvindustrialsealsexpertqa.hicloudcam.com CNAME .
 sslproxy.gateway3advisorgroup-uat.m.qa-enapp.pt-stage1-ariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
 *.sslproxy.gateway3advisorgroup-uat.m.qa-enapp.pt-stage1-ariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
-sslproxy.gateway3advisorgroup-uat.stage-gat-app.ariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
-*.sslproxy.gateway3advisorgroup-uat.stage-gat-app.ariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
 sslproxy.gateway3advisorgroup-uat.www.grantsapp.ariba-privatwww.thrive-matomo.wdprapps-qaalsengineeringv.hicloudcam.com CNAME .
 *.sslproxy.gateway3advisorgroup-uat.www.grantsapp.ariba-privatwww.thrive-matomo.wdprapps-qaalsengineeringv.hicloudcam.com CNAME .
 sslproxy.gateway3advisorgroup.ariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
@@ -78313,8 +78307,6 @@ sslproxy.gatewayvvlillylillylilly-managelillylillylilly.procosaicontrollerlupusa
 *.sslproxy.gatewayvvlillylillylilly-managelillylillylilly.procosaicontrollerlupusalit.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-managelillylillylilly.testsubarucontroller.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-managelillylillylilly.testsubarucontroller.hicloudcam.com CNAME .
-sslproxy.gatewayvvlillylillylilly-managelillylillylilly.the.procosaicontrolleroriginalit.hicloudcam.com CNAME .
-*.sslproxy.gatewayvvlillylillylilly-managelillylillylilly.the.procosaicontrolleroriginalit.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-mtanyct.controller.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-mtanyct.controller.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-stg.eventlillylillylilly-vallalat.procosaicontrolleroriginalit.eps.hicloudcam.com CNAME .
@@ -78347,16 +78339,12 @@ sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg-prj.voiclicws.
 *.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg-prj.voiclicws.cdn-platformlervod-qa.nucleusvideo.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg-prj.voiclicws.dc.dnalervod-qa.usvcsvideo.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg-prj.voiclicws.dc.dnalervod-qa.usvcsvideo.hicloudcam.com CNAME .
-sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg-prj.voiclicws.fedidptst.nucleusvideo.hicloudcam.com CNAME .
-*.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg-prj.voiclicws.fedidptst.nucleusvideo.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg-www.firsttimescreenwriters-q.s4-smc-api-cdn.ecom-stgcontrollervod-qa.nucleusvideo.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg-www.firsttimescreenwriters-q.s4-smc-api-cdn.ecom-stgcontrollervod-qa.nucleusvideo.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg-www.firsttimescreenwriters-q.s4-smc-api-cdn.ecom-stgcontrollervolunteer-stg.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg-www.firsttimescreenwriters-q.s4-smc-api-cdn.ecom-stgcontrollervolunteer-stg.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.analyticseu-qa.cashmanageronline-nucleusvideo.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.analyticseu-qa.cashmanageronline-nucleusvideo.hicloudcam.com CNAME .
-sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.api-gw.osp.one-controllervod-qa.nucleusvideo.hicloudcam.com CNAME .
-*.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.api-gw.osp.one-controllervod-qa.nucleusvideo.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.boleto-qalepodownload.nucleusvideo.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.boleto-qalepodownload.nucleusvideo.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.cdn-secure-viewer-bimg.fb.es.eu.mylabs.px.nextgen.nucleusvideo.hicloudcam.com CNAME .
@@ -78367,8 +78355,6 @@ sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.controllervod-
 *.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.controllervod-qa-commercialid-qa3.connectionsnucleusvideo.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.controllervod-qa-go2.nucleusvideo.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.controllervod-qa-go2.nucleusvideo.hicloudcam.com CNAME .
-sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.controllervod-qa-hawaiian.connectionsnucleusvideo.pb2.payments.hicloudcam.com CNAME .
-*.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.controllervod-qa-hawaiian.connectionsnucleusvideo.pb2.payments.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.controllervod-qa-learningondemand-nft01-authorise.connectionsnucleusvideo.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.controllervod-qa-learningondemand-nft01-authorise.connectionsnucleusvideo.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.controllervod-qa-learningondemand-www-strategyand-az-preprod.connectionsnucleusvideo.hicloudcam.com CNAME .
@@ -78441,8 +78427,6 @@ sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.memberapps.upr
 *.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.memberapps.uprd.acgcontrollervod-qa.nucleusvideo.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.mylabs.podjetjepx.nextgen.nucleusvideo.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.mylabs.podjetjepx.nextgen.nucleusvideo.hicloudcam.com CNAME .
-sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.mylabs.px.s4.rcanextgen.nucleusvideo.hicloudcam.com CNAME .
-*.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.mylabs.px.s4.rcanextgen.nucleusvideo.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.namidp-controllervod-qa-learningondemand.nucleusvideo.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.namidp-controllervod-qa-learningondemand.nucleusvideo.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.pers-tstlervod-qa-learningondemand.connectionsnucleusvideowww.nasic.hicloudcam.com CNAME .
@@ -78457,8 +78441,6 @@ sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.stagefailoverv
 *.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.stagefailovervod-qa.nucleusvideo.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.tacapigateway.des-devlervod-qa.nucleusvideo.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.tacapigateway.des-devlervod-qa.nucleusvideo.hicloudcam.com CNAME .
-sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.taccontrollervod-qa.static.us-east-1.everywhere-nucleusvideo.hicloudcam.com CNAME .
-*.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.taccontrollervod-qa.static.us-east-1.everywhere-nucleusvideo.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.uat.logonnew-controllervod-qa.jdnow-api-contentapistoragestnucleusvideo.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.uat.logonnew-controllervod-qa.jdnow-api-contentapistoragestnucleusvideo.hicloudcam.com CNAME .
 sslproxy.gatewayvvlillylillylilly-test-cslillylillylilly-upld-stg.uat1-transec.saltlakecity.gleaguevideo.hicloudcam.com CNAME .
@@ -84143,6 +84125,8 @@ trustwalletchain.com CNAME .
 *.trustwalletchain.com CNAME .
 trustwalletcrypto.com CNAME .
 *.trustwalletcrypto.com CNAME .
+trustwalletex.com CNAME .
+*.trustwalletex.com CNAME .
 trustwalletffm.com CNAME .
 *.trustwalletffm.com CNAME .
 trustwalletflasher.net CNAME .
@@ -89517,6 +89501,8 @@ whouaquessequesais.web.app CNAME .
 *.whouaquessequesais.web.app CNAME .
 whp-web-whatsapp.com.cn CNAME .
 *.whp-web-whatsapp.com.cn CNAME .
+wht-appf.com CNAME .
+*.wht-appf.com CNAME .
 whum-meta-glon-biz.pages.dev CNAME .
 *.whum-meta-glon-biz.pages.dev CNAME .
 whyte11chase-dpkso5utb08y.edgeone.dev CNAME .
