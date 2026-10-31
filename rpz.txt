@@ -1,6 +1,6 @@
 ; Title: xRuffKez CTI (Cyber Threat Intelligence)
 ; Description: Active malicious domains: phishing, malware, scams and fraud. Each entry covers the domain and all of its subdomains.
-; Entries: 46575
+; Entries: 46572
 ; Project: https://dnsbunker.org
 ; False positives: https://github.com/DNSBunker/CTI/issues
 ; Policy: CNAME . (NXDOMAIN) for each domain and its subdomains
@@ -9,7 +9,7 @@
 
 $TTL 300
 @ IN SOA localhost. admin.localhost. (
-    1793454597 ; serial (uint32)
+    1793455801 ; serial (uint32)
     3600       ; refresh  (1 hour)
     600        ; retry    (10 minutes)
     86400      ; expire   (24 hours)
@@ -3109,6 +3109,8 @@ $TTL 300
 *.53952815e0429b07bb3f41951d4638567.pages.dev CNAME .
 53999p.com CNAME .
 *.53999p.com CNAME .
+53dhl.top CNAME .
+*.53dhl.top CNAME .
 53rdinfosec.duckdns.org CNAME .
 *.53rdinfosec.duckdns.org CNAME .
 540qkoz4qdqpx-pages-dev.translate.goog CNAME .
@@ -12737,6 +12739,8 @@ barokah345.duckdns.org CNAME .
 *.barokah345.duckdns.org CNAME .
 baronns.click CNAME .
 *.baronns.click CNAME .
+barren-whatsapp.com.cn CNAME .
+*.barren-whatsapp.com.cn CNAME .
 bartek-pl.shop CNAME .
 *.bartek-pl.shop CNAME .
 bartekbaby.shop CNAME .
@@ -21211,6 +21215,8 @@ coinbaseak.com CNAME .
 *.coinbaseak.com CNAME .
 coinbaseam.com CNAME .
 *.coinbaseam.com CNAME .
+coinbaseapp.com CNAME .
+*.coinbaseapp.com CNAME .
 coinbaseapp.com.cn CNAME .
 *.coinbaseapp.com.cn CNAME .
 coinbaseapps.com CNAME .
@@ -46923,6 +46929,8 @@ m.1036z.com CNAME .
 *.m.1036z.com CNAME .
 m.1198204.com CNAME .
 *.m.1198204.com CNAME .
+m.1377sy.com CNAME .
+*.m.1377sy.com CNAME .
 m.15115r.com CNAME .
 *.m.15115r.com CNAME .
 m.284849.com CNAME .
@@ -58079,6 +58087,8 @@ paypal-arriveapproval.com CNAME .
 *.paypal-arriveapproval.com CNAME .
 paypal-arrivesapprovals.com CNAME .
 *.paypal-arrivesapprovals.com CNAME .
+paypal-atcontrol.com CNAME .
+*.paypal-atcontrol.com CNAME .
 paypal-atmanage.com CNAME .
 *.paypal-atmanage.com CNAME .
 paypal-authclaim.com CNAME .
@@ -58925,6 +58935,8 @@ paypallconfirmations2.com.ph CNAME .
 *.paypallconfirmations2.com.ph CNAME .
 paypallimitedcenters.ph CNAME .
 *.paypallimitedcenters.ph CNAME .
+paypallimitedinc.ph CNAME .
+*.paypallimitedinc.ph CNAME .
 paypallogi.wixstudio.com CNAME .
 *.paypallogi.wixstudio.com CNAME .
 paypalloginin-usa.blogspot.com.cy CNAME .
@@ -78145,10 +78157,6 @@ sslproxy.gateway3-ghv-gatewaysit.gatewayh-isgp-toyota-offer.hicloudcam.com CNAME
 *.sslproxy.gateway3-ghv-gatewaysit.gatewayh-isgp-toyota-offer.hicloudcam.com CNAME .
 sslproxy.gateway3-ghv-gatewaysit.gatewayh-isgp-whytelstra.hicloudcam.com CNAME .
 *.sslproxy.gateway3-ghv-gatewaysit.gatewayh-isgp-whytelstra.hicloudcam.com CNAME .
-sslproxy.gateway3-ghv-gatewaysit.gatewayh-isgp-www.kpmg.pilot.uat.invest.hicloudcam.com CNAME .
-*.sslproxy.gateway3-ghv-gatewaysit.gatewayh-isgp-www.kpmg.pilot.uat.invest.hicloudcam.com CNAME .
-sslproxy.gateway3-ghv-gatewaysit.ssai.console.primetimegatewayh-isgp.hicloudcam.com CNAME .
-*.sslproxy.gateway3-ghv-gatewaysit.ssai.console.primetimegatewayh-isgp.hicloudcam.com CNAME .
 sslproxy.gateway3-ghv-luat01-mlp-apis-rk-b.digital.gatewayh-isgp.hicloudcam.com CNAME .
 *.sslproxy.gateway3-ghv-luat01-mlp-apis-rk-b.digital.gatewayh-isgp.hicloudcam.com CNAME .
 sslproxy.gateway3.federalreservehistory-qa.internalsengineeringv.hicloudcam.com CNAME .
@@ -78171,10 +78179,6 @@ sslproxy.gateway3advisorgroup-uat-livewire.app.ariba-commerce-api.check.migratio
 *.sslproxy.gateway3advisorgroup-uat-livewire.app.ariba-commerce-api.check.migrationbank-qaalsengineeringv.hicloudcam.com CNAME .
 sslproxy.gateway3advisorgroup-uat-livewire.app.ariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
 *.sslproxy.gateway3advisorgroup-uat-livewire.app.ariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
-sslproxy.gateway3advisorgroup-uat-tableau.bi.app-ffsc.dev.ariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
-*.sslproxy.gateway3advisorgroup-uat-tableau.bi.app-ffsc.dev.ariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
-sslproxy.gateway3advisorgroup-uat-tableau.bi.app.ariba-privatebank-qaalsengineeringv-webps3.hicloudcam.com CNAME .
-*.sslproxy.gateway3advisorgroup-uat-tableau.bi.app.ariba-privatebank-qaalsengineeringv-webps3.hicloudcam.com CNAME .
 sslproxy.gateway3advisorgroup-uat-tableau.bi.app.ariba-privatebank-qaalsusshortsaleeringv.hicloudcam.com CNAME .
 *.sslproxy.gateway3advisorgroup-uat-tableau.bi.app.ariba-privatebank-qaalsusshortsaleeringv.hicloudcam.com CNAME .
 sslproxy.gateway3advisorgroup-uat-tableau.bi.appwww.partenaires.ariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
@@ -78187,8 +78191,6 @@ sslproxy.gateway3advisorgroup-uat-tableaustgeapl.kids.etpt.bi.app.ariba-privateb
 *.sslproxy.gateway3advisorgroup-uat-tableaustgeapl.kids.etpt.bi.app.ariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
 sslproxy.gateway3advisorgroup-uat-uat3-expensewizard.app.ariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
 *.sslproxy.gateway3advisorgroup-uat-uat3-expensewizard.app.ariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
-sslproxy.gateway3advisorgroup-uat-webmodule.ppe2.app.ariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
-*.sslproxy.gateway3advisorgroup-uat-webmodule.ppe2.app.ariba-privatebank-qaalsengineeringv.hicloudcam.com CNAME .
 sslproxy.gateway3advisorgroup-uat.app.ariba-cs.devatebank-pre.client.wc.ue1.app-www.hicloudcam.com CNAME .
 *.sslproxy.gateway3advisorgroup-uat.app.ariba-cs.devatebank-pre.client.wc.ue1.app-www.hicloudcam.com CNAME .
 sslproxy.gateway3advisorgroup-uat.app.ariba-cs.devatebank-pre.www.hicloudcam.com CNAME .
@@ -78277,8 +78279,6 @@ sslproxy.gateway3advisorgroupuat-r.ariba-internalsengineeringvsecure-archerext-s
 *.sslproxy.gateway3advisorgroupuat-r.ariba-internalsengineeringvsecure-archerext-si.hicloudcam.com CNAME .
 sslproxy.gateway3advisorgroupuat-r.ariba-internalsnextolympichopefuleringv.hicloudcam.com CNAME .
 *.sslproxy.gateway3advisorgroupuat-r.ariba-internalsnextolympichopefuleringv.hicloudcam.com CNAME .
-sslproxy.gateway3advisorgroupuat-r.ariba-internalsss-pen-consumereringv.hicloudcam.com CNAME .
-*.sslproxy.gateway3advisorgroupuat-r.ariba-internalsss-pen-consumereringv.hicloudcam.com CNAME .
 sslproxy.gateway3advisorgroupuat-r.ariba-iplsdevserviceseringv.hicloudcam.com CNAME .
 *.sslproxy.gateway3advisorgroupuat-r.ariba-iplsdevserviceseringv.hicloudcam.com CNAME .
 sslproxy.gateway3advisorgroupuat-r.ariba-octavia-stage.api.bi-preprod.hicloudcam.com CNAME .
@@ -78291,8 +78291,6 @@ sslproxy.gateway3advisorgroupuat-r.sandbox.versendentest-dlt-internalsengineerin
 *.sslproxy.gateway3advisorgroupuat-r.sandbox.versendentest-dlt-internalsengineeringv.hicloudcam.com CNAME .
 sslproxy.gateway3advisorgroupuat-r.screens.es-ezbook.hicloudcam.com CNAME .
 *.sslproxy.gateway3advisorgroupuat-r.screens.es-ezbook.hicloudcam.com CNAME .
-sslproxy.gateway3advisorgroupuat-r.secure.mobile.comeon-ariba-internalsengineeringv.hicloudcam.com CNAME .
-*.sslproxy.gateway3advisorgroupuat-r.secure.mobile.comeon-ariba-internalsengineeringv.hicloudcam.com CNAME .
 sslproxy.gateway3advisorgroupuat-r.test-dlt-internalsengineeringv.hicloudcam.com CNAME .
 *.sslproxy.gateway3advisorgroupuat-r.test-dlt-internalsengineeringv.hicloudcam.com CNAME .
 sslproxy.gateway3advisorgroupuat-r.test.client-profile.wem.hydra-cruxariba-internalsengineeringv.hicloudcam.com CNAME .
@@ -78353,8 +78351,6 @@ sslproxy.gatewayvvlilly.33333.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlilly.33333.hicloudcam.com CNAME .
 sslproxy.gatewayvvlilly1lilly.33.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlilly1lilly.33.hicloudcam.com CNAME .
-sslproxy.gatewayvvlilly1lilly.hicloudcam.com CNAME .
-*.sslproxy.gatewayvvlilly1lilly.hicloudcam.com CNAME .
 sslproxy.gatewayvvlilly2.33.hicloudcam.com CNAME .
 *.sslproxy.gatewayvvlilly2.33.hicloudcam.com CNAME .
 sslproxy.gatewayvvlilly2.hicloudcam.com CNAME .
@@ -78885,8 +78881,6 @@ stagesuccess.wpengine.com CNAME .
 *.stagesuccess.wpengine.com CNAME .
 staging.assist-gat.com CNAME .
 *.staging.assist-gat.com CNAME .
-staging.authorizations-coinbase.com CNAME .
-*.staging.authorizations-coinbase.com CNAME .
 staging.djzbxye86em11.amplifyapp.com CNAME .
 *.staging.djzbxye86em11.amplifyapp.com CNAME .
 staging.superset.whatsappphone.com CNAME .
