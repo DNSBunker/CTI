@@ -1,6 +1,6 @@
 ; Title: xRuffKez CTI (Cyber Threat Intelligence)
 ; Description: Active malicious domains: phishing, malware, scams and fraud. Each entry covers the domain and all of its subdomains.
-; Entries: 46618
+; Entries: 46622
 ; Project: https://dnsbunker.org
 ; False positives: https://github.com/DNSBunker/CTI/issues
 ; Policy: CNAME . (NXDOMAIN) for each domain and its subdomains
@@ -9,7 +9,7 @@
 
 $TTL 300
 @ IN SOA localhost. admin.localhost. (
-    1793441619 ; serial (uint32)
+    1793442523 ; serial (uint32)
     3600       ; refresh  (1 hour)
     600        ; retry    (10 minutes)
     86400      ; expire   (24 hours)
@@ -9119,6 +9119,8 @@ app.resgatlivelx.click CNAME .
 *.app.resgatlivelx.click CNAME .
 app.thorrswap.finance CNAME .
 *.app.thorrswap.finance CNAME .
+app.whatsappsolution.com CNAME .
+*.app.whatsappsolution.com CNAME .
 app3-smsvn.firebaseapp.com CNAME .
 *.app3-smsvn.firebaseapp.com CNAME .
 app3-smsvn.web.app CNAME .
@@ -22793,6 +22795,8 @@ coria.webflow.io CNAME .
 *.coria.webflow.io CNAME .
 cornergoldensignal.bond CNAME .
 *.cornergoldensignal.bond CNAME .
+cornmvault.com CNAME .
+*.cornmvault.com CNAME .
 corpmail.vercel.app CNAME .
 *.corpmail.vercel.app CNAME .
 corporate-organization-main.44477938.workers.dev CNAME .
@@ -32145,6 +32149,8 @@ form8865155.pro CNAME .
 *.form8865155.pro CNAME .
 formation-facebook.fr CNAME .
 *.formation-facebook.fr CNAME .
+formation-linkedin-prospecter.com CNAME .
+*.formation-linkedin-prospecter.com CNAME .
 formatphototoinstagram.com CNAME .
 *.formatphototoinstagram.com CNAME .
 formob-cf1e8.firebaseapp.com CNAME .
@@ -69733,6 +69739,8 @@ rswcwm-whatsapp.com.ph CNAME .
 *.rswcwm-whatsapp.com.ph CNAME .
 rswevk-whatsapp.org.ph CNAME .
 *.rswevk-whatsapp.org.ph CNAME .
+rswgrt-whatsapp.com.ph CNAME .
+*.rswgrt-whatsapp.com.ph CNAME .
 rswjzf-whatsapp.com.ph CNAME .
 *.rswjzf-whatsapp.com.ph CNAME .
 rswjzn-whatsapp.com.ph CNAME .
