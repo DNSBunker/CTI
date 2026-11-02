@@ -1,6 +1,6 @@
 ; Title: xRuffKez CTI (Cyber Threat Intelligence)
 ; Description: Active malicious domains: phishing, malware, scams and fraud. Each entry covers the domain and all of its subdomains.
-; Entries: 222307
+; Entries: 222360
 ; Project: https://dnsbunker.org
 ; False positives: https://github.com/DNSBunker/CTI/issues
 ; Policy: CNAME . (NXDOMAIN) for each domain and its subdomains
@@ -9,7 +9,7 @@
 
 $TTL 300
 @ IN SOA localhost. admin.localhost. (
-    1793634596 ; serial (uint32)
+    1793635524 ; serial (uint32)
     3600       ; refresh  (1 hour)
     600        ; retry    (10 minutes)
     86400      ; expire   (24 hours)
@@ -2299,6 +2299,16 @@ $TTL 300
 *.1.hmav6199.cc CNAME .
 1.hmav6200.cc CNAME .
 *.1.hmav6200.cc CNAME .
+1.hmav6576.cc CNAME .
+*.1.hmav6576.cc CNAME .
+1.hmav6577.cc CNAME .
+*.1.hmav6577.cc CNAME .
+1.hmav6578.cc CNAME .
+*.1.hmav6578.cc CNAME .
+1.hmav6611.cc CNAME .
+*.1.hmav6611.cc CNAME .
+1.hmav6613.cc CNAME .
+*.1.hmav6613.cc CNAME .
 1.j4650xxx.cc CNAME .
 *.1.j4650xxx.cc CNAME .
 1.j4752xxx.cc CNAME .
@@ -2315,6 +2325,8 @@ $TTL 300
 *.1.j4759xxx.cc CNAME .
 1.j4760xxx.cc CNAME .
 *.1.j4760xxx.cc CNAME .
+1.j5208xxx.cc CNAME .
+*.1.j5208xxx.cc CNAME .
 1.metro.abrdns.com CNAME .
 *.1.metro.abrdns.com CNAME .
 1.seniu4600.cc CNAME .
@@ -3683,6 +3695,8 @@ $TTL 300
 *.12fb5c451a1cff1d.com CNAME .
 12fee.top CNAME .
 *.12fee.top CNAME .
+12jhzsfdsa.xqbyxl0428.indevs.in CNAME .
+*.12jhzsfdsa.xqbyxl0428.indevs.in CNAME .
 12kk8.com CNAME .
 *.12kk8.com CNAME .
 12points.se CNAME .
@@ -7289,6 +7303,8 @@ $TTL 300
 *.2.hmav6208.cc CNAME .
 2.hmav6209.cc CNAME .
 *.2.hmav6209.cc CNAME .
+2.hmav6581.cc CNAME .
+*.2.hmav6581.cc CNAME .
 2.iu.abrdns.com CNAME .
 *.2.iu.abrdns.com CNAME .
 2.seniu4389.cc CNAME .
@@ -11529,6 +11545,12 @@ $TTL 300
 *.3.hmav6219.cc CNAME .
 3.hmav6220.cc CNAME .
 *.3.hmav6220.cc CNAME .
+3.hmav6586.cc CNAME .
+*.3.hmav6586.cc CNAME .
+3.hmav6621.cc CNAME .
+*.3.hmav6621.cc CNAME .
+3.hmav6625.cc CNAME .
+*.3.hmav6625.cc CNAME .
 3.j4762xxx.cc CNAME .
 *.3.j4762xxx.cc CNAME .
 3.j4764xxx.cc CNAME .
@@ -16061,6 +16083,14 @@ $TTL 300
 *.4.hmav6229.cc CNAME .
 4.hmav6230.cc CNAME .
 *.4.hmav6230.cc CNAME .
+4.hmav6592.cc CNAME .
+*.4.hmav6592.cc CNAME .
+4.hmav6594.cc CNAME .
+*.4.hmav6594.cc CNAME .
+4.hmav6628.cc CNAME .
+*.4.hmav6628.cc CNAME .
+4.hmav6630.cc CNAME .
+*.4.hmav6630.cc CNAME .
 4.hzdfthr009.top CNAME .
 *.4.hzdfthr009.top CNAME .
 4.j4602xxx.cc CNAME .
@@ -16091,6 +16121,8 @@ $TTL 300
 *.4.j4778xxx.cc CNAME .
 4.j4779xxx.cc CNAME .
 *.4.j4779xxx.cc CNAME .
+4.j5233xxx.cc CNAME .
+*.4.j5233xxx.cc CNAME .
 4.seniu4662.cc CNAME .
 *.4.seniu4662.cc CNAME .
 4.seniu4665.cc CNAME .
@@ -18165,6 +18197,16 @@ $TTL 300
 *.5.hmav6238.cc CNAME .
 5.hmav6239.cc CNAME .
 *.5.hmav6239.cc CNAME .
+5.hmav6598.cc CNAME .
+*.5.hmav6598.cc CNAME .
+5.hmav6599.cc CNAME .
+*.5.hmav6599.cc CNAME .
+5.hmav6631.cc CNAME .
+*.5.hmav6631.cc CNAME .
+5.hmav6634.cc CNAME .
+*.5.hmav6634.cc CNAME .
+5.hmav6635.cc CNAME .
+*.5.hmav6635.cc CNAME .
 5.j4607xxx.cc CNAME .
 *.5.j4607xxx.cc CNAME .
 5.j4711xxx.cc CNAME .
@@ -18185,6 +18227,10 @@ $TTL 300
 *.5.j4788xxx.cc CNAME .
 5.j4790xxx.cc CNAME .
 *.5.j4790xxx.cc CNAME .
+5.j5237xxx.cc CNAME .
+*.5.j5237xxx.cc CNAME .
+5.j5244xxx.cc CNAME .
+*.5.j5244xxx.cc CNAME .
 5.pl.abrdns.com CNAME .
 *.5.pl.abrdns.com CNAME .
 5.seniu4563.cc CNAME .
@@ -20875,6 +20921,8 @@ $TTL 300
 *.60100.app CNAME .
 60101.app CNAME .
 *.60101.app CNAME .
+60106.app CNAME .
+*.60106.app CNAME .
 60108.app CNAME .
 *.60108.app CNAME .
 6012af51ea6bc381.com CNAME .
@@ -22699,8 +22747,6 @@ $TTL 300
 *.6881n.com CNAME .
 6882b.com CNAME .
 *.6882b.com CNAME .
-688318.xyz CNAME .
-*.688318.xyz CNAME .
 688567.top CNAME .
 *.688567.top CNAME .
 6886b.com CNAME .
@@ -26191,6 +26237,16 @@ $TTL 300
 *.8.hmav6249.cc CNAME .
 8.hmav6250.cc CNAME .
 *.8.hmav6250.cc CNAME .
+8.hmav6603.cc CNAME .
+*.8.hmav6603.cc CNAME .
+8.hmav6604.cc CNAME .
+*.8.hmav6604.cc CNAME .
+8.hmav6638.cc CNAME .
+*.8.hmav6638.cc CNAME .
+8.hmav6639.cc CNAME .
+*.8.hmav6639.cc CNAME .
+8.hmav6640.cc CNAME .
+*.8.hmav6640.cc CNAME .
 8.inveestbeginnerguiede.com CNAME .
 *.8.inveestbeginnerguiede.com CNAME .
 8.j4744xxx.cc CNAME .
@@ -29273,6 +29329,16 @@ $TTL 300
 *.9.hmav6259.cc CNAME .
 9.hmav6260.cc CNAME .
 *.9.hmav6260.cc CNAME .
+9.hmav6607.cc CNAME .
+*.9.hmav6607.cc CNAME .
+9.hmav6609.cc CNAME .
+*.9.hmav6609.cc CNAME .
+9.hmav6610.cc CNAME .
+*.9.hmav6610.cc CNAME .
+9.hmav6643.cc CNAME .
+*.9.hmav6643.cc CNAME .
+9.hmav6644.cc CNAME .
+*.9.hmav6644.cc CNAME .
 9.jy.abrdns.com CNAME .
 *.9.jy.abrdns.com CNAME .
 9.net-whatsapp.com CNAME .
@@ -62855,6 +62921,8 @@ bbrobx.blogspot.rs CNAME .
 *.bbrobx.blogspot.rs CNAME .
 bbrobx.blogspot.ru CNAME .
 *.bbrobx.blogspot.ru CNAME .
+bbs-projekte.cu.ma CNAME .
+*.bbs-projekte.cu.ma CNAME .
 bbs.88800149.eu.cc CNAME .
 *.bbs.88800149.eu.cc CNAME .
 bbs.88840149.eu.cc CNAME .
@@ -63295,6 +63363,8 @@ bdkm.top CNAME .
 *.bdkm.top CNAME .
 bdkmakassar.net CNAME .
 *.bdkmakassar.net CNAME .
+bdll-12142.pro CNAME .
+*.bdll-12142.pro CNAME .
 bdll-13809.pro CNAME .
 *.bdll-13809.pro CNAME .
 bdll-144886.pro CNAME .
@@ -94709,6 +94779,8 @@ chefstablebooks.com CNAME .
 *.chefstablebooks.com CNAME .
 chefstoyscooking.shop CNAME .
 *.chefstoyscooking.shop CNAME .
+chegeneral.shop CNAME .
+*.chegeneral.shop CNAME .
 cheir-worw-emo.com CNAME .
 *.cheir-worw-emo.com CNAME .
 cheiseagrotton.company CNAME .
@@ -107417,6 +107489,8 @@ cotrivia.com CNAME .
 *.cotrivia.com CNAME .
 cotsfield.eu CNAME .
 *.cotsfield.eu CNAME .
+cotswoldbathroomsonline.com CNAME .
+*.cotswoldbathroomsonline.com CNAME .
 cotswoldhome.eu CNAME .
 *.cotswoldhome.eu CNAME .
 cottageandlane.eu CNAME .
@@ -111507,6 +111581,8 @@ cxznb.com CNAME .
 *.cxznb.com CNAME .
 cxznw.com CNAME .
 *.cxznw.com CNAME .
+cxztyqlwkb.help CNAME .
+*.cxztyqlwkb.help CNAME .
 cxzw.help CNAME .
 *.cxzw.help CNAME .
 cy-cy.com CNAME .
@@ -117379,6 +117455,8 @@ delivery-tnt.com CNAME .
 *.delivery-tnt.com CNAME .
 delivery-uae.com CNAME .
 *.delivery-uae.com CNAME .
+delivery.abrdns.com CNAME .
+*.delivery.abrdns.com CNAME .
 delivery.brocdn.io CNAME .
 *.delivery.brocdn.io CNAME .
 delivery.dhldv.agency CNAME .
@@ -138341,6 +138419,8 @@ erc8004.online CNAME .
 *.erc8004.online CNAME .
 ercdwnevbvvgdz.top CNAME .
 *.ercdwnevbvvgdz.top CNAME .
+ercinpolat.com CNAME .
+*.ercinpolat.com CNAME .
 erciyeskombi.com CNAME .
 *.erciyeskombi.com CNAME .
 ercmverifopt.dynu.net CNAME .
@@ -142393,6 +142473,8 @@ ezuntiyu.com CNAME .
 *.ezuntiyu.com CNAME .
 ezvaluestorage.com CNAME .
 *.ezvaluestorage.com CNAME .
+ezvze.com CNAME .
+*.ezvze.com CNAME .
 ezwhatsapp.pages.dev CNAME .
 *.ezwhatsapp.pages.dev CNAME .
 ezzkl.com CNAME .
@@ -142697,6 +142779,8 @@ f46c.top CNAME .
 *.f46c.top CNAME .
 f46p.top CNAME .
 *.f46p.top CNAME .
+f47n.top CNAME .
+*.f47n.top CNAME .
 f4991a371429e23f.com CNAME .
 *.f4991a371429e23f.com CNAME .
 f4b4ms.qwo231sdx.club CNAME .
@@ -153539,6 +153623,8 @@ fls-b3d83646-92db-598dtdt-9fgf-640c474733te-u3yorx.laravel.cloud CNAME .
 *.fls-b3d83646-92db-598dtdt-9fgf-640c474733te-u3yorx.laravel.cloud CNAME .
 fls-thzi-lb4ea-3fj-6ilo8c.pages.dev CNAME .
 *.fls-thzi-lb4ea-3fj-6ilo8c.pages.dev CNAME .
+fluencybrss.club CNAME .
+*.fluencybrss.club CNAME .
 fluffy-amaranth-a90v2dnf-dp9a42949skd.edgeone.dev CNAME .
 *.fluffy-amaranth-a90v2dnf-dp9a42949skd.edgeone.dev CNAME .
 flugdienstberater.at CNAME .
@@ -225393,6 +225479,8 @@ loginrobin-hood-com.typedream.app CNAME .
 *.loginrobin-hood-com.typedream.app CNAME .
 logins-facebook.blogspot.com CNAME .
 *.logins-facebook.blogspot.com CNAME .
+logins-whatapp.hl.cn CNAME .
+*.logins-whatapp.hl.cn CNAME .
 loginsantader.com CNAME .
 *.loginsantader.com CNAME .
 loginsantanderkey.com CNAME .
@@ -229931,6 +230019,8 @@ lxizp.com CNAME .
 *.lxizp.com CNAME .
 lxjbn.com CNAME .
 *.lxjbn.com CNAME .
+lxm-w-hatsapp.hl.cn CNAME .
+*.lxm-w-hatsapp.hl.cn CNAME .
 lxm0js-yvp-63kbp-v8ifyt-nv5b.pages.dev CNAME .
 *.lxm0js-yvp-63kbp-v8ifyt-nv5b.pages.dev CNAME .
 lxmtop.top CNAME .
@@ -243885,6 +243975,8 @@ mgm4adminsi.com CNAME .
 *.mgm4adminsi.com CNAME .
 mgm89657.com CNAME .
 *.mgm89657.com CNAME .
+mgmcc.com CNAME .
+*.mgmcc.com CNAME .
 mgmcxz.info CNAME .
 *.mgmcxz.info CNAME .
 mgmedic.com.mx CNAME .
@@ -246525,6 +246617,8 @@ mk-icloud.top CNAME .
 *.mk-icloud.top CNAME .
 mk2bys.duckdns.org CNAME .
 *.mk2bys.duckdns.org CNAME .
+mk88slotlogin.com CNAME .
+*.mk88slotlogin.com CNAME .
 mk96pgk.live CNAME .
 *.mk96pgk.live CNAME .
 mk96pgk.tech CNAME .
@@ -321181,6 +321275,8 @@ rox-casino-ed-baro1.top CNAME .
 *.rox-casino-ed-baro1.top CNAME .
 rox-casino-env2.top CNAME .
 *.rox-casino-env2.top CNAME .
+rox-flosflorum101.top CNAME .
+*.rox-flosflorum101.top CNAME .
 rox6ce.team CNAME .
 *.rox6ce.team CNAME .
 rox8cw.team CNAME .
@@ -351571,6 +351667,8 @@ ss-icloud-ttz.top CNAME .
 *.ss-icloud-ttz.top CNAME .
 ss-o-ndax-io.zapier.app CNAME .
 *.ss-o-ndax-io.zapier.app CNAME .
+ss.sui.indevs.in CNAME .
+*.ss.sui.indevs.in CNAME .
 ss.tuffoonaskant.com CNAME .
 *.ss.tuffoonaskant.com CNAME .
 ss0-75e-33e4t-4ha-sro8-vvzs60.pages.dev CNAME .
@@ -373743,6 +373841,8 @@ test306.icu CNAME .
 *.test306.icu CNAME .
 test5207547216.io.domain.name CNAME .
 *.test5207547216.io.domain.name CNAME .
+test7.sso-fh.com CNAME .
+*.test7.sso-fh.com CNAME .
 test854549712.io.domain.name CNAME .
 *.test854549712.io.domain.name CNAME .
 testamentaryvaultco.com CNAME .
@@ -384663,8 +384763,6 @@ trello24.com CNAME .
 *.trello24.com CNAME .
 trello777.bet CNAME .
 *.trello777.bet CNAME .
-trellofinder.com CNAME .
-*.trellofinder.com CNAME .
 treloxan.com CNAME .
 *.treloxan.com CNAME .
 trelvixora.com CNAME .
@@ -392661,6 +392759,8 @@ update.softupdate-online.top CNAME .
 *.update.softupdate-online.top CNAME .
 update.toythieves.com CNAME .
 *.update.toythieves.com CNAME .
+update.update.mrnkwnotexistsrds.moneysquad.org CNAME .
+*.update.update.mrnkwnotexistsrds.moneysquad.org CNAME .
 update.winservers-network.com CNAME .
 *.update.winservers-network.com CNAME .
 update.www.zofrpwmc.www.www.www.cloudapp.moneysquad.org CNAME .
@@ -394151,6 +394251,8 @@ user-zksync.xyz CNAME .
 *.user-zksync.xyz CNAME .
 user-zunlongkaishi.com CNAME .
 *.user-zunlongkaishi.com CNAME .
+user.icexx.cc CNAME .
+*.user.icexx.cc CNAME .
 user.userdoc-sign.kro.kr CNAME .
 *.user.userdoc-sign.kro.kr CNAME .
 user00001.duckdns.org CNAME .
@@ -420039,6 +420141,8 @@ www.baseservices.vercel.app CNAME .
 *.www.baseservices.vercel.app CNAME .
 www.battlezonetv.live.foxxlive.com CNAME .
 *.www.battlezonetv.live.foxxlive.com CNAME .
+www.bbs-projekte.cu.ma CNAME .
+*.www.bbs-projekte.cu.ma CNAME .
 www.bc8.now.sh CNAME .
 *.www.bc8.now.sh CNAME .
 www.bc8.vercel.app CNAME .
@@ -424901,6 +425005,8 @@ www.temiydcbnjt.vercel.app CNAME .
 *.www.temiydcbnjt.vercel.app CNAME .
 www.temu-steam.vercel.app CNAME .
 *.www.temu-steam.vercel.app CNAME .
+www.tes.mj9rentalmobilsolo.com CNAME .
+*.www.tes.mj9rentalmobilsolo.com CNAME .
 www.test.100x5055f6c3.nip.lfree.org CNAME .
 *.www.test.100x5055f6c3.nip.lfree.org CNAME .
 www.test.gfednotexistszyxwvutsnmlkjihgjihgfedcbanotexistsportal.03210notexistsnotexistsb93a38fc.nip.lfree.org CNAME .
