@@ -1,6 +1,6 @@
 # xRuffKez CTI (Cyber Threat Intelligence)
 
-![Active domains](https://img.shields.io/badge/active_domains-194%2C891-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-4%2C827-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--02_23%3A16_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
+![Active domains](https://img.shields.io/badge/active_domains-192%2C445-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-4%2C845-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--02_23%3A32_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
 
 A continuously maintained blocklist of **active malicious domains**: phishing, malware delivery, scams, fraudulent shops and investment schemes, and the infrastructure behind them. Every entry is verified before it is published, and removed again once it is offline or no longer malicious, so the list stays current instead of growing forever.
 
@@ -9,19 +9,19 @@ A continuously maintained blocklist of **active malicious domains**: phishing, m
 
 ## At a glance
 
-<sub>as of 2026-11-02 23:16 UTC</sub>
+<sub>as of 2026-11-02 23:32 UTC</sub>
 
 | | |
 |---|---:|
-| Active domains | **194,891** |
-| Added in the last 24 hours | 4,827 |
-| Added in the last 7 days | 108,167 |
-| Added in the last 30 days | 235,507 |
-| Retired in the last 30 days (offline or cleaned up) | 698,240 |
+| Active domains | **192,445** |
+| Added in the last 24 hours | 4,845 |
+| Added in the last 7 days | 108,185 |
+| Added in the last 30 days | 235,525 |
+| Retired in the last 30 days (offline or cleaned up) | 700,700 |
 | Top-level domains represented | 503 |
 | Internationalized (IDN / punycode) domains | 0.1 % |
-| Domains containing digits | 32.9 % |
-| Domains containing hyphens | 29.0 % |
+| Domains containing digits | 33.2 % |
+| Domains containing hyphens | 29.3 % |
 | Average domain length | 20.1 characters |
 
 ## Activity, last 30 days
@@ -32,7 +32,7 @@ xychart-beta
     title "New domains per day, Oct 4 – Nov 2 (UTC)"
     x-axis ["4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "1", "2"]
     y-axis "domains" 0 --> 100000
-    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1227, 14240, 21381, 90492, 13281, 13149, 36078, 15350, 11978, 0, 0, 13504, 4827]
+    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1227, 14240, 21381, 90492, 13281, 13149, 36078, 15350, 11978, 0, 0, 13504, 4845]
 ```
 
 ```mermaid
@@ -41,14 +41,14 @@ xychart-beta
     title "Active domains on the list, Oct 21 – Nov 2 (UTC)"
     x-axis ["21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "1", "2"]
     y-axis "domains"
-    line [472713, 588659, 629951, 748222, 574614, 473331, 457795, 371010, 376945, 376945, 376945, 224607, 194891]
+    line [472713, 588659, 629951, 748222, 574614, 473331, 457795, 371010, 376945, 376945, 376945, 224607, 192445]
 ```
 
 <details><summary>Last 7 days as a table</summary>
 
 | Day (UTC) | Added | Retired |
 |---|---:|---:|
-| 2026-11-02 | 4,827 | 33,753 |
+| 2026-11-02 | 4,845 | 36,213 |
 | 2026-11-01 | 13,504 | 173,332 |
 | 2026-10-31 | 0 | 0 |
 | 2026-10-30 | 0 | 0 |
@@ -62,30 +62,30 @@ xychart-beta
 
 | # | TLD | Domains | Share | |
 |---:|---|---:|---:|---|
-| 1 | `.com` | 64,511 | 33.1 % | ████████████████████ |
-| 2 | `.dev` | 18,486 | 9.5 % | ██████ |
-| 3 | `.shop` | 9,490 | 4.9 % | ███ |
-| 4 | `.net` | 6,759 | 3.5 % | ██ |
-| 5 | `.top` | 6,564 | 3.4 % | ██ |
-| 6 | `.click` | 6,092 | 3.1 % | ██ |
-| 7 | `.xyz` | 5,560 | 2.9 % | ██ |
-| 8 | `.sbs` | 5,165 | 2.7 % | ██ |
-| 9 | `.org` | 5,131 | 2.6 % | ██ |
-| 10 | `.live` | 4,260 | 2.2 % | █ |
-| 11 | `.cn` | 4,204 | 2.2 % | █ |
-| 12 | `.info` | 4,165 | 2.1 % | █ |
-| 13 | `.app` | 4,028 | 2.1 % | █ |
-| 14 | `.cc` | 3,984 | 2.0 % | █ |
-| 15 | `.pro` | 3,863 | 2.0 % | █ |
+| 1 | `.com` | 63,266 | 32.9 % | ████████████████████ |
+| 2 | `.dev` | 18,487 | 9.6 % | ██████ |
+| 3 | `.shop` | 9,424 | 4.9 % | ███ |
+| 4 | `.net` | 6,750 | 3.5 % | ██ |
+| 5 | `.top` | 6,522 | 3.4 % | ██ |
+| 6 | `.click` | 5,942 | 3.1 % | ██ |
+| 7 | `.xyz` | 5,489 | 2.9 % | ██ |
+| 8 | `.org` | 5,109 | 2.7 % | ██ |
+| 9 | `.sbs` | 5,021 | 2.6 % | ██ |
+| 10 | `.live` | 4,248 | 2.2 % | █ |
+| 11 | `.cn` | 4,202 | 2.2 % | █ |
+| 12 | `.info` | 4,149 | 2.2 % | █ |
+| 13 | `.app` | 4,023 | 2.1 % | █ |
+| 14 | `.cc` | 3,938 | 2.0 % | █ |
+| 15 | `.pro` | 3,864 | 2.0 % | █ |
 
 ```mermaid
 pie showData title Share of the 5 most common TLDs
-    ".com" : 64511
-    ".dev" : 18486
-    ".shop" : 9490
-    ".net" : 6759
-    ".top" : 6564
-    "other" : 89081
+    ".com" : 63266
+    ".dev" : 18487
+    ".shop" : 9424
+    ".net" : 6750
+    ".top" : 6522
+    "other" : 87996
 ```
 
 ## Most imitated brands
@@ -94,38 +94,38 @@ Listed domains whose name contains a well-known brand. Brand names are trademark
 
 | Brand | Domains | |
 |---|---:|---|
-| WhatsApp | 4,140 | ████████████████████ |
-| Coinbase | 860 | ████ |
-| Meta / Facebook | 771 | ████ |
-| Apple / iCloud | 629 | ███ |
-| Netflix | 502 | ██ |
-| Telegram | 492 | ██ |
-| Google | 454 | ██ |
-| Ledger | 451 | ██ |
-| Instagram | 310 | █ |
+| WhatsApp | 4,135 | ████████████████████ |
+| Coinbase | 854 | ████ |
+| Meta / Facebook | 770 | ████ |
+| Apple / iCloud | 623 | ███ |
+| Netflix | 501 | ██ |
+| Telegram | 491 | ██ |
+| Ledger | 450 | ██ |
+| Google | 442 | ██ |
+| Instagram | 309 | █ |
 | Amazon | 308 | █ |
-| PayPal | 300 | █ |
-| TikTok | 278 | █ |
+| PayPal | 293 | █ |
+| TikTok | 277 | █ |
 | MetaMask | 253 | █ |
-| Microsoft / Office 365 | 245 | █ |
+| Microsoft / Office 365 | 241 | █ |
 | American Express | 236 | █ |
 
 ## Most common lure words
 
 | Word | Domains | |
 |---|---:|---|
-| `trade` | 2,270 | ████████████████████ |
-| `casino` | 1,726 | ███████████████ |
-| `login` | 1,038 | █████████ |
-| `support` | 902 | ████████ |
-| `service` | 869 | ████████ |
-| `bet` | 711 | ██████ |
-| `invest` | 705 | ██████ |
+| `trade` | 2,264 | ████████████████████ |
+| `casino` | 1,721 | ███████████████ |
+| `login` | 1,035 | █████████ |
+| `support` | 900 | ████████ |
+| `service` | 849 | ████████ |
+| `bet` | 708 | ██████ |
+| `invest` | 698 | ██████ |
 | `secure` | 590 | █████ |
-| `wallet` | 486 | ████ |
+| `wallet` | 485 | ████ |
 | `account` | 462 | ████ |
-| `update` | 462 | ████ |
-| `token` | 453 | ████ |
+| `update` | 460 | ████ |
+| `token` | 448 | ████ |
 
 ## Files
 
