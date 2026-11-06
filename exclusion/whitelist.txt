@@ -4,6 +4,190 @@
 # cloudapp.azure.com, ...): that would exempt every malicious tenant - those
 # belong in hosting-apexes.txt.
 
+# Legitimate websites without malware indicators
+visam.info # VISAM GmbH, industrial IT, Neuwied (DE)
+kimehr.com # KimeHR, HR software for remote teams
+resoume.com # Resoume, AI resume builder
+aeonluxe.com.ph # Aeon Luxe Properties, real estate developer in Davao (PH)
+steamsalesimulator.com # Steam Summer Sale Simulator, fan project by Mike Wing, no login/phishing
+deltaork.com # H5 browser game portal (GameMonetize)
+glavior.ai # Crypto trading signal service, dubious but not malware
+vtvdigital.vn # VTV Digital, unit of Vietnam Television, medium confidence (site not reachable)
+
+# Bitcoin / Crypto (legitimate)
+wiz.biz # Operator of the official Bitcoin Core DNS seed seed.bitcoin.wiz.biz
+dashjr.org # Luke Dashjr, Bitcoin Core developer, historical DNS seed operator
+bithumb.com # Korean crypto exchange Bithumb
+
+# Mining pools (cryptojacking targets, not malware hosting)
+moneroocean.stream # Monero mining pool
+hashvault.pro # Monero mining pool
+herominers.com # Multi-coin mining pool
+
+# CDN
+secretcdn.net # Fastly infrastructure domain, medium confidence
+
+# Garbage
+domain.name
+
+# DynDNS
+dns05.com
+https443.org
+ikwb.com
+jungleheart.com
+medbury.com
+misecure.com
+mrbasic.com
+my.to
+root.sx
+sexidude.com
+soon.it
+swoop2.me
+www1.biz
+xxuz.com
+zanity.net
+
+# URLshortener
+2.gd
+allbio.link
+bom.so
+cuts2.com
+d.yzh.li
+fukt.link
+iplog.co
+jepebanget.xyz
+kfurl.cn
+kmi.mobi
+lihi2.cc
+lihi3.cc
+link24.kr
+linktrap.co
+lkdin.io
+lnkz.at
+migly.in
+mikale.me
+ohw.tf
+rcl.ink
+replug.link
+s4w.in
+sc.link
+shortu.be
+snipqr.com
+ssur.cc
+tinu.be
+to.lk
+toss.is
+trim.one
+u-link.asia
+ume.la
+unesa.me
+urladda.com
+vix.cx
+webmienphi.net
+xtr.bz
+yip.su
+ykm.de
+zrr.kr
+
+# Filehosting
+filesfly.cc
+pomf.su
+
+# Piracy
+sci-hub.do # Sci-Hub mirror
+
+# Streaminghosts
+bestwish.lol
+bigwarp.io
+bigwarp.pro
+cdn-tnmr.org
+cloudatacdn.com
+d-s.io
+d0000d.com
+do0od.com
+do7go.com
+dood.cx
+dood.la
+dood.li
+dood.pm
+dood.re
+dood.sh
+dood.so
+dood.to
+dood.watch
+dood.wf
+dood.work
+dood.ws
+dood.yt
+doodcdn.co
+doods.pro
+doodstream.com
+dooodster.com
+dooood.com
+dropcdn.io
+dropload.tv
+droply.top
+ds2play.com
+dsimgcdn.com
+dsvplay.com
+einschalten.in
+filemoon.to
+filmo.to
+hexload.com
+lulu.st
+lulustream.com
+luluvid.com
+m1xdrop.net
+meinecloud.click
+mixdrop.ag
+mxcontent.net
+myvidplay.com
+orbitcache.com
+savefiles.com
+serversicuro.cc
+streamhls.to
+streamruby.com
+strmup.to
+supercdn.cc
+supervideo.cc
+veev.to
+veevcdn.co
+vide0.net
+videzz.net
+vidmoly.me
+vidmoly.net
+vidoza.net
+vincdn.net
+vinovo.si
+vinovo.to
+vmrange.lat
+vmwesa.online
+voe-network.net
+voe.sx
+
+# Ads
+adtelligent.com # Adtelligent SSP/ad exchange (OpenRTB endpoints)
+pangle.io # Pangle, ByteDance/TikTok ad network
+
+# E-mail tracking infrastructure
+mjt.lu # Mailjet click/open tracking, ESP infrastructure
+sendgrid.net # SendGrid (Twilio) click tracking, ESP infrastructure
+
+# NSFW
+xhopen.com # xHamster mirror
+
+# Microsoft Defender for Cloud Apps
+admin-mcas-df.ms # Microsoft Defender for Cloud Apps proxy suffix (Conditional Access App Control), legitimate MS infrastructure
+admin-mcas-gov.ms # Microsoft Defender for Cloud Apps proxy suffix (GCC), legitimate MS infrastructure
+admin-mcas.ms # ...
+
+# AWS
+api.aws # AWS API and console domain (e.g. Rekognition Custom Labels console), AWS infrastructure
+awstrack.me # Amazon SES click/open tracking, AWS infrastructure
+
+# Synology
+quickconnect.to # Synology QuickConnect remote access/relay service
+
 # https://github.com/hagezi/dns-blocklists/issues/12192
 viewmyorder.info
 
