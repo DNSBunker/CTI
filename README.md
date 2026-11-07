@@ -1,6 +1,6 @@
 # xRuffKez CTI (Cyber Threat Intelligence)
 
-![Active domains](https://img.shields.io/badge/active_domains-329%2C767-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-113%2C330-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--07_16%3A06_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
+![Active domains](https://img.shields.io/badge/active_domains-329%2C736-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-113%2C330-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--07_16%3A16_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
 
 A continuously maintained blocklist of **active malicious domains**: phishing, malware delivery, scams, fraudulent shops and investment schemes, and the infrastructure behind them. Every entry is verified before it is published, and removed again once it is offline or no longer malicious, so the list stays current instead of growing forever.
 
@@ -9,15 +9,15 @@ A continuously maintained blocklist of **active malicious domains**: phishing, m
 
 ## At a glance
 
-<sub>as of 2026-11-07 16:06 UTC</sub>
+<sub>as of 2026-11-07 16:16 UTC</sub>
 
 | | |
 |---|---:|
-| Active domains | **329,767** |
+| Active domains | **329,736** |
 | Added in the last 24 hours | 113,330 |
 | Added in the last 7 days | 359,567 |
 | Added in the last 30 days | 359,567 |
-| Retired in the last 30 days (offline or cleaned up) | 14,959 |
+| Retired in the last 30 days (offline or cleaned up) | 14,991 |
 | Top-level domains represented | 541 |
 | Internationalized (IDN / punycode) domains | 0.1 % |
 | Domains containing digits | 44.4 % |
@@ -41,14 +41,14 @@ xychart-beta
     title "Active domains on the list, Nov 6 – Nov 7 (UTC)"
     x-axis ["6", "7"]
     y-axis "domains"
-    line [272088, 329767]
+    line [272088, 329736]
 ```
 
 <details><summary>Last 7 days as a table</summary>
 
 | Day (UTC) | Added | Retired |
 |---|---:|---:|
-| 2026-11-07 | 67,354 | 5,308 |
+| 2026-11-07 | 67,354 | 5,340 |
 | 2026-11-06 | 292,213 | 9,651 |
 | 2026-11-05 | 0 | 0 |
 | 2026-11-04 | 0 | 0 |
@@ -85,7 +85,7 @@ pie showData title Share of the 5 most common TLDs
     ".app" : 27917
     ".io" : 24036
     ".org" : 18511
-    "other" : 124282
+    "other" : 124251
 ```
 
 ## Most imitated brands
