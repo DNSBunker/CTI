@@ -1,6 +1,6 @@
 # xRuffKez CTI (Cyber Threat Intelligence)
 
-![Active domains](https://img.shields.io/badge/active_domains-362%2C082-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-67%2C634-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--08_08%3A50_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
+![Active domains](https://img.shields.io/badge/active_domains-365%2C695-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-64%2C033-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--08_09%3A00_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
 
 A continuously maintained blocklist of **active malicious domains**: phishing, malware delivery, scams, fraudulent shops and investment schemes, and the infrastructure behind them. Every entry is verified before it is published, and removed again once it is offline or no longer malicious, so the list stays current instead of growing forever.
 
@@ -9,19 +9,19 @@ A continuously maintained blocklist of **active malicious domains**: phishing, m
 
 ## At a glance
 
-<sub>as of 2026-11-08 08:50 UTC</sub>
+<sub>as of 2026-11-08 09:00 UTC</sub>
 
 | | |
 |---|---:|
-| Active domains | **362,082** |
-| Added in the last 24 hours | 67,634 |
-| Added in the last 7 days | 399,599 |
-| Added in the last 30 days | 399,599 |
+| Active domains | **365,695** |
+| Added in the last 24 hours | 64,033 |
+| Added in the last 7 days | 403,247 |
+| Added in the last 30 days | 403,247 |
 | Retired in the last 30 days (offline or cleaned up) | 19,630 |
 | Top-level domains represented | 567 |
 | Internationalized (IDN / punycode) domains | 0.1 % |
-| Domains containing digits | 43.9 % |
-| Domains containing hyphens | 39.5 % |
+| Domains containing digits | 43.5 % |
+| Domains containing hyphens | 39.1 % |
 | Average domain length | 24.8 characters |
 
 ## Activity, last 30 days
@@ -32,7 +32,7 @@ xychart-beta
     title "New domains per day, Oct 10 – Nov 8 (UTC)"
     x-axis ["10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "1", "2", "3", "4", "5", "6", "7", "8"]
     y-axis "domains" 0 --> 400000
-    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 292213, 87546, 19840]
+    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 292213, 87546, 23488]
 ```
 
 ```mermaid
@@ -41,14 +41,14 @@ xychart-beta
     title "Active domains on the list, Nov 6 – Nov 8 (UTC)"
     x-axis ["6", "7", "8"]
     y-axis "domains"
-    line [272088, 346388, 362082]
+    line [272088, 346388, 365695]
 ```
 
 <details><summary>Last 7 days as a table</summary>
 
 | Day (UTC) | Added | Retired |
 |---|---:|---:|
-| 2026-11-08 | 19,840 | 3,059 |
+| 2026-11-08 | 23,488 | 3,059 |
 | 2026-11-07 | 87,546 | 6,920 |
 | 2026-11-06 | 292,213 | 9,651 |
 | 2026-11-05 | 0 | 0 |
@@ -62,14 +62,14 @@ xychart-beta
 
 | # | TLD | Domains | Share | |
 |---:|---|---:|---:|---|
-| 1 | `.com` | 94,649 | 26.1 % | ████████████████████ |
-| 2 | `.dev` | 48,194 | 13.3 % | ██████████ |
-| 3 | `.app` | 27,141 | 7.5 % | ██████ |
+| 1 | `.com` | 94,649 | 25.9 % | ████████████████████ |
+| 2 | `.dev` | 48,194 | 13.2 % | ██████████ |
+| 3 | `.app` | 27,141 | 7.4 % | ██████ |
 | 4 | `.io` | 24,710 | 6.8 % | █████ |
 | 5 | `.org` | 20,068 | 5.5 % | ████ |
-| 6 | `.click` | 15,073 | 4.2 % | ███ |
+| 6 | `.click` | 15,073 | 4.1 % | ███ |
 | 7 | `.digital` | 12,390 | 3.4 % | ███ |
-| 8 | `.cc` | 10,358 | 2.9 % | ██ |
+| 8 | `.cc` | 10,358 | 2.8 % | ██ |
 | 9 | `.top` | 8,329 | 2.3 % | ██ |
 | 10 | `.xyz` | 6,783 | 1.9 % | █ |
 | 11 | `.net` | 6,651 | 1.8 % | █ |
@@ -85,7 +85,7 @@ pie showData title Share of the 5 most common TLDs
     ".app" : 27141
     ".io" : 24710
     ".org" : 20068
-    "other" : 147320
+    "other" : 150933
 ```
 
 ## Most imitated brands
