@@ -1,6 +1,6 @@
 # xRuffKez CTI (Cyber Threat Intelligence)
 
-![Active domains](https://img.shields.io/badge/active_domains-429%2C913-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-41%2C405-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--09_20%3A01_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
+![Active domains](https://img.shields.io/badge/active_domains-429%2C913-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-41%2C540-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--09_20%3A12_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
 
 A continuously maintained blocklist of **active malicious domains**: phishing, malware delivery, scams, fraudulent shops and investment schemes, and the infrastructure behind them. Every entry is verified before it is published, and removed again once it is offline or no longer malicious, so the list stays current instead of growing forever.
 
@@ -9,15 +9,15 @@ A continuously maintained blocklist of **active malicious domains**: phishing, m
 
 ## At a glance
 
-<sub>as of 2026-11-09 20:01 UTC</sub>
+<sub>as of 2026-11-09 20:12 UTC</sub>
 
 | | |
 |---|---:|
 | Active domains | **429,913** |
-| Added in the last 24 hours | 41,405 |
-| Added in the last 7 days | 473,842 |
-| Added in the last 30 days | 473,842 |
-| Retired in the last 30 days (offline or cleaned up) | 30,060 |
+| Added in the last 24 hours | 41,540 |
+| Added in the last 7 days | 473,977 |
+| Added in the last 30 days | 473,977 |
+| Retired in the last 30 days (offline or cleaned up) | 30,333 |
 | Top-level domains represented | 612 |
 | Internationalized (IDN / punycode) domains | 0.1 % |
 | Domains containing digits | 41.9 % |
@@ -32,7 +32,7 @@ xychart-beta
     title "New domains per day, Oct 11 – Nov 9 (UTC)"
     x-axis ["11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
     y-axis "domains" 0 --> 400000
-    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 292213, 87546, 58360, 35723]
+    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 292213, 87546, 58360, 35858]
 ```
 
 ```mermaid
@@ -48,7 +48,7 @@ xychart-beta
 
 | Day (UTC) | Added | Retired |
 |---|---:|---:|
-| 2026-11-09 | 35,723 | 8,695 |
+| 2026-11-09 | 35,858 | 8,968 |
 | 2026-11-08 | 58,360 | 4,794 |
 | 2026-11-07 | 87,546 | 6,920 |
 | 2026-11-06 | 292,213 | 9,651 |
