@@ -1,6 +1,6 @@
 # xRuffKez CTI (Cyber Threat Intelligence)
 
-![Active domains](https://img.shields.io/badge/active_domains-403%2C384-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-43%2C726-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--10_14%3A08_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
+![Active domains](https://img.shields.io/badge/active_domains-403%2C735-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-44%2C079-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--10_14%3A24_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
 
 A continuously maintained blocklist of **active malicious domains**: phishing, malware delivery, scams, fraudulent shops and investment schemes, and the infrastructure behind them. Every entry is verified before it is published, and removed again once it is offline or no longer malicious, so the list stays current instead of growing forever.
 
@@ -9,15 +9,15 @@ A continuously maintained blocklist of **active malicious domains**: phishing, m
 
 ## At a glance
 
-<sub>as of 2026-11-10 14:08 UTC</sub>
+<sub>as of 2026-11-10 14:24 UTC</sub>
 
 | | |
 |---|---:|
-| Active domains | **403,384** |
-| Added in the last 24 hours | 43,726 |
-| Added in the last 7 days | 508,595 |
-| Added in the last 30 days | 508,595 |
-| Retired in the last 30 days (offline or cleaned up) | 40,138 |
+| Active domains | **403,735** |
+| Added in the last 24 hours | 44,079 |
+| Added in the last 7 days | 508,948 |
+| Added in the last 30 days | 508,948 |
+| Retired in the last 30 days (offline or cleaned up) | 40,245 |
 | Top-level domains represented | 624 |
 | Internationalized (IDN / punycode) domains | 0.1 % |
 | Domains containing digits | 39.5 % |
@@ -32,7 +32,7 @@ xychart-beta
     title "New domains per day, Oct 12 – Nov 10 (UTC)"
     x-axis ["12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
     y-axis "domains" 0 --> 400000
-    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 292213, 87546, 58360, 41156, 29320]
+    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 292213, 87546, 58360, 41156, 29673]
 ```
 
 ```mermaid
@@ -41,14 +41,14 @@ xychart-beta
     title "Active domains on the list, Nov 6 – Nov 10 (UTC)"
     x-axis ["6", "7", "8", "9", "10"]
     y-axis "domains"
-    line [272088, 346388, 396638, 382009, 403384]
+    line [272088, 346388, 396638, 382009, 403735]
 ```
 
 <details><summary>Last 7 days as a table</summary>
 
 | Day (UTC) | Added | Retired |
 |---|---:|---:|
-| 2026-11-10 | 29,320 | 7,868 |
+| 2026-11-10 | 29,673 | 7,975 |
 | 2026-11-09 | 41,156 | 10,905 |
 | 2026-11-08 | 58,360 | 4,794 |
 | 2026-11-07 | 87,546 | 6,920 |
@@ -62,30 +62,30 @@ xychart-beta
 
 | # | TLD | Domains | Share | |
 |---:|---|---:|---:|---|
-| 1 | `.com` | 114,474 | 28.4 % | ████████████████████ |
-| 2 | `.io` | 27,199 | 6.7 % | █████ |
-| 3 | `.app` | 26,874 | 6.7 % | █████ |
-| 4 | `.org` | 21,691 | 5.4 % | ████ |
-| 5 | `.click` | 20,466 | 5.1 % | ████ |
-| 6 | `.cc` | 17,784 | 4.4 % | ███ |
-| 7 | `.digital` | 15,782 | 3.9 % | ███ |
-| 8 | `.top` | 13,177 | 3.3 % | ██ |
-| 9 | `.sbs` | 10,709 | 2.7 % | ██ |
-| 10 | `.xyz` | 9,469 | 2.3 % | ██ |
-| 11 | `.net` | 8,405 | 2.1 % | █ |
-| 12 | `.shop` | 8,221 | 2.0 % | █ |
-| 13 | `.info` | 5,948 | 1.5 % | █ |
-| 14 | `.cn` | 5,332 | 1.3 % | █ |
-| 15 | `.vip` | 4,591 | 1.1 % | █ |
+| 1 | `.com` | 114,569 | 28.4 % | ████████████████████ |
+| 2 | `.io` | 27,201 | 6.7 % | █████ |
+| 3 | `.app` | 26,876 | 6.7 % | █████ |
+| 4 | `.org` | 21,702 | 5.4 % | ████ |
+| 5 | `.click` | 20,468 | 5.1 % | ████ |
+| 6 | `.cc` | 17,822 | 4.4 % | ███ |
+| 7 | `.digital` | 15,783 | 3.9 % | ███ |
+| 8 | `.top` | 13,206 | 3.3 % | ██ |
+| 9 | `.sbs` | 10,707 | 2.7 % | ██ |
+| 10 | `.xyz` | 9,488 | 2.4 % | ██ |
+| 11 | `.net` | 8,418 | 2.1 % | █ |
+| 12 | `.shop` | 8,243 | 2.0 % | █ |
+| 13 | `.info` | 5,952 | 1.5 % | █ |
+| 14 | `.cn` | 5,343 | 1.3 % | █ |
+| 15 | `.vip` | 4,615 | 1.1 % | █ |
 
 ```mermaid
 pie showData title Share of the 5 most common TLDs
-    ".com" : 114474
-    ".io" : 27199
-    ".app" : 26874
-    ".org" : 21691
-    ".click" : 20466
-    "other" : 192680
+    ".com" : 114569
+    ".io" : 27201
+    ".app" : 26876
+    ".org" : 21702
+    ".click" : 20468
+    "other" : 192919
 ```
 
 ## Most imitated brands
@@ -95,12 +95,12 @@ Listed domains whose name contains a well-known brand. Brand names are trademark
 | Brand | Domains | |
 |---|---:|---|
 | Coinbase | 3,980 | ████████████████████ |
-| WhatsApp | 3,884 | ████████████████████ |
-| Amazon | 3,730 | ███████████████████ |
+| WhatsApp | 3,885 | ████████████████████ |
+| Amazon | 3,728 | ███████████████████ |
 | MetaMask | 3,358 | █████████████████ |
-| Meta / Facebook | 2,787 | ██████████████ |
-| Google | 2,115 | ███████████ |
-| Apple / iCloud | 1,758 | █████████ |
+| Meta / Facebook | 2,788 | ██████████████ |
+| Google | 2,114 | ███████████ |
+| Apple / iCloud | 1,759 | █████████ |
 | Instagram | 1,530 | ████████ |
 | Netflix | 1,462 | ███████ |
 | PayPal | 1,442 | ███████ |
@@ -116,15 +116,15 @@ Listed domains whose name contains a well-known brand. Brand names are trademark
 |---|---:|---|
 | `login` | 6,009 | ████████████████████ |
 | `wallet` | 2,897 | ██████████ |
-| `service` | 2,796 | █████████ |
-| `casino` | 2,671 | █████████ |
-| `auth` | 2,477 | ████████ |
-| `help` | 2,231 | ███████ |
+| `service` | 2,801 | █████████ |
+| `casino` | 2,667 | █████████ |
+| `auth` | 2,478 | ████████ |
+| `help` | 2,232 | ███████ |
 | `secure` | 1,968 | ███████ |
-| `support` | 1,786 | ██████ |
+| `support` | 1,787 | ██████ |
 | `account` | 1,745 | ██████ |
 | `bet` | 1,642 | █████ |
-| `invest` | 1,447 | █████ |
+| `invest` | 1,448 | █████ |
 | `update` | 1,294 | ████ |
 
 ## Files
