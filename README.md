@@ -1,6 +1,6 @@
 # xRuffKez CTI (Cyber Threat Intelligence)
 
-![Active domains](https://img.shields.io/badge/active_domains-358%2C095-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-49%2C185-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--12_02%3A05_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
+![Active domains](https://img.shields.io/badge/active_domains-358%2C526-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-49%2C690-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--12_02%3A16_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
 
 A continuously maintained blocklist of **active malicious domains**: phishing, malware delivery, scams, fraudulent shops and investment schemes, and the infrastructure behind them. Every entry is verified before it is published, and removed again once it is offline or no longer malicious, so the list stays current instead of growing forever.
 
@@ -9,19 +9,19 @@ A continuously maintained blocklist of **active malicious domains**: phishing, m
 
 ## At a glance
 
-<sub>as of 2026-11-12 02:05 UTC</sub>
+<sub>as of 2026-11-12 02:16 UTC</sub>
 
 | | |
 |---|---:|
-| Active domains | **358,095** |
-| Added in the last 24 hours | 49,185 |
-| Added in the last 7 days | 581,792 |
-| Added in the last 30 days | 581,792 |
-| Retired in the last 30 days (offline or cleaned up) | 51,060 |
+| Active domains | **358,526** |
+| Added in the last 24 hours | 49,690 |
+| Added in the last 7 days | 582,297 |
+| Added in the last 30 days | 582,297 |
+| Retired in the last 30 days (offline or cleaned up) | 51,079 |
 | Top-level domains represented | 607 |
 | Internationalized (IDN / punycode) domains | 0.1 % |
 | Domains containing digits | 32.6 % |
-| Domains containing hyphens | 29.9 % |
+| Domains containing hyphens | 29.8 % |
 | Average domain length | 22.3 characters |
 
 ## Activity, last 30 days
@@ -32,7 +32,7 @@ xychart-beta
     title "New domains per day, Oct 14 – Nov 12 (UTC)"
     x-axis ["14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
     y-axis "domains" 0 --> 400000
-    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 292213, 87546, 58360, 41156, 47623, 52549, 2345]
+    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 292213, 87546, 58360, 41156, 47623, 52549, 2850]
 ```
 
 ```mermaid
@@ -41,14 +41,14 @@ xychart-beta
     title "Active domains on the list, Nov 6 – Nov 12 (UTC)"
     x-axis ["6", "7", "8", "9", "10", "11", "12"]
     y-axis "domains"
-    line [272088, 346388, 396638, 382009, 418143, 355765, 358095]
+    line [272088, 346388, 396638, 382009, 418143, 355765, 358526]
 ```
 
 <details><summary>Last 7 days as a table</summary>
 
 | Day (UTC) | Added | Retired |
 |---|---:|---:|
-| 2026-11-12 | 2,345 | 344 |
+| 2026-11-12 | 2,850 | 363 |
 | 2026-11-11 | 52,549 | 6,737 |
 | 2026-11-10 | 47,623 | 11,709 |
 | 2026-11-09 | 41,156 | 10,905 |
@@ -62,7 +62,7 @@ xychart-beta
 
 | # | TLD | Domains | Share | |
 |---:|---|---:|---:|---|
-| 1 | `.com` | 99,429 | 27.8 % | ████████████████████ |
+| 1 | `.com` | 99,429 | 27.7 % | ████████████████████ |
 | 2 | `.io` | 25,862 | 7.2 % | █████ |
 | 3 | `.app` | 25,291 | 7.1 % | █████ |
 | 4 | `.org` | 23,531 | 6.6 % | █████ |
@@ -72,7 +72,7 @@ xychart-beta
 | 8 | `.sbs` | 10,621 | 3.0 % | ██ |
 | 9 | `.net` | 8,366 | 2.3 % | ██ |
 | 10 | `.xyz` | 7,822 | 2.2 % | ██ |
-| 11 | `.shop` | 7,701 | 2.2 % | ██ |
+| 11 | `.shop` | 7,701 | 2.1 % | ██ |
 | 12 | `.top` | 6,285 | 1.8 % | █ |
 | 13 | `.info` | 5,415 | 1.5 % | █ |
 | 14 | `.cn` | 4,158 | 1.2 % | █ |
@@ -85,7 +85,7 @@ pie showData title Share of the 5 most common TLDs
     ".app" : 25291
     ".org" : 23531
     ".click" : 20280
-    "other" : 163702
+    "other" : 164133
 ```
 
 ## Most imitated brands
