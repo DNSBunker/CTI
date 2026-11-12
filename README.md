@@ -1,6 +1,6 @@
 # xRuffKez CTI (Cyber Threat Intelligence)
 
-![Active domains](https://img.shields.io/badge/active_domains-130%2C878-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-39%2C353-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--12_09%3A46_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
+![Active domains](https://img.shields.io/badge/active_domains-166%2C929-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-40%2C043-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--12_09%3A57_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0--only-6c757d?style=flat-square)
 
 A continuously maintained blocklist of **active malicious domains**: phishing, malware delivery, scams, fraudulent shops and investment schemes, and the infrastructure behind them. Every entry is verified before it is published, and removed again once it is offline or no longer malicious, so the list stays current instead of growing forever.
 
@@ -9,20 +9,20 @@ A continuously maintained blocklist of **active malicious domains**: phishing, m
 
 ## At a glance
 
-<sub>as of 2026-11-12 09:46 UTC</sub>
+<sub>as of 2026-11-12 09:57 UTC</sub>
 
 | | |
 |---|---:|
-| Active domains | **130,878** |
-| Added in the last 24 hours | 39,353 |
-| Added in the last 7 days | 591,346 |
-| Added in the last 30 days | 591,346 |
+| Active domains | **166,929** |
+| Added in the last 24 hours | 40,043 |
+| Added in the last 7 days | 592,036 |
+| Added in the last 30 days | 592,036 |
 | Retired in the last 30 days (offline or cleaned up) | 52,327 |
-| Top-level domains represented | 193 |
+| Top-level domains represented | 354 |
 | Internationalized (IDN / punycode) domains | 0.0 % |
-| Domains containing digits | 45.6 % |
-| Domains containing hyphens | 49.9 % |
-| Average domain length | 30.4 characters |
+| Domains containing digits | 44.2 % |
+| Domains containing hyphens | 44.2 % |
+| Average domain length | 28.2 characters |
 
 ## Activity, last 30 days
 
@@ -32,7 +32,7 @@ xychart-beta
     title "New domains per day, Oct 14 – Nov 12 (UTC)"
     x-axis ["14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
     y-axis "domains" 0 --> 400000
-    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 292213, 87546, 58360, 41156, 47623, 52549, 11899]
+    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 292213, 87546, 58360, 41156, 47623, 52549, 12589]
 ```
 
 ```mermaid
@@ -41,14 +41,14 @@ xychart-beta
     title "Active domains on the list, Nov 6 – Nov 12 (UTC)"
     x-axis ["6", "7", "8", "9", "10", "11", "12"]
     y-axis "domains"
-    line [272088, 346388, 396638, 382009, 418143, 355765, 130878]
+    line [272088, 346388, 396638, 382009, 418143, 355765, 166929]
 ```
 
 <details><summary>Last 7 days as a table</summary>
 
 | Day (UTC) | Added | Retired |
 |---|---:|---:|
-| 2026-11-12 | 11,899 | 1,611 |
+| 2026-11-12 | 12,589 | 1,611 |
 | 2026-11-11 | 52,549 | 6,737 |
 | 2026-11-10 | 47,623 | 11,709 |
 | 2026-11-09 | 41,156 | 10,905 |
@@ -62,30 +62,30 @@ xychart-beta
 
 | # | TLD | Domains | Share | |
 |---:|---|---:|---:|---|
-| 1 | `.com` | 32,162 | 24.6 % | ████████████████████ |
-| 2 | `.io` | 27,163 | 20.8 % | █████████████████ |
-| 3 | `.app` | 25,075 | 19.2 % | ████████████████ |
-| 4 | `.org` | 19,207 | 14.7 % | ████████████ |
-| 5 | `.link` | 3,713 | 2.8 % | ██ |
-| 6 | `.net` | 3,522 | 2.7 % | ██ |
-| 7 | `.cc` | 1,633 | 1.2 % | █ |
-| 8 | `.cd` | 1,605 | 1.2 % | █ |
-| 9 | `.site` | 1,145 | 0.9 % | █ |
-| 10 | `.sn` | 835 | 0.6 % | █ |
-| 11 | `.ph` | 775 | 0.6 % | █ |
-| 12 | `.fi` | 587 | 0.4 % | █ |
-| 13 | `.aws` | 554 | 0.4 % | █ |
-| 14 | `.tw` | 501 | 0.4 % | █ |
-| 15 | `.ai` | 463 | 0.4 % | █ |
+| 1 | `.com` | 36,047 | 21.6 % | ████████████████████ |
+| 2 | `.io` | 27,384 | 16.4 % | ███████████████ |
+| 3 | `.app` | 25,335 | 15.2 % | ██████████████ |
+| 4 | `.org` | 19,814 | 11.9 % | ███████████ |
+| 5 | `.cc` | 12,248 | 7.3 % | ███████ |
+| 6 | `.au` | 4,847 | 2.9 % | ███ |
+| 7 | `.net` | 4,614 | 2.8 % | ███ |
+| 8 | `.cn` | 3,813 | 2.3 % | ██ |
+| 9 | `.link` | 3,730 | 2.2 % | ██ |
+| 10 | `.in` | 2,065 | 1.2 % | █ |
+| 11 | `.cd` | 1,669 | 1.0 % | █ |
+| 12 | `.br` | 1,463 | 0.9 % | █ |
+| 13 | `.uk` | 1,347 | 0.8 % | █ |
+| 14 | `.page` | 1,299 | 0.8 % | █ |
+| 15 | `.site` | 1,211 | 0.7 % | █ |
 
 ```mermaid
 pie showData title Share of the 5 most common TLDs
-    ".com" : 32162
-    ".io" : 27163
-    ".app" : 25075
-    ".org" : 19207
-    ".link" : 3713
-    "other" : 23558
+    ".com" : 36047
+    ".io" : 27384
+    ".app" : 25335
+    ".org" : 19814
+    ".cc" : 12248
+    "other" : 46101
 ```
 
 ## Most imitated brands
@@ -94,38 +94,38 @@ Listed domains whose name contains a well-known brand. Brand names are trademark
 
 | Brand | Domains | |
 |---|---:|---|
-| MetaMask | 2,991 | ████████████████████ |
-| Coinbase | 2,969 | ████████████████████ |
-| Amazon | 2,619 | ██████████████████ |
-| WhatsApp | 1,707 | ███████████ |
-| Meta / Facebook | 1,353 | █████████ |
-| Instagram | 975 | ███████ |
-| Netflix | 923 | ██████ |
-| OpenSea | 600 | ████ |
-| Microsoft / Office 365 | 472 | ███ |
-| Ledger | 371 | ██ |
-| PayPal | 314 | ██ |
-| Apple / iCloud | 265 | ██ |
-| Google | 250 | ██ |
-| Airbnb | 130 | █ |
-| Trust Wallet | 100 | █ |
+| MetaMask | 3,044 | ████████████████████ |
+| Amazon | 3,000 | ████████████████████ |
+| Coinbase | 2,996 | ████████████████████ |
+| WhatsApp | 2,993 | ████████████████████ |
+| Meta / Facebook | 1,397 | █████████ |
+| Instagram | 1,008 | ███████ |
+| Netflix | 959 | ██████ |
+| OpenSea | 604 | ████ |
+| Microsoft / Office 365 | 552 | ████ |
+| Google | 488 | ███ |
+| Ledger | 383 | ███ |
+| PayPal | 373 | ██ |
+| Apple / iCloud | 339 | ██ |
+| Airbnb | 134 | █ |
+| Trust Wallet | 124 | █ |
 
 ## Most common lure words
 
 | Word | Domains | |
 |---|---:|---|
-| `login` | 4,609 | ████████████████████ |
-| `wallet` | 2,481 | ███████████ |
-| `auth` | 2,315 | ██████████ |
-| `help` | 2,063 | █████████ |
-| `secure` | 1,214 | █████ |
-| `support` | 1,108 | █████ |
-| `service` | 1,067 | █████ |
-| `account` | 1,009 | ████ |
-| `claim` | 945 | ████ |
-| `update` | 649 | ███ |
-| `connect` | 594 | ███ |
-| `verify` | 455 | ██ |
+| `login` | 4,693 | ████████████████████ |
+| `wallet` | 2,550 | ███████████ |
+| `auth` | 2,340 | ██████████ |
+| `help` | 2,081 | █████████ |
+| `secure` | 1,278 | █████ |
+| `service` | 1,201 | █████ |
+| `support` | 1,182 | █████ |
+| `account` | 1,084 | █████ |
+| `claim` | 966 | ████ |
+| `update` | 698 | ███ |
+| `connect` | 635 | ███ |
+| `verify` | 478 | ██ |
 
 ## Files
 
