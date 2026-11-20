@@ -1,0 +1,107 @@
+# ip-whitelist.txt - a domain whose A record points ONLY into these addresses
+# is never listed; a listed one leaves at its next recheck.
+# One IP or CIDR network per line, '#' starts a comment. Changes are live
+# within ~1 minute.
+#
+# NEVER add shared addresses (CDNs such as Cloudflare 104.16.0.0/13 or
+# 188.114.96.0/20, Vercel, AWS, hosting providers, parking services like
+# 13.248.169.48 / 76.223.54.146): thousands of malicious sites share them.
+# tif refuses private/loopback/reserved ranges and anything broader than
+# /16 (IPv4) or /32 (IPv6).
+#
+# Feed below: addresses that serve no websites at all - public DNS
+# resolvers and the DNS root servers. Malware operators "park" inactive
+# command-and-control domains on them (like 0.0.0.0): nothing reachable
+# there, so nothing to block.
+
+# --- public DNS resolvers ---
+# Google Public DNS
+8.8.8.8
+8.8.4.4
+2001:4860:4860::8888
+2001:4860:4860::8844
+# Cloudflare 1.1.1.1 / 1.1.1.2 / 1.1.1.3
+1.1.1.1
+1.0.0.1
+1.1.1.2
+1.0.0.2
+1.1.1.3
+1.0.0.3
+2606:4700:4700::1111
+2606:4700:4700::1001
+2606:4700:4700::1112
+2606:4700:4700::1002
+2606:4700:4700::1113
+2606:4700:4700::1003
+# Quad9
+9.9.9.9
+149.112.112.112
+9.9.9.10
+149.112.112.10
+9.9.9.11
+149.112.112.11
+2620:fe::fe
+2620:fe::9
+2620:fe::10
+2620:fe::fe:10
+2620:fe::11
+2620:fe::fe:11
+# OpenDNS / Cisco Umbrella
+208.67.222.222
+208.67.220.220
+208.67.222.123
+208.67.220.123
+2620:119:35::35
+2620:119:53::53
+# AdGuard DNS
+94.140.14.14
+94.140.15.15
+94.140.14.15
+94.140.15.16
+94.140.14.140
+94.140.14.141
+2a10:50c0::ad1:ff
+2a10:50c0::ad2:ff
+2a10:50c0::bad1:ff
+2a10:50c0::bad2:ff
+2a10:50c0::1:ff
+2a10:50c0::2:ff
+# DNS4EU
+86.54.11.1
+86.54.11.201
+86.54.11.100
+86.54.11.200
+2a13:1001::86:54:11:1
+2a13:1001::86:54:11:201
+2a13:1001::86:54:11:100
+2a13:1001::86:54:11:200
+
+# --- DNS root servers (a-m) ---
+198.41.0.4
+170.247.170.2
+199.9.14.201
+192.33.4.12
+199.7.91.13
+192.203.230.10
+192.5.5.241
+192.112.36.4
+198.97.190.53
+192.36.148.17
+192.58.128.30
+193.0.14.129
+199.7.83.42
+202.12.27.33
+2001:503:ba3e::2:30
+2801:1b8:10::b
+2001:500:200::b
+2001:500:2::c
+2001:500:2d::d
+2001:500:a8::e
+2001:500:2f::f
+2001:500:12::d0d
+2001:500:1::53
+2001:7fe::53
+2001:503:c27::2:30
+2001:7fd::1
+2001:500:9f::42
+2001:dc3::35
