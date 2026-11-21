@@ -1,6 +1,6 @@
 # xRuffKez CTI (Cyber Threat Intelligence)
 
-![Active domains](https://img.shields.io/badge/active_domains-1%2C262%2C862-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-449%2C512-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--21_16%3A04_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-CC0--1.0-6c757d?style=flat-square)
+![Active domains](https://img.shields.io/badge/active_domains-1%2C262%2C914-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-449%2C640-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--21_16%3A15_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-CC0--1.0-6c757d?style=flat-square)
 
 A continuously maintained blocklist of **active malicious domains**: phishing, malware delivery, scams, fraudulent shops and investment schemes, and the infrastructure behind them. Every entry is verified before it is published, and removed again once it is offline or no longer malicious, so the list stays current instead of growing forever.
 
@@ -9,15 +9,15 @@ A continuously maintained blocklist of **active malicious domains**: phishing, m
 
 ## At a glance
 
-<sub>as of 2026-11-21 16:04 UTC</sub>
+<sub>as of 2026-11-21 16:15 UTC</sub>
 
 | | |
 |---|---:|
-| Active domains | **1,262,862** |
-| Added in the last 24 hours | 449,512 |
-| Added in the last 7 days | 1,026,309 |
-| Added in the last 30 days | 1,693,289 |
-| Retired in the last 30 days (offline or cleaned up) | 121,117 |
+| Active domains | **1,262,914** |
+| Added in the last 24 hours | 449,640 |
+| Added in the last 7 days | 1,026,437 |
+| Added in the last 30 days | 1,693,417 |
+| Retired in the last 30 days (offline or cleaned up) | 121,137 |
 | Top-level domains represented | 745 |
 | Internationalized (IDN / punycode) domains | 0.3 % |
 | Domains containing digits | 33.6 % |
@@ -32,7 +32,7 @@ xychart-beta
     title "New domains per day, Oct 23 – Nov 21 (UTC)"
     x-axis ["23", "24", "25", "26", "27", "28", "29", "30", "31", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21"]
     y-axis "domains" 0 --> 800000
-    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 292213, 87546, 58360, 41156, 47623, 52549, 48149, 19581, 19803, 20986, 19995, 16913, 418, 20356, 721638, 226003]
+    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 292213, 87546, 58360, 41156, 47623, 52549, 48149, 19581, 19803, 20986, 19995, 16913, 418, 20356, 721638, 226131]
 ```
 
 ```mermaid
@@ -41,14 +41,14 @@ xychart-beta
     title "Active domains on the list, Nov 6 – Nov 21 (UTC)"
     x-axis ["6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21"]
     y-axis "domains"
-    line [272088, 346388, 396638, 382009, 418143, 355765, 344361, 334208, 339933, 354999, 368552, 379552, 379894, 376537, 1059296, 1262862]
+    line [272088, 346388, 396638, 382009, 418143, 355765, 344361, 334208, 339933, 354999, 368552, 379552, 379894, 376537, 1059296, 1262914]
 ```
 
 <details><summary>Last 7 days as a table</summary>
 
 | Day (UTC) | Added | Retired |
 |---|---:|---:|
-| 2026-11-21 | 226,003 | 6,752 |
+| 2026-11-21 | 226,131 | 6,772 |
 | 2026-11-20 | 721,638 | 13,854 |
 | 2026-11-19 | 20,356 | 6,618 |
 | 2026-11-18 | 418 | 48 |
@@ -62,30 +62,30 @@ xychart-beta
 
 | # | TLD | Domains | Share | |
 |---:|---|---:|---:|---|
-| 1 | `.com` | 354,180 | 28.0 % | ████████████████████ |
-| 2 | `.xyz` | 104,538 | 8.3 % | ██████ |
+| 1 | `.com` | 354,192 | 28.0 % | ████████████████████ |
+| 2 | `.xyz` | 104,541 | 8.3 % | ██████ |
 | 3 | `.top` | 67,772 | 5.4 % | ████ |
-| 4 | `.cc` | 52,218 | 4.1 % | ███ |
-| 5 | `.shop` | 51,361 | 4.1 % | ███ |
+| 4 | `.cc` | 52,252 | 4.1 % | ███ |
+| 5 | `.shop` | 51,362 | 4.1 % | ███ |
 | 6 | `.click` | 49,374 | 3.9 % | ███ |
-| 7 | `.org` | 41,469 | 3.3 % | ██ |
-| 8 | `.app` | 36,057 | 2.9 % | ██ |
+| 7 | `.org` | 41,472 | 3.3 % | ██ |
+| 8 | `.app` | 36,056 | 2.9 % | ██ |
 | 9 | `.info` | 33,394 | 2.6 % | ██ |
-| 10 | `.online` | 29,127 | 2.3 % | ██ |
+| 10 | `.online` | 29,128 | 2.3 % | ██ |
 | 11 | `.digital` | 27,921 | 2.2 % | ██ |
 | 12 | `.net` | 23,979 | 1.9 % | █ |
-| 13 | `.sbs` | 22,584 | 1.8 % | █ |
-| 14 | `.cd` | 19,094 | 1.5 % | █ |
-| 15 | `.site` | 17,072 | 1.4 % | █ |
+| 13 | `.sbs` | 22,585 | 1.8 % | █ |
+| 14 | `.cd` | 19,111 | 1.5 % | █ |
+| 15 | `.site` | 17,073 | 1.4 % | █ |
 
 ```mermaid
 pie showData title Share of the 5 most common TLDs
-    ".com" : 354180
-    ".xyz" : 104538
+    ".com" : 354192
+    ".xyz" : 104541
     ".top" : 67772
-    ".cc" : 52218
-    ".shop" : 51361
-    "other" : 632793
+    ".cc" : 52252
+    ".shop" : 51362
+    "other" : 632795
 ```
 
 ## Most imitated brands
@@ -96,10 +96,10 @@ Listed domains whose name contains a well-known brand. Brand names are trademark
 |---|---:|---|
 | WhatsApp | 5,459 | ████████████████████ |
 | ChatGPT / OpenAI | 4,506 | █████████████████ |
-| Google | 4,431 | ████████████████ |
-| Apple / iCloud | 4,241 | ████████████████ |
+| Google | 4,432 | ████████████████ |
+| Apple / iCloud | 4,240 | ████████████████ |
 | Coinbase | 2,665 | ██████████ |
-| Meta / Facebook | 2,643 | ██████████ |
+| Meta / Facebook | 2,644 | ██████████ |
 | Amazon | 2,565 | █████████ |
 | Microsoft / Office 365 | 2,564 | █████████ |
 | Ledger | 1,967 | ███████ |
@@ -114,17 +114,17 @@ Listed domains whose name contains a well-known brand. Brand names are trademark
 
 | Word | Domains | |
 |---|---:|---|
-| `casino` | 57,162 | ████████████████████ |
+| `casino` | 57,163 | ████████████████████ |
 | `service` | 10,770 | ████ |
 | `login` | 9,675 | ███ |
 | `crypto` | 7,109 | ██ |
-| `bet` | 6,655 | ██ |
+| `bet` | 6,654 | ██ |
 | `support` | 6,340 | ██ |
-| `secure` | 6,188 | ██ |
+| `secure` | 6,186 | ██ |
 | `wallet` | 5,827 | ██ |
-| `account` | 5,060 | ██ |
-| `update` | 4,004 | █ |
-| `trade` | 3,129 | █ |
+| `account` | 5,061 | ██ |
+| `update` | 4,003 | █ |
+| `trade` | 3,132 | █ |
 | `invest` | 2,846 | █ |
 
 ## Files
