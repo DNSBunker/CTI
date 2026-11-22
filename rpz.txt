@@ -1,6 +1,6 @@
 ; Title: xRuffKez CTI (Cyber Threat Intelligence)
 ; Description: Active malicious domains: phishing, malware, scams and fraud. Each entry covers the domain and all of its subdomains.
-; Entries: 1360033
+; Entries: 1360035
 ; Project: https://dnsbunker.org
 ; False positives: https://github.com/DNSBunker/CTI/issues
 ; Policy: CNAME . (NXDOMAIN) for each domain and its subdomains
@@ -9,7 +9,7 @@
 
 $TTL 300
 @ IN SOA localhost. admin.localhost. (
-    1795318188 ; serial (uint32)
+    1795318278 ; serial (uint32)
     3600       ; refresh  (1 hour)
     600        ; retry    (10 minutes)
     86400      ; expire   (24 hours)
@@ -890141,6 +890141,8 @@ direwolf-4d1a516726.herokusnitest.com CNAME .
 *.direwolf-4d1a516726.herokusnitest.com CNAME .
 direwolf-4d6e722989-2-04f246ceaa.herokusnitest.com CNAME .
 *.direwolf-4d6e722989-2-04f246ceaa.herokusnitest.com CNAME .
+direwolf-5b8fb6a9d5.herokusnitest.com CNAME .
+*.direwolf-5b8fb6a9d5.herokusnitest.com CNAME .
 direwolf-85c1b7aa9e-2-d2f3a18cc3.herokusnitest.com CNAME .
 *.direwolf-85c1b7aa9e-2-d2f3a18cc3.herokusnitest.com CNAME .
 direwolf-8d3cdf4531-1-22d51b18ae.herokusnitest.com CNAME .
@@ -899547,6 +899549,8 @@ dnfnyc.club CNAME .
 *.dnfnyc.club CNAME .
 dnfyb.vip CNAME .
 *.dnfyb.vip CNAME .
+dng.cc.cd CNAME .
+*.dng.cc.cd CNAME .
 dngbfz.blogspot.ug CNAME .
 *.dngbfz.blogspot.ug CNAME .
 dnggla.info CNAME .
