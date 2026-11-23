@@ -1,6 +1,6 @@
 # xRuffKez CTI (Cyber Threat Intelligence)
 
-![Active domains](https://img.shields.io/badge/active_domains-1%2C424%2C555-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-52%2C993-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--23_04%3A20_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-CC0--1.0-6c757d?style=flat-square)
+![Active domains](https://img.shields.io/badge/active_domains-1%2C424%2C618-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-53%2C068-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--23_04%3A31_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-CC0--1.0-6c757d?style=flat-square)
 
 A continuously maintained blocklist of **active malicious domains**: phishing, malware delivery, scams, fraudulent shops and investment schemes, and the infrastructure behind them. Every entry is verified before it is published, and removed again once it is offline or no longer malicious, so the list stays current instead of growing forever.
 
@@ -9,15 +9,15 @@ A continuously maintained blocklist of **active malicious domains**: phishing, m
 
 ## At a glance
 
-<sub>as of 2026-11-23 04:20 UTC</sub>
+<sub>as of 2026-11-23 04:31 UTC</sub>
 
 | | |
 |---|---:|
-| Active domains | **1,424,555** |
-| Added in the last 24 hours | 52,993 |
-| Added in the last 7 days | 1,167,676 |
-| Added in the last 30 days | 1,875,637 |
-| Retired in the last 30 days (offline or cleaned up) | 130,460 |
+| Active domains | **1,424,618** |
+| Added in the last 24 hours | 53,068 |
+| Added in the last 7 days | 1,167,751 |
+| Added in the last 30 days | 1,875,712 |
+| Retired in the last 30 days (offline or cleaned up) | 130,473 |
 | Top-level domains represented | 760 |
 | Internationalized (IDN / punycode) domains | 0.3 % |
 | Domains containing digits | 32.3 % |
@@ -32,7 +32,7 @@ xychart-beta
     title "New domains per day, Oct 25 – Nov 23 (UTC)"
     x-axis ["25", "26", "27", "28", "29", "30", "31", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23"]
     y-axis "domains" 0 --> 800000
-    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 292213, 87546, 58360, 41156, 47623, 52549, 48149, 19581, 19803, 20986, 19995, 16913, 418, 20356, 721638, 302590, 102224, 3537]
+    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 292213, 87546, 58360, 41156, 47623, 52549, 48149, 19581, 19803, 20986, 19995, 16913, 418, 20356, 721638, 302590, 102224, 3612]
 ```
 
 ```mermaid
@@ -41,14 +41,14 @@ xychart-beta
     title "Active domains on the list, Nov 6 – Nov 23 (UTC)"
     x-axis ["6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23"]
     y-axis "domains"
-    line [272088, 346388, 396638, 382009, 418143, 355765, 344361, 334208, 339933, 354999, 368552, 379552, 379894, 376537, 1059296, 1334519, 1422467, 1424555]
+    line [272088, 346388, 396638, 382009, 418143, 355765, 344361, 334208, 339933, 354999, 368552, 379552, 379894, 376537, 1059296, 1334519, 1422467, 1424618]
 ```
 
 <details><summary>Last 7 days as a table</summary>
 
 | Day (UTC) | Added | Retired |
 |---|---:|---:|
-| 2026-11-23 | 3,537 | 918 |
+| 2026-11-23 | 3,612 | 931 |
 | 2026-11-22 | 102,224 | 6,653 |
 | 2026-11-21 | 302,590 | 8,524 |
 | 2026-11-20 | 721,638 | 13,854 |
@@ -85,7 +85,7 @@ pie showData title Share of the 5 most common TLDs
     ".top" : 71051
     ".cc" : 57735
     ".shop" : 52951
-    "other" : 701470
+    "other" : 701533
 ```
 
 ## Most imitated brands
