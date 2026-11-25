@@ -1,6 +1,6 @@
 # xRuffKez CTI (Cyber Threat Intelligence)
 
-![Active domains](https://img.shields.io/badge/active_domains-583%2C129-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-100%2C393-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--25_12%3A15_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-CC0--1.0-6c757d?style=flat-square)
+![Active domains](https://img.shields.io/badge/active_domains-584%2C445-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-101%2C752-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--25_12%3A25_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-CC0--1.0-6c757d?style=flat-square)
 
 A continuously maintained blocklist of **active malicious domains**: phishing, malware delivery, scams, fraudulent shops and investment schemes, and the infrastructure behind them. Every entry is verified before it is published, and removed again once it is offline or no longer malicious, so the list stays current instead of growing forever.
 
@@ -9,19 +9,19 @@ A continuously maintained blocklist of **active malicious domains**: phishing, m
 
 ## At a glance
 
-<sub>as of 2026-11-25 12:15 UTC</sub>
+<sub>as of 2026-11-25 12:25 UTC</sub>
 
 | | |
 |---|---:|
-| Active domains | **583,129** |
-| Added in the last 24 hours | 100,393 |
-| Added in the last 7 days | 2,496,475 |
-| Added in the last 30 days | 3,221,767 |
-| Retired in the last 30 days (offline or cleaned up) | 151,359 |
+| Active domains | **584,445** |
+| Added in the last 24 hours | 101,752 |
+| Added in the last 7 days | 2,497,834 |
+| Added in the last 30 days | 3,223,126 |
+| Retired in the last 30 days (offline or cleaned up) | 151,403 |
 | Top-level domains represented | 675 |
 | Internationalized (IDN / punycode) domains | 0.1 % |
-| Domains containing digits | 26.4 % |
-| Domains containing hyphens | 29.4 % |
+| Domains containing digits | 26.3 % |
+| Domains containing hyphens | 29.3 % |
 | Average domain length | 20.1 characters |
 
 ## Activity, last 30 days
@@ -32,7 +32,7 @@ xychart-beta
     title "New domains per day, Oct 27 – Nov 25 (UTC)"
     x-axis ["27", "28", "29", "30", "31", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
     y-axis "domains" 0 --> 1200000
-    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 292213, 87546, 58360, 41156, 47623, 52549, 48149, 19581, 19803, 20986, 19995, 16913, 418, 20356, 721638, 302590, 102224, 1065553, 232121, 51993]
+    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 292213, 87546, 58360, 41156, 47623, 52549, 48149, 19581, 19803, 20986, 19995, 16913, 418, 20356, 721638, 302590, 102224, 1065553, 232121, 53352]
 ```
 
 ```mermaid
@@ -41,14 +41,14 @@ xychart-beta
     title "Active domains on the list, Nov 6 – Nov 25 (UTC)"
     x-axis ["6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
     y-axis "domains"
-    line [272088, 346388, 396638, 382009, 418143, 355765, 344361, 334208, 339933, 354999, 368552, 379552, 379894, 376537, 1059296, 1334519, 1422467, 1477941, 537165, 583129]
+    line [272088, 346388, 396638, 382009, 418143, 355765, 344361, 334208, 339933, 354999, 368552, 379552, 379894, 376537, 1059296, 1334519, 1422467, 1477941, 537165, 584445]
 ```
 
 <details><summary>Last 7 days as a table</summary>
 
 | Day (UTC) | Added | Retired |
 |---|---:|---:|
-| 2026-11-25 | 51,993 | 3,235 |
+| 2026-11-25 | 53,352 | 3,279 |
 | 2026-11-24 | 232,121 | 7,964 |
 | 2026-11-23 | 1,065,553 | 10,618 |
 | 2026-11-22 | 102,224 | 6,653 |
@@ -62,11 +62,11 @@ xychart-beta
 
 | # | TLD | Domains | Share | |
 |---:|---|---:|---:|---|
-| 1 | `.com` | 155,168 | 26.6 % | ████████████████████ |
+| 1 | `.com` | 155,168 | 26.5 % | ████████████████████ |
 | 2 | `.cc` | 43,984 | 7.5 % | ██████ |
 | 3 | `.app` | 36,392 | 6.2 % | █████ |
 | 4 | `.io` | 27,507 | 4.7 % | ████ |
-| 5 | `.org` | 27,161 | 4.7 % | ████ |
+| 5 | `.org` | 27,161 | 4.6 % | ████ |
 | 6 | `.cd` | 26,884 | 4.6 % | ███ |
 | 7 | `.click` | 25,559 | 4.4 % | ███ |
 | 8 | `.digital` | 21,070 | 3.6 % | ███ |
@@ -85,7 +85,7 @@ pie showData title Share of the 5 most common TLDs
     ".app" : 36392
     ".io" : 27507
     ".org" : 27161
-    "other" : 292917
+    "other" : 294233
 ```
 
 ## Most imitated brands
