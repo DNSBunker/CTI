@@ -1,6 +1,6 @@
 # xRuffKez CTI (Cyber Threat Intelligence)
 
-![Active domains](https://img.shields.io/badge/active_domains-640%2C873-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-29%2C069-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--27_05%3A50_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-CC0--1.0-6c757d?style=flat-square)
+![Active domains](https://img.shields.io/badge/active_domains-640%2C983-c0392b?style=flat-square) ![Added 24h](https://img.shields.io/badge/added_%2824_h%29-28%2C639-e67e22?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--27_06%3A01_UTC-2c7be5?style=flat-square) ![License](https://img.shields.io/badge/license-CC0--1.0-6c757d?style=flat-square)
 
 A continuously maintained blocklist of **active malicious domains**: phishing, malware delivery, scams, fraudulent shops and investment schemes, and the infrastructure behind them. Every entry is verified before it is published, and removed again once it is offline or no longer malicious, so the list stays current instead of growing forever.
 
@@ -9,18 +9,18 @@ A continuously maintained blocklist of **active malicious domains**: phishing, m
 
 ## At a glance
 
-<sub>as of 2026-11-27 05:50 UTC</sub>
+<sub>as of 2026-11-27 06:01 UTC</sub>
 
 | | |
 |---|---:|
-| Active domains | **640,873** |
-| Added in the last 24 hours | 29,069 |
-| Added in the last 7 days | 1,831,614 |
-| Added in the last 30 days | 3,298,900 |
-| Retired in the last 30 days (offline or cleaned up) | 165,255 |
-| Top-level domains represented | 679 |
+| Active domains | **640,983** |
+| Added in the last 24 hours | 28,639 |
+| Added in the last 7 days | 1,831,829 |
+| Added in the last 30 days | 3,299,115 |
+| Retired in the last 30 days (offline or cleaned up) | 165,309 |
+| Top-level domains represented | 680 |
 | Internationalized (IDN / punycode) domains | 0.1 % |
-| Domains containing digits | 25.9 % |
+| Domains containing digits | 26.0 % |
 | Domains containing hyphens | 29.1 % |
 | Average domain length | 20.1 characters |
 
@@ -32,7 +32,7 @@ xychart-beta
     title "New domains per day, Oct 29 – Nov 27 (UTC)"
     x-axis ["29", "30", "31", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27"]
     y-axis "domains" 0 --> 1200000
-    bar [0, 0, 0, 0, 0, 0, 0, 0, 292213, 87546, 58360, 41156, 47623, 52549, 48149, 19581, 19803, 20986, 19995, 16913, 418, 20356, 721638, 302590, 102224, 1065553, 232121, 90433, 33730, 4963]
+    bar [0, 0, 0, 0, 0, 0, 0, 0, 292213, 87546, 58360, 41156, 47623, 52549, 48149, 19581, 19803, 20986, 19995, 16913, 418, 20356, 721638, 302590, 102224, 1065553, 232121, 90433, 33730, 5178]
 ```
 
 ```mermaid
@@ -41,14 +41,14 @@ xychart-beta
     title "Active domains on the list, Nov 6 – Nov 27 (UTC)"
     x-axis ["6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27"]
     y-axis "domains"
-    line [272088, 346388, 396638, 382009, 418143, 355765, 344361, 334208, 339933, 354999, 368552, 379552, 379894, 376537, 1059296, 1334519, 1422467, 1477941, 537165, 617721, 638075, 640873]
+    line [272088, 346388, 396638, 382009, 418143, 355765, 344361, 334208, 339933, 354999, 368552, 379552, 379894, 376537, 1059296, 1334519, 1422467, 1477941, 537165, 617721, 638075, 640983]
 ```
 
 <details><summary>Last 7 days as a table</summary>
 
 | Day (UTC) | Added | Retired |
 |---|---:|---:|
-| 2026-11-27 | 4,963 | 1,599 |
+| 2026-11-27 | 5,178 | 1,653 |
 | 2026-11-26 | 33,730 | 10,026 |
 | 2026-11-25 | 90,433 | 5,506 |
 | 2026-11-24 | 232,121 | 7,964 |
@@ -62,30 +62,30 @@ xychart-beta
 
 | # | TLD | Domains | Share | |
 |---:|---|---:|---:|---|
-| 1 | `.com` | 169,517 | 26.5 % | ████████████████████ |
-| 2 | `.cc` | 48,929 | 7.6 % | ██████ |
-| 3 | `.app` | 37,112 | 5.8 % | ████ |
+| 1 | `.com` | 169,536 | 26.4 % | ████████████████████ |
+| 2 | `.cc` | 48,939 | 7.6 % | ██████ |
+| 3 | `.app` | 37,113 | 5.8 % | ████ |
 | 4 | `.io` | 36,308 | 5.7 % | ████ |
-| 5 | `.cd` | 30,370 | 4.7 % | ████ |
-| 6 | `.org` | 28,200 | 4.4 % | ███ |
-| 7 | `.dev` | 26,134 | 4.1 % | ███ |
-| 8 | `.click` | 25,498 | 4.0 % | ███ |
+| 5 | `.cd` | 30,394 | 4.7 % | ████ |
+| 6 | `.org` | 28,201 | 4.4 % | ███ |
+| 7 | `.dev` | 26,165 | 4.1 % | ███ |
+| 8 | `.click` | 25,499 | 4.0 % | ███ |
 | 9 | `.digital` | 20,987 | 3.3 % | ██ |
 | 10 | `.shop` | 20,971 | 3.3 % | ██ |
-| 11 | `.xyz` | 15,081 | 2.4 % | ██ |
-| 12 | `.net` | 14,715 | 2.3 % | ██ |
-| 13 | `.top` | 11,703 | 1.8 % | █ |
-| 14 | `.sbs` | 10,971 | 1.7 % | █ |
-| 15 | `.info` | 10,338 | 1.6 % | █ |
+| 11 | `.xyz` | 15,085 | 2.4 % | ██ |
+| 12 | `.net` | 14,720 | 2.3 % | ██ |
+| 13 | `.top` | 11,759 | 1.8 % | █ |
+| 14 | `.sbs` | 10,963 | 1.7 % | █ |
+| 15 | `.info` | 10,340 | 1.6 % | █ |
 
 ```mermaid
 pie showData title Share of the 5 most common TLDs
-    ".com" : 169517
-    ".cc" : 48929
-    ".app" : 37112
+    ".com" : 169536
+    ".cc" : 48939
+    ".app" : 37113
     ".io" : 36308
-    ".cd" : 30370
-    "other" : 318637
+    ".cd" : 30394
+    "other" : 318693
 ```
 
 ## Most imitated brands
@@ -96,17 +96,17 @@ Listed domains whose name contains a well-known brand. Brand names are trademark
 |---|---:|---|
 | Coinbase | 10,458 | ████████████████████ |
 | MetaMask | 8,727 | █████████████████ |
-| WhatsApp | 5,254 | ██████████ |
-| Google | 3,127 | ██████ |
+| WhatsApp | 5,250 | ██████████ |
+| Google | 3,124 | ██████ |
 | Meta / Facebook | 1,780 | ███ |
-| Apple / iCloud | 1,744 | ███ |
+| Apple / iCloud | 1,743 | ███ |
 | OpenSea | 1,622 | ███ |
-| Microsoft / Office 365 | 1,442 | ███ |
+| Microsoft / Office 365 | 1,441 | ███ |
 | Netflix | 1,355 | ███ |
-| Amazon | 1,331 | ███ |
+| Amazon | 1,335 | ███ |
 | PayPal | 1,298 | ██ |
 | Instagram | 972 | ██ |
-| Ledger | 735 | █ |
+| Ledger | 736 | █ |
 | Trust Wallet | 713 | █ |
 | Telegram | 497 | █ |
 
@@ -114,16 +114,16 @@ Listed domains whose name contains a well-known brand. Brand names are trademark
 
 | Word | Domains | |
 |---|---:|---|
-| `login` | 10,574 | ████████████████████ |
+| `login` | 10,579 | ████████████████████ |
 | `wallet` | 9,147 | █████████████████ |
 | `help` | 5,412 | ██████████ |
-| `casino` | 3,903 | ███████ |
-| `support` | 3,569 | ███████ |
-| `service` | 3,316 | ██████ |
-| `auth` | 3,219 | ██████ |
-| `secure` | 3,002 | ██████ |
-| `connect` | 2,356 | ████ |
+| `casino` | 3,906 | ███████ |
+| `support` | 3,572 | ███████ |
+| `service` | 3,315 | ██████ |
+| `auth` | 3,218 | ██████ |
+| `secure` | 3,000 | ██████ |
 | `trade` | 2,355 | ████ |
+| `connect` | 2,355 | ████ |
 | `invest` | 2,176 | ████ |
 | `claim` | 2,135 | ████ |
 
