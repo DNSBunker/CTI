@@ -1,6 +1,6 @@
 ; Title: xRuffKez CTI (Cyber Threat Intelligence)
 ; Description: Active malicious domains: phishing, malware, scams and fraud. Each entry covers the domain and all of its subdomains.
-; Entries: 721589
+; Entries: 721588
 ; Project: https://dnsbunker.org
 ; False positives: https://github.com/DNSBunker/CTI/issues
 ; Policy: CNAME . (NXDOMAIN) for each domain and its subdomains
@@ -9,7 +9,7 @@
 
 $TTL 300
 @ IN SOA localhost. admin.localhost. (
-    1795813573 ; serial (uint32)
+    1795813704 ; serial (uint32)
     3600       ; refresh  (1 hour)
     600        ; retry    (10 minutes)
     86400      ; expire   (24 hours)
@@ -444191,8 +444191,6 @@ emtceramics.com CNAME .
 *.emtceramics.com CNAME .
 emteamsklogt.gitbook.io CNAME .
 *.emteamsklogt.gitbook.io CNAME .
-emteeoutdoors.shop CNAME .
-*.emteeoutdoors.shop CNAME .
 emtelakproperties.com CNAME .
 *.emtelakproperties.com CNAME .
 emtelligent.sbs CNAME .
